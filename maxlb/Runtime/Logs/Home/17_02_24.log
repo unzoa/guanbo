@@ -1,0 +1,979 @@
+[ 2017-02-24T08:52:39+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.088666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028973s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0822s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.1014s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `music_count` SET `count`='33' WHERE ( name="木" ) [ RunTime:0.2063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000820s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.193929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.194288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.034961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.035288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002445s ]
+
+[ 2017-02-24T08:56:56+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0041s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0027s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='34' WHERE ( name="木" ) [ RunTime:0.1342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2017-02-24T08:57:52+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0033s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0026s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='35' WHERE ( name="木" ) [ RunTime:0.1065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2017-02-24T08:58:21+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0030s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0035s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='36' WHERE ( name="木" ) [ RunTime:0.0832s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000610s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001725s ]
+
+[ 2017-02-24T08:58:34+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000266s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0038s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0043s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='37' WHERE ( name="木" ) [ RunTime:0.1524s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2017-02-24T08:58:43+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0029s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0034s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='38' WHERE ( name="木" ) [ RunTime:0.0798s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000617s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2017-02-24T08:58:52+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0030s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0028s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `music_count` SET `count`='39' WHERE ( name="木" ) [ RunTime:0.1198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000621s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001907s ]
+
+[ 2017-02-24T08:59:22+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0027s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0025s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='40' WHERE ( name="木" ) [ RunTime:0.0749s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000610s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2017-02-24T09:01:08+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0028s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0028s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='41' WHERE ( name="木" ) [ RunTime:0.0809s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000503s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001783s ]
+
+[ 2017-02-24T09:03:45+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0036s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0040s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='42' WHERE ( name="木" ) [ RunTime:0.1593s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2017-02-24T09:03:51+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0028s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0026s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='43' WHERE ( name="木" ) [ RunTime:0.1244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2017-02-24T09:05:59+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0028s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0025s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='44' WHERE ( name="木" ) [ RunTime:0.0735s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001724s ]
+
+[ 2017-02-24T09:06:37+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0030s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0026s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='45' WHERE ( name="木" ) [ RunTime:0.0945s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000536s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2017-02-24T09:09:10+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0029s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0026s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `music_count` SET `count`='46' WHERE ( name="木" ) [ RunTime:0.1916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000736s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2017-02-24T09:09:29+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002979s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0032s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0026s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='47' WHERE ( name="木" ) [ RunTime:0.1339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000633s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2017-02-24T09:09:39+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0034s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0033s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_count` SET `count`='48' WHERE ( name="木" ) [ RunTime:0.1896s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001674s ]
+
+[ 2017-02-24T09:09:51+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0030s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0026s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='49' WHERE ( name="木" ) [ RunTime:0.1979s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001772s ]
+
+[ 2017-02-24T09:10:32+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0034s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0050s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='50' WHERE ( name="木" ) [ RunTime:0.1403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2017-02-24T09:10:41+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0026s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0026s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `music_count` SET `count`='51' WHERE ( name="木" ) [ RunTime:0.0828s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2017-02-24T09:11:54+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0029s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0024s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='52' WHERE ( name="木" ) [ RunTime:0.0942s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000553s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001886s ]
+
+[ 2017-02-24T09:13:07+08:00 ] 192.168.1.107 /maxlb/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002121s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000571s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002396s ]
+
+[ 2017-02-24T09:13:39+08:00 ] 192.168.1.107 /maxlb/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001717s ]
+
+[ 2017-02-24T09:15:40+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/music.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0032s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2017-02-24T09:16:21+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/music.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0027s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2017-02-24T09:16:29+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/music.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0030s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2017-02-24T09:16:56+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/music.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0026s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001228s ]
+
+[ 2017-02-24T09:17:00+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0031s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0024s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='53' WHERE ( name="木" ) [ RunTime:0.0734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2017-02-24T09:18:16+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0039s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0029s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `music_count` SET `count`='54' WHERE ( name="木" ) [ RunTime:0.1728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000772s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2017-02-24T09:18:34+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002437s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0028s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0026s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='55' WHERE ( name="木" ) [ RunTime:0.0943s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001738s ]
+
+[ 2017-02-24T09:18:50+08:00 ] 192.168.1.107 /maxlb/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `student` WHERE `number` = '111' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-02-24T09:20:53+08:00 ] 192.168.1.107 /maxlb/index.php/Home/Index/lb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002302s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0048s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `max_lblist` [ RunTime:0.0647s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=1 )  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=2 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=3 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=4 )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=5 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=6 )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=7 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=8 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=9 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=10 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=11 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000433s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000758s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2017-02-24T09:21:15+08:00 ] 192.168.1.107 /maxlb/index.php/Home/Index/music.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0046s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000593s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002132s ]
+
+[ 2017-02-24T09:21:32+08:00 ] 192.168.1.107 /maxlb/index.php/Home/Index/listen/name/gold/name2/%E9%87%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0028s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0026s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '金' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='15' WHERE ( name="金" ) [ RunTime:0.0736s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001678s ]
+
+[ 2017-02-24T09:51:17+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+
+[ 2017-02-24T09:51:17+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Admin/maxlblogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2017-02-24T09:51:27+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Admin/maxlblogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000455s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000707s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2017-02-24T09:51:35+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Admin/maxlblogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+
+[ 2017-02-24T09:51:36+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `student` WHERE ( type=1 )  [ RunTime:0.0265s ]
+SQL: SELECT * FROM `student`  [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0679s ]
+SQL: SELECT * FROM `ot_archive`  [ RunTime:0.1741s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `student` LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `student` ORDER BY regtime desc LIMIT 0,12   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\maxlb\Runtime\Cache\Home\330db104dcea5550daa4ac9515bce07d.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002088s ]
+
+[ 2017-02-24T11:20:05+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0028s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0034s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `music_count` SET `count`='56' WHERE ( name="木" ) [ RunTime:0.0728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000633s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001621s ]
+
+[ 2017-02-24T11:58:05+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/wood/name2/%E6%9C%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0036s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0025s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '木' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='57' WHERE ( name="木" ) [ RunTime:0.0786s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2017-02-24T11:58:13+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/gold/name2/%E9%87%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0036s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0032s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '金' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `music_count` SET `count`='16' WHERE ( name="金" ) [ RunTime:0.0917s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2017-02-24T11:58:19+08:00 ] 127.0.0.1 /maxlb/index.php/Home/Index/listen/name/fire/name2/%E7%81%AB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0038s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `music_count` [ RunTime:0.0024s ]
+SQL: SELECT `count` FROM `music_count` WHERE `name` = '火' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `music_count` SET `count`='3' WHERE ( name="火" ) [ RunTime:0.0801s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000498s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+

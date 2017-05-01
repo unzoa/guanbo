@@ -1,0 +1,90 @@
+[ 2016-07-04T08:28:07+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/html%7Bcursor:text;*cursor:auto%7Dimg,input,textarea%7Bcursor:default%7D
+ERR: 非法操作:html{cursor:text;*cursor:auto}img,input,textarea{cursor:default}
+
+[ 2016-07-04T08:35:27+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T08:35:53+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T08:37:19+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T08:42:08+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T08:55:22+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T08:58:33+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T09:01:26+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T09:01:32+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T09:01:32+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T09:01:33+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T09:01:33+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T09:03:01+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T09:03:14+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T09:10:07+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T09:12:45+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T09:14:31+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T09:14:56+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T09:16:04+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T09:16:11+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T09:24:24+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/lib/css/wysiwyg-color.css
+ERR: 非法操作:lib
+
+[ 2016-07-04T14:54:32+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/undefinedlang/zh-cn/zh-cn.js
+ERR: 非法操作:undefinedlang
+
+[ 2016-07-04T14:54:32+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/undefinedthemes/default/css/ueditor.css
+ERR: 非法操作:undefinedthemes
+
+[ 2016-07-04T14:54:32+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/function%20URL()%20%7B%20[native%20code]%20%7Dphp/controller.php?action=config&&noCache=1467615272580
+ERR: 非法操作:function URL() { [native code] }php
+
+[ 2016-07-04T15:56:25+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/undefinedlang/zh-cn/zh-cn.js
+ERR: 非法操作:undefinedlang
+
+[ 2016-07-04T15:56:25+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/undefinedthemes/default/css/ueditor.css
+ERR: 非法操作:undefinedthemes
+
+[ 2016-07-04T15:57:27+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/undefinedlang/zh-cn/zh-cn.js
+ERR: 非法操作:undefinedlang
+
+[ 2016-07-04T15:57:27+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/undefinedthemes/default/css/ueditor.css
+ERR: 非法操作:undefinedthemes
+
+[ 2016-07-04T15:57:42+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/undefinedlang/zh-cn/zh-cn.js
+ERR: 非法操作:undefinedlang
+
+[ 2016-07-04T15:57:42+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/undefinedthemes/default/css/ueditor.css
+ERR: 非法操作:undefinedthemes
+

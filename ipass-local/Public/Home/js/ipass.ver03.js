@@ -1,0 +1,155 @@
+function getRadio(radioName){
+	var name = document.getElementsByName(radioName);
+	for(i=0; i<name.length;i++){
+      	if(name[i].checked)    { 
+            return	name[i].value; 
+      	} 
+    }         
+    // return "undefined";  
+}
+
+// edit_archive_basic提交值
+function formsubmit(){
+	var name = document.getElementById('name').value;
+	var sex = getRadio('sex');
+	var minzu = getRadio('minzu');
+	var birthday = document.getElementById('birthday').value;
+	var xue_xing = document.getElementById('xue_xing').value;
+
+	var shen_gao = document.getElementById('shen_gao').value;
+	var weight = document.getElementById('weight').value;
+	var fen_wan = document.getElementById('fen_wan').value;
+	var full_month = getRadio('full_month');
+	var birth_weight = document.getElementById('birth_weight').value;
+	var only_child = getRadio('only_child');
+
+	var brother_sister = document.getElementById('brother_sister').value;
+	var home_place = document.getElementById('home_place').value;
+	var now_live = getRadio('now_live');
+	var child_mother = document.getElementById('child_mother').value;
+	var father_age = document.getElementById('father_age').value;
+	var mother_age = document.getElementById('mother_age').value;
+
+	var baby_farm_age = document.getElementById('baby_farm_age').value;
+	var walk_age = document.getElementById('walk_age').value;
+	var talk_age = document.getElementById('talk_age').value;
+	if (name==''||sex==''||sex==undefined||minzu==''||minzu==undefined||birthday==''||
+		xue_xing==''||shen_gao==''||weight==''||fen_wan==''||full_month==''||full_month==undefined||birth_weight==''||
+		only_child==''||only_child==undefined||brother_sister==''||home_place==''||now_live==''||now_live==undefined||child_mother==''||
+		father_age==''||mother_age==''||baby_farm_age==''||walk_age==''||talk_age=='') {
+		    $('#myModal').modal('show');
+		    
+	}else{
+		document.getElementById('myform').submit();
+		// alert('jaja');
+	}
+}
+// 修改地区
+function edit_school_addr(){
+	$('.showMySchool_con').hide();
+	$('.left_select_con2').show();
+	$('.edit_school_addr_btn').hide();
+}
+// 取消修改地区
+function cancel_edit_school_addr(){
+	$('.showMySchool_con').show();
+	$('.left_select_con2').hide();
+	$('.edit_school_addr_btn').show();
+}
+
+
+// 获取checkbox的值
+function getCheckBox(boxName){
+	var name = document.getElementsByName(boxName);
+	var sum = '';
+	for(i=0; i<name.length;i++){
+      	if(name[i].checked){
+      		sum =  sum + name[i].value + ',';
+      	} 
+    } 
+    if (sum.lastIndexOf(',')==-1) {
+    	return '';
+    }else{
+    	return	sum.substr(0,sum.length-1); 
+    } 
+}
+// archive_family提交
+function formsubmit2(){
+	var live_with = getCheckBox('live_with[]');
+	var family_relation = getRadio('family_relation');
+	var dadmom_relation = getRadio('dadmom_relation');
+	var teach_way = getRadio('teach_way');
+	var guanjiao = getRadio('guanjiao');
+	var dad_record = getRadio('dad_record');
+	var mom_record = getRadio('mom_record');
+	var dad_job = getRadio('dad_job');
+	var mom_job = getRadio('mom_job');
+	if (live_with==''||family_relation==''||family_relation==undefined||dadmom_relation==''||dadmom_relation==undefined||
+		teach_way==''||teach_way==undefined||guanjiao==''||guanjiao==undefined||dad_record==''||dad_record==undefined||
+		mom_record==''||mom_record==undefined||dad_job==''||dad_job==undefined||mom_job==''||mom_job==undefined) {
+		    $('#myModal').modal('show');
+	}else{
+		document.getElementById('myform2').submit();
+		// alert(teach_way);
+	}
+}
+// archive_school提交
+function formsubmit3(){
+	var myschool = document.getElementById('myschool').value;
+	var c_province = document.getElementById('c_province').value;
+	var c_city = document.getElementById('c_city').value;
+	var c_county = document.getElementById('c_county').value;
+	var school_style = getRadio('school_style');
+	var teacher_relation = getRadio('teacher_relation');
+	var mates_relation = getRadio('mates_relation');
+	if (myschool==''||c_province==''||c_city==''||c_county==''||school_style==''||school_style==undefined||
+		teacher_relation==''||teacher_relation==undefined||mates_relation==''||mates_relation==undefined) {
+		$('#myModal').modal('show');
+	}else{
+		document.getElementById('myform3').submit();
+		// alert(school_style);
+	}
+}
+
+// 更改用户信息
+function edit_user_sunmit(){
+	var nickname = document.getElementById('nickname').value;
+	var new_pwd = document.getElementById('new_pwd').value;
+	var re_pwd = document.getElementById('re_pwd').value;
+	if (nickname==''||new_pwd==''||re_pwd=='') {
+		$('#edit_user_Modal').modal('show');
+		$('#error_info').html('不能漏填哦!');
+	}else if (new_pwd.length<6) {
+		$('#edit_user_Modal').modal('show');
+		$('#error_info').html('密码不能小于6位');
+	}else if(new_pwd!==re_pwd){
+		$('#edit_user_Modal').modal('show');
+		$('#error_info').html('两次密码不同，请确认后再更新吧！');
+	}else{
+		$('#edit_user_form').submit();
+	}
+}
+
+// 忘记密码
+function forgetpassword(){
+	var number = document.getElementById('number').value;
+	var archive = document.getElementById('archive').value;
+	var new_pwd = document.getElementById('new_pwd').value;
+	var re_pwd = document.getElementById('re_pwd').value;
+	if (number==''||archive==''||new_pwd==''||re_pwd=='') {
+		$('#edit_user_Modal').modal('show');
+		$('#error_info').html('不能漏填哦!');
+	}else if(archive.length!==18){
+		$('#edit_user_Modal').modal('show');
+		$('#error_info').html('孩子的身份证号需要18位哦!');
+	} else if (new_pwd.length<6) {
+		$('#edit_user_Modal').modal('show');
+		$('#error_info').html('密码不能小于6位');
+	}else if(new_pwd!==re_pwd){
+		$('#edit_user_Modal').modal('show');
+		$('#error_info').html('两次密码不同，请确认后再更新吧！');
+	}else{
+		$('#forgetpassword').submit();
+		// alert('hah');
+	}
+}

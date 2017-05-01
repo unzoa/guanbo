@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<include file="Index:head" />
+<script type="text/javascript">
+    window.document.title = '五行能量 - i.P.A.S.S';
+    $(document).ready(function(){
+		var w_width = $(window).width();
+		var h_height = $(window).height();
+		$('#intro').css({'width':w_width,'height':h_height});
+		$('#go-down').click(function(){
+			$('html,body').animate({scrollTop:h_height},'slow');
+		})
+	})
+</script>
+<link rel="stylesheet" type="text/css" href="{$Think.const.HCSS}music.ver2.css">
+<body>
+<div class="container-fluid">
+	<include file="Index:nav" />
+	<div id="intro">
+		<img src="{$Think.const.HIMG}fivecol.png"><br/><br/>
+		<p>五行之间相生相克。 "生"中有"制"，"克"中有"生"构成了大自然气息变化的内稳状态，化育了自然的万物，使音乐有角、徵、宫、商、羽五声。这五个系统之间相互配合，协调活动，构成了完整的人与天地之气和谐相应的规律。</p>
+		<button class="btn go-down icon-angle-down icon-2x" id="go-down"></button>
+	</div>
+	<div class="row five-music-con" id="five-music-con">
+		<div class="col-sm-4 p0">
+			<a href="{:U('Home/Index/listen',array('name'=>'收敛密集之气','name2'=>'金'))}">
+				<div class="five-col five-col-one">
+					<h2>金</h2>
+					<h4>收敛密集之气</h4>
+				</div>
+			</a>
+		</div>
+		<div class="col-sm-4 p0">
+			<a href="{:U('Home/Index/listen',array('name'=>'展放舒现之气','name2'=>'木'))}">
+				<div class="five-col five-col-two">
+					<h2>木</h2>
+					<h4>展放舒现之气</h4>
+				</div>
+			</a>
+		</div>
+		<div class="col-sm-4 p0">
+			<a href="{:U('Home/Index/listen',array('name'=>'沉潜下降之气','name2'=>'水'))}">
+				<div class="five-col five-col-three">
+					<h2>水</h2>
+					<h4>沉潜下降之气</h4>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="row five-music-con" id="five-music-con">
+		<div class="col-sm-4 col-sm-offset-2 p0">
+			<a href="{:U('Home/Index/listen',array('name'=>'蒸腾上升之气','name2'=>'火'))}">
+				<div class="five-col five-col-four">
+					<h2>火</h2>
+					<h4>蒸腾上升之气</h4>
+				</div>
+			</a>
+		</div>
+		<div class="col-sm-4 p0">
+			<a href="{:U('Home/Index/listen',array('name'=>'平稳运动之气','name2'=>'土'))}">
+				<div class="five-col five-col-five">
+					<h2>土</h2>
+					<h4>平稳运动之气</h4>
+				</div>
+			</a>
+		</div>
+	</div>	
+</div>
+<include file="Index:footer"/>
+<!-- preload -->
+<link rel="stylesheet" type="text/css" href="{$Think.const.HCSS}preload.css">
+<script type="text/javascript" src="{$Think.const.HJS}preload.js"></script>
+
+</body>
+</html>

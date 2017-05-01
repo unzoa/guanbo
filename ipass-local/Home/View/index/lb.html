@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<include file="Index:head" />
+<script type="text/javascript">
+    window.document.title = '量表 - i.P.A.S.S';
+</script>
+<body>
+<div class="container-fluid">
+	<include file="Index:nav" />
+	<br/>
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2">
+			<div class="row">
+				<volist name="lblist" id='vo'>
+					<div class="col-sm-3 lblist_item">
+						<div class="col-xs-3 col-sm-12 xsp0">
+							<div class="lb_cover" style="background-image: url({$Think.const.UIMG}{$vo.img});background-position: center;background-size: cover;"></div>
+						</div>
+						<div class="col-xs-9 col-sm-12 lblist_item_bottom">
+							<p class="lb_title">
+								<a href="{:U('Home/Index/lbtest',array('id'=>$vo['id']))}">
+								{$vo.name_ch}</a>
+							</p>
+							<p class="lb_new_intro"><i>{$vo.new_intro}</i></p>
+						</div>
+					</div>
+				</volist>
+			</div>
+		</div>
+	</div>	
+</div>
+<include file="Index:footer"/>
+</body>
+</html>

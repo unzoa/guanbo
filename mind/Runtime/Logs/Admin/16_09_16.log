@@ -1,0 +1,64 @@
+[ 2016-09-16T18:59:54+08:00 ] 127.0.0.1 /h_wei/hw/admin/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.047345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012282s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0688s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0674s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000587s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.251188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.251484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009381s ]
+
+[ 2016-09-16T19:00:06+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Manage/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002009s ]
+
+[ 2016-09-16T23:00:07+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Atest/testread.html
+ERR: 无法加载控制器:Atest
+

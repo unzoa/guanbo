@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="hanwei，瀚威，hanweixinli，瀚威心理，xinli，心理，xinliyisheng，心理医生">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>沈阳瀚威心理咨询有限公司-M.P.3教学</title>
+    <link rel="shortcut icon" href="http://hanwei-mind.com/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="{$Think.const.BS_URL}bootstrap.min.css">
+  <script type="text/javascript" src="{$Think.const.JS_URL}jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="{$Think.const.BJS_URL}bootstrap.min.js"></script>
+  <!-- web -->
+  <link rel="stylesheet" type="text/css" href="{$Think.const.CSS_URL}web.css">
+  <link href="{$Think.const.CSS_URL}web_style.css" rel="stylesheet">
+  <!-- nav -->
+  <link rel="stylesheet" type="text/css" href="{$Think.const.CSS_URL}style.css">
+  <!-- icon -->
+  <link rel='stylesheet' href='{$Think.const.AWE_URL}font-awesome.min.css'>
+  <link href="{$Think.const.CSS_URL}linearicons.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <style type="text/css">
+    body{background-color: #eee}
+  </style>
+</head>
+<body>
+        <!--======== header =========-->
+        <div style="margin-top:-20px">
+        <include file="Web:top" /></div>
+        <!--======== end =========-->
+        <!-- ============banner========== -->
+        <volist name="mpthreetop" id="v">
+        <div style="position: relative;">
+          <div class="h_e_banner frosted-glass" style="background-image: url('{$Think.const.IMG_UPLOAD}{$v.img}'); background-size: cover; background-position: center;">
+          </div>
+          <div class="h_banner_text">
+            <h1>M.P.3 教学</h1>
+            <h3><i>M.P.3 Teach</i></h3>
+          </div>
+          <div class="h_banner_cover"></div>
+        </div>
+        </volist>
+        <!-- ===========end============ -->
+
+        <!-- ============列表=========== -->
+        <div class="container h_content">
+          <div class="row">
+          <volist name="mpthree" id="v" offset="1">
+			  <div class="col-md-4 col-sm-6 col-xs-12 h_news_news_con">
+				<div class="h_news_news_con_con">
+                    <a href="{:U("Home/Web/mpthreedetail",array('id'=>$v['id']))}">
+                      <p class="h_news_news_title">{$v.chtitle}</p>
+                    </a>
+                    <a href="{:U("Home/Web/mpthreedetail",array('id'=>$v['id']))}">
+                      <div class="h_news_news_cover" style="background-image: url('{$Think.const.IMG_UPLOAD}{$v.img}');background-position: center;background-size: cover;">
+                      </div>
+                    </a>
+                    <div class="h_news_news_intro">
+                      <p>
+                        <script type="text/javascript">
+                            var str="{$v.intro}";
+                            if(str.length>40){
+                              document.write(str.substring(1,40)+"...");
+                            }else{
+                              document.write(str);
+                            }
+                          </script>
+                      </p>
+                    </div>
+				</div>
+			  </div>
+          </volist>
+          </div>
+        </div>
+        <!-- ================end================ -->
+         <!--======== footer =========-->
+        <include file="Web:footer"/>
+        <!-- ========end================== -->
+        <script src="{$Think.const.JS_URL}owl.carousel.min.js"></script>
+        <script src="{$Think.const.JS_URL}custom.js"></script>
+        <script type="text/javascript" src="{$Think.const.JS_URL}animenu.js"></script>
+</body>
+</html>

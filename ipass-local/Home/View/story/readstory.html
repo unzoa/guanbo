@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<include file="Index:head"/>
+<style type="text/css">
+html,body{
+	height: 100%;
+	margin: 0;
+	padding: 0
+}
+.my_nav_padding{
+	padding-left: 6%!important;
+	padding-right: 6%!important
+}
+.story_con img{
+	width: 100%!important;
+}
+@media (max-width: 767px){
+	.my_nav_padding{
+		padding-left: 15px!important;
+		padding-right: 15px!important
+	}
+}
+</style>
+<script type="text/javascript">
+	window.document.title = '{$story[0][title]}';
+	function aa(){
+		var type = '{$story[0][type]}';
+		if (type==1) {
+			$('.storytype').html('公益行走');
+		}else if (type==2) {
+			$('.storytype').html('亲子桥梁');
+		}else if (type==3) {
+			$('.storytype').html('教育热点');
+		}
+		
+	}
+</script>
+<body onload="aa()">
+<img src="{$Think.const.UIMG}{$story[0][img]}" alt="{$Think.const.UIMG}{$story[0][img]}" style="width: 100%">
+<section class="container my_nav_padding">
+	<div class="row">
+		<br/>
+		<div class="col-xs-12">
+			<i class="icon-quote-left icon-large"></i> <span class="storytype"></span>
+		</div>
+		<div class="col-xs-12">
+			<p class="" style='font-size:24px;margin-top:7px'>{$story[0][title]}</p>	
+		</div>
+		<div class="col-xs-12" style="padding:7px 0 17px;">
+			<div class="col-xs-6">
+				<i class="icon-bookmark"></i> <span><a href="{:U('Story/index')}" style='color:#3399f3'>心•故事</a></span>
+			</div>
+			<div class="col-xs-6 text-right">
+				{$story[0][time]} <i class="icon-eye-open"></i> {$story[0][view]}
+			</div>
+		</div>
+				
+		<p class="text-center" style="color: #a6a6a6;font-size: 17px; line-height:23px; padding-left: 20%;padding-right: 20%">{$story[0][intro]}</p>
+		<div class="col-xs-4 col-xs-offset-4">
+			<hr style="border-color: #d8d8d8"/>
+		</div>
+		<div class="col-xs-12 story_con">
+			{$story[0][content]|html_entity_decode}
+		</div>
+	</div>
+</section>
+<!-- preload -->
+<link rel="stylesheet" href="{$Think.const.HCSS}preload.css">
+<script src="{$Think.const.HJS}preload.js"></script>
+</body>
+</html>

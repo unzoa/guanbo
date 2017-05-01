@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<include file='Index:head'/>
+<style type="text/css">
+	.edit_user_con{padding: 150px 7% 0;text-align: center;}
+	.borderR0{border-radius: 0;}
+	.borderRtrl0{border-bottom-left-radius: 0px;border-bottom-right-radius: 0px}
+	.borderRbrl0{border-top-left-radius: 0px;border-top-right-radius: 0px}
+	@media (max-width: 767px){
+		.edit_user_con{padding: 50px 7% 0;}
+	}
+</style>
+<script type="text/javascript">
+	// 更改用户信息
+	function edit_user_sunmit(){
+		var nickname = document.getElementById('nickname').value;
+		var new_pwd = document.getElementById('new_pwd').value;
+		var re_pwd = document.getElementById('re_pwd').value;
+		if (nickname==''||new_pwd==''||re_pwd=='') {
+			$('#edit_user_Modal').modal('show');
+			$('#error_info').html('不能漏填哦!');
+		}else if (new_pwd.length<6) {
+			$('#edit_user_Modal').modal('show');
+			$('#error_info').html('密码不能小于6位');
+		}else if(new_pwd!==re_pwd){
+			$('#edit_user_Modal').modal('show');
+			$('#error_info').html('两次密码不同，请确认后再更新吧！');
+		}else{
+			$('#edit_user_form').submit();
+		}
+	}
+</script>
+<body>
+<div class="container-fluid">
+	<include file="Index:nav"/>
+	<div class="row">
+		<div class="col-sm-4 col-sm-offset-4 edit_user_con">
+			<h2 style="text-align: left">账户修改</h2>
+			<form method="post" action="{:U('Home/Index/edit_user')}" id="edit_user_form">
+				<input type="text" name="nickname" id="nickname" value="{$student[0][nickname]}" class="form-control borderRtrl0" placeholder="昵称"></input>
+				
+				<input type="password" name="new_pwd" id="new_pwd" class="form-control borderR0" placeholder="新密码"></input>
+				<input type="password" name="re_pwd" id="re_pwd" class="form-control borderRbrl0" placeholder="确认新密码"></input><br/>
+				<button type="button" id="" class="btn btn-primary btn-lg btn-block" onclick="edit_user_sunmit()">更新</button>
+			</form>
+		</div>
+	</div>
+</div>
+<div style="position: fixed;bottom: 0px;width: 100%">
+	<include file="Index:footer"/>
+</div>
+<!-- 提示框 -->
+<div class="modal fade bs-example-modal-sm" id="edit_user_Modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">提示</h4>
+      </div>
+      <div class="modal-body">
+    	<span id="error_info">不能漏填哦!</span>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

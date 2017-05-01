@@ -1,0 +1,1610 @@
+[ 2016-10-27T13:50:14+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T13:50:21+08:00 ] 211.137.13.86 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\8bf5cf33f1344337a13a2f1279036828.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T13:50:33+08:00 ] 211.137.13.86 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_manage` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `hw_manage` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\8bf5cf33f1344337a13a2f1279036828.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T13:50:46+08:00 ] 211.137.13.86 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_manage` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_manage` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-27T13:50:47+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0312s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T13:51:35+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updbanner/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\05c424bec922cf0ca8d67b7af5b6eb46.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T13:51:45+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updbanner/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\05c424bec922cf0ca8d67b7af5b6eb46.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T13:52:00+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updbanner/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `hw_banner` SET `alt`='1111',`img`='Upload/2016-10-27/581196006c105.jpg' WHERE ( id=1 ) [ RunTime:0.0000s ]
+
+[ 2016-10-27T13:52:00+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-10-27T13:59:54+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updbanner/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\05c424bec922cf0ca8d67b7af5b6eb46.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-10-27T14:00:03+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updbanner/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `hw_banner` SET `alt`='1111',`img`='Upload/2016-10-27/581197e3629a6.jpg' WHERE ( id=1 ) [ RunTime:0.0000s ]
+
+[ 2016-10-27T14:00:03+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:03:01+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updbanner/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\05c424bec922cf0ca8d67b7af5b6eb46.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:03:08+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updbanner/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `hw_banner` SET `alt`='1111',`img`='Upload/2016-10-27/5811989c75d2b.jpg' WHERE ( id=1 ) [ RunTime:0.0000s ]
+
+[ 2016-10-27T14:03:08+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:14:09+08:00 ] 183.60.15.14 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:14:09+08:00 ] 183.60.15.14 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:15:17+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:16:00+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:19:06+08:00 ] 180.163.2.117 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:19:06+08:00 ] 101.226.33.226 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:19:06+08:00 ] 101.226.61.207 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:19:06+08:00 ] 101.226.61.207 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:21:46+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:21:59+08:00 ] 211.137.13.86 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\8bf5cf33f1344337a13a2f1279036828.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:22:14+08:00 ] 180.153.214.190 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:22:15+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:22:20+08:00 ] 211.137.13.86 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `hw_manage` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_manage` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-27T14:22:21+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:24:58+08:00 ] 180.153.206.16 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\8bf5cf33f1344337a13a2f1279036828.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:26:06+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:26:13+08:00 ] 211.137.13.86 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\8bf5cf33f1344337a13a2f1279036828.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:26:24+08:00 ] 211.137.13.86 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_manage` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_manage` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-27T14:26:24+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:41:04+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updbanner/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\05c424bec922cf0ca8d67b7af5b6eb46.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-10-27T14:41:32+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updbanner/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `hw_banner` SET `alt`='3333',`img`='Upload/2016-10-27/5811a19c79729.jpg' WHERE ( id=3 ) [ RunTime:0.0000s ]
+
+[ 2016-10-27T14:41:32+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:43:27+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updbanner/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\05c424bec922cf0ca8d67b7af5b6eb46.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:43:33+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updbanner/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `hw_banner` SET `alt`='3333',`img`='Upload/2016-10-27/5811a215cbb9f.jpg' WHERE ( id=3 ) [ RunTime:0.0000s ]
+
+[ 2016-10-27T14:43:34+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:45:16+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updbanner/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\05c424bec922cf0ca8d67b7af5b6eb46.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:45:22+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updbanner/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `hw_banner` SET `alt`='3333',`img`='Upload/2016-10-27/5811a282c747e.jpg' WHERE ( id=3 ) [ RunTime:0.0000s ]
+
+[ 2016-10-27T14:45:23+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:46:36+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addbanner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\6f42c9ea9c64944884cba69a255aa79e.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T14:46:36+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addbanner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\6f42c9ea9c64944884cba69a255aa79e.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T15:51:16+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addbanner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_banner` (`img`,`alt`) VALUES ('Upload/2016-10-27/5811b1f40c4dd.jpg','') [ RunTime:0.0000s ]
+
+[ 2016-10-27T15:51:16+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T15:59:01+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updus/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_aboutus` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\79e8c37272032ac3895e8e65989c2518.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T15:59:12+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updus/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `hw_aboutus` SET `alt`='第一张',`img`='Upload/2016-10-27/5811b3d0f1b53.jpg' WHERE ( id=2 ) [ RunTime:0.0000s ]
+
+[ 2016-10-27T15:59:13+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T15:59:17+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updus/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_aboutus` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\79e8c37272032ac3895e8e65989c2518.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T15:59:23+08:00 ] 211.137.13.86 /index.php/Admin/Admin/updus/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\www\mind\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `hw_aboutus` SET `alt`='第三张',`img`='Upload/2016-10-27/5811b3dbc3856.jpg' WHERE ( id=4 ) [ RunTime:0.0000s ]
+
+[ 2016-10-27T15:59:24+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T15:59:27+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\9906453af3da5e4fd97761299c9d2b2c.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T15:59:38+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_aboutus` (`img`,`alt`) VALUES ('Upload/2016-10-27/5811b3ea80bb0.jpg','234') [ RunTime:0.0156s ]
+
+[ 2016-10-27T15:59:38+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T16:04:18+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\9906453af3da5e4fd97761299c9d2b2c.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T16:04:28+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_aboutus` (`img`,`alt`) VALUES ('Upload/2016-10-27/5811b50c266cd.jpg','4') [ RunTime:0.0000s ]
+
+[ 2016-10-27T16:04:28+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T16:04:32+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\9906453af3da5e4fd97761299c9d2b2c.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-27T16:04:41+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_aboutus` (`img`,`alt`) VALUES ('Upload/2016-10-27/5811b51969b74.jpg','5') [ RunTime:0.0156s ]
+
+[ 2016-10-27T16:04:41+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

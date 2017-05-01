@@ -1,0 +1,1140 @@
+[ 2016-09-15T13:08:24+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/addpsy/id/5.html
+ERR: 模板不存在:C:/wamp/www/h_wei/hw/Admin/View/Admin/addpsy.html
+
+[ 2016-09-15T14:13:24+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/updmpthree/id/2.html
+ERR: 非法操作:updmpthree
+
+[ 2016-09-15T14:37:05+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/updipass/id/2.html
+ERR: 模板不存在:C:/wamp/www/h_wei/hw/Admin/View/Admin/updipass.html
+
+[ 2016-09-15T15:18:45+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+ERR: 1146:Table 'hanwei.hw_us' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hw_us`
+
+[ 2016-09-15T15:19:30+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/addcontactus/id/4.html
+ERR: 模板不存在:C:/wamp/www/h_wei/hw/Admin/View/Admin/addcontactus.html
+
+[ 2016-09-15T15:20:09+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/addcontactus/id/4.html
+ERR: 模板不存在:C:/wamp/www/h_wei/hw/Admin/View/Admin/addcontactus.html
+
+[ 2016-09-15T17:38:13+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-09-15T17:38:23+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Manage/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2016-09-15T17:43:06+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-09-15T17:43:20+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2016-09-15T17:43:36+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-09-15T17:44:47+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-09-15T17:45:03+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-09-15T17:45:37+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2016-09-15T17:45:50+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-09-15T17:47:06+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-09-15T21:59:27+08:00 ] 127.0.0.1 /h_wei/hw/admin/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000727s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2016-09-15T22:12:00+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Manage/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001705s ]
+
+[ 2016-09-15T22:18:51+08:00 ] 127.0.0.1 /h_wei/hw/admin/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2016-09-15T22:18:56+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/updbnews/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hw_bnews` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\h_wei\hw\Runtime\Cache\Admin\09773192eb72f0f7a058f31c459236c7.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-09-15T22:19:44+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/updbnews/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\h_wei\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\h_wei\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `hw_bnews` SET `title`='瀚威心理欢迎你',`content`='瀚威心理是集心理咨询与治疗，心理健康教育，教学，科研，网络及智能化心理设备研发，咨询室建设与加盟与一体的产业化专业心理机构。',`url`='/h_wei/hw/Home/Web/expert' WHERE ( id=3 ) [ RunTime:0.2581s ]
+
+[ 2016-09-15T22:19:44+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2016-09-15T22:19:50+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/updbnews/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_bnews` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\h_wei\hw\Runtime\Cache\Admin\09773192eb72f0f7a058f31c459236c7.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-09-15T22:20:04+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/updbnews/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\h_wei\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\h_wei\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `hw_bnews` SET `title`='我们为您提供',`content`='心理咨询、心理培训、专业心理评估、表达性艺术治疗、音乐治疗、父母读书会、舞动治疗、特殊群体关怀、智能设备服务开发、心理服务。',`url`='/h_wei/hw/Home/Web/service' WHERE ( id=4 ) [ RunTime:0.3252s ]
+
+[ 2016-09-15T22:20:05+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2016-09-15T22:20:11+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Manage/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004100s ]
+
+[ 2016-09-15T22:20:37+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Manage/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001347s ]
+
+[ 2016-09-15T22:20:52+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Manage/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2016-09-15T22:35:12+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Manage/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2016-09-15T22:37:05+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Manage/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2016-09-15T22:43:24+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Manage/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2016-09-15T22:43:58+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Manage/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2016-09-15T22:45:43+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000546s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2016-09-15T22:45:57+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000348s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2016-09-15T22:47:09+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000555s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-09-15T22:47:42+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000544s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2016-09-15T22:48:21+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000584s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-15T22:49:31+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000533s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+

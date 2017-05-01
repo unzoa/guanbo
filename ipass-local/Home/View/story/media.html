@@ -1,0 +1,22 @@
+<div class="row" style="padding:15px 15px 61px"/>
+	<!-- ============media============ -->
+	<volist name="story" id="v">
+		<div class="media my_media">
+		  <a class="media-left media-middle" href="{:U('Story/readstory',array('id'=>$v['id']))}">
+			<div style="height: 60px;width: 80px; background-image:url({$Think.const.UIMG}{$v.img});background-size:cover; background-position:center;"></div>
+		    <!--img src="{$Think.const.UIMG}{$v.img}" alt="{$Think.const.UIMG}{$v.img}"-->
+		  </a>
+		  <div class="media-body">
+			<a href="{:U('Story/readstory',array('id'=>$v['id']))}" style="color:#777">
+				<h5 class="media-heading">{$v.title}</h5>
+			</a>
+		    <!--p style="width: 10em;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;color: #999">
+		    	{$v.intro}
+		    </p-->
+		    <div style="color: #999;font-size:12px">
+		    	{$v.time} <i class="icon-eye-open"></i> {$v.view}
+		    </div>
+		  </div>
+		</div>
+	</volist>
+	</div>

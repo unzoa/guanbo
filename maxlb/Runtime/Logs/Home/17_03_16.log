@@ -1,0 +1,64 @@
+[ 2017-03-16T16:15:17+08:00 ] 127.0.0.1 /guanbo/maxlb/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000636s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.038420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006211s ]
+
+[ 2017-03-16T16:15:19+08:00 ] 127.0.0.1 /guanbo/maxlb/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0911s ]
+SQL: SELECT * FROM `student` WHERE `number` = '111' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-03-16T16:15:20+08:00 ] 127.0.0.1 /guanbo/maxlb/index.php/Home/Index/lb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0032s ]
+SQL: SELECT `max_head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `max_lblist` [ RunTime:0.0857s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=1 )  [ RunTime:0.0231s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=2 )  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=3 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=4 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=5 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=6 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=7 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=8 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=9 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=10 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `max_lblist` WHERE ( new_type=11 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.162107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+

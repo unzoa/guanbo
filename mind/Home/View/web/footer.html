@@ -1,0 +1,19 @@
+<footer class="footer">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-md-12 text-center">
+        	<p>友情链接:
+			<volist name="youlian" id="v">
+				<a href="{$v.url}" class="c-fff">{$v.name}</a>&nbsp 
+			</volist>
+        	</p>
+            <volist name="footer" id="v">
+            <p>Copyright © {$v.right}</p> 
+            <p>{$v.beian}</p>
+            </volist>
+            <span><a href="#home" class="scroll"><i class="lnr lnr lnr-exit-up"></i></a></span>
+        </div>
+    
+    </div>
+</div>    
+</footer>

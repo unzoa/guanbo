@@ -1,0 +1,9 @@
+[ 2016-10-07T17:44:24+08:00 ] 127.0.0.1 /h_wei/hw/Home/Web/mpthree
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-10-07T17:45:33+08:00 ] 127.0.0.1 /h_wei/hw/Home/Web/ipass
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-10-07T17:45:47+08:00 ] 127.0.0.1 /h_wei/hw/Home/Web/mpthree
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+

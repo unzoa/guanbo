@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<include file="Index/head"/>
+<style type="text/css">
+	html,body{height: 100%;padding:0; margin: 0;color: #fff}
+	body{
+		background-image: url('{$Think.const.HIMG}admin-bg.jpg');
+		background-position: center;
+		background-size: cover;
+	}
+	a {color: #fff!important;}
+	.badge{margin-top:-3px!important;margin-left: 7px}
+	.nav li {border-bottom:1px solid #d8d8d8;}
+	.nav > li > a:hover, .nav > li > a:focus {
+	    background-color: #999;
+	}
+	.nav li button{background-color: transparent;border:0;width: 100%;height: 40px;text-align: left;padding-left: 15px}
+	.nav > li > button:hover, .nav > li > button:focus {
+	   background-color: #999;
+	}
+	.pagenav .num{display: none}
+	.pagenav .end{display: none}
+	.pagenav .first{display: none}
+	.pagenav div{text-align: center;}
+	.pagenav div .current{line-height: 40px;font-size: 15px}
+	.pagenav .prev{float: left}
+	.pagenav .next{float: right}
+	.pagenav .prev,.pagenav .next{
+		display: inline-block;
+	    padding: 5px 14px;
+	    background-color: transparent;
+	    border: 1px solid #fff;
+	    border-radius: 5px;
+	}
+
+	.modal-backdrop.in {
+	    filter: alpha(opacity=50);
+	    opacity: .5;
+	}
+</style>
+<body>
+<div class="container-fluid">
+<!--==================== head ====================-->
+	<div class="row">
+		<div class="col-lg-10 col-md-9 col-sm-9">
+			<h2>量表 MAX</h2>
+		</div>
+		<div class="col-lg-2 col-md-3 col-sm-3 text-right" style="padding-top: 18px">
+			<form method="post" action="{:U('Home/Admin/search')}" id="search_form">
+				<div class="input-group" style="border-radius: 70px;border:1px #333 solid; overflow: hidden;">
+			      <input type="text" class="form-control" id="" name="something" placeholder="随便输入点什么···" style="padding-left: 16px;border:0">
+			      
+			      	<div id="search_btn" class="input-group-addon" style="border:1px #333 solid;background-color: #333;color: #fff">
+			      		<span class="glyphicon glyphicon-search"></span>
+			      	</div>
+			    </div>
+			</form>
+		</div>
+	</div>
+
+	<hr/>
+<!-- ===================body======================= -->
+	<div class="row">
+		<div class="col-sm-2">
+			<ul class="nav">
+			  <li>
+			  	<a href="{:U('Home/Admin/index')}">
+				全部用户<span class="badge"><i class="icon-group"></i> {$fullusers}</span></br>
+				付费用户<span class="badge"><i class="icon-group"></i> {$payusers}</span>
+				</a>
+			  </li>
+			  
+			  <li>
+			  	<button onclick="add_user()">新增用户<span class="badge"><i class="icon-user"></i> <i class="icon-plus"></i></span></button>
+			  </li>
+
+			  <li>
+			  	<a href="{:U('Home/Admin/archive')}">
+				用户档案<span class="badge"><i class="icon-group"></i> {$fullarchive}</span>
+				</a>
+			  </li>
+			</ul>
+		</div>
+
+		<div class="col-sm-10">
+			<include file="Admin/users"/>
+		</div>	
+	</div>
+</div>
+
+<include file="admin/modal"/>
+<!-- preload -->
+<link rel="stylesheet" type="text/css" href="{$Think.const.HCSS}preload.css">
+<script type="text/javascript" src="{$Think.const.HJS}preload.js"></script>
+</body>
+</html>

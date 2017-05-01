@@ -1,0 +1,1540 @@
+[ 2017-01-09T00:34:19+08:00 ] 83.45.245.56 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-09T00:34:20+08:00 ] 83.45.245.56 /index.php/Home/Web/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 2   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant 豆立宁 - assumed '豆立宁' D:\www\mind\Home\Controller\WebController.class.php 第 51 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='豆立宁' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 于爽 - assumed '于爽' D:\www\mind\Home\Controller\WebController.class.php 第 54 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='于爽' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant 王焕 - assumed '王焕' D:\www\mind\Home\Controller\WebController.class.php 第 57 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='王焕' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T00:51:07+08:00 ] 123.126.113.94 /index.php/Home/Web/mpthreedetail/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_mpthree` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_mpthree` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T00:51:17+08:00 ] 123.126.113.94 /index.php/Home/Web/service
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_service` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-01-09T00:51:27+08:00 ] 123.126.113.94 /index.php/Home/Web/psydetail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_psy` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_psy` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T00:51:37+08:00 ] 123.126.113.94 /index.php/Home/Web/mpthree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_mpthree` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T00:51:47+08:00 ] 123.126.113.94 /index.php/Home/Web/psydetail/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_psy` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_psy` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T00:51:57+08:00 ] 123.126.113.94 /index.php/Home/Web/contactusdetail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_contactus` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_contactus` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-01-09T00:52:07+08:00 ] 123.126.113.94 /index.php/Home/Web/psy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_psy` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-01-09T00:52:17+08:00 ] 123.126.113.94 /index.php/Home/Web/servicedetail/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_service` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_service` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T00:52:27+08:00 ] 123.126.113.94 /index.php/Home/Web/servicedetail/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T00:52:37+08:00 ] 123.126.113.94 /index.php/Home/Web/mpthreedetail/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_mpthree` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_mpthree` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T00:52:47+08:00 ] 123.126.113.94 /index.php/Home/Web/psydetail/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_psy` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_psy` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T00:52:57+08:00 ] 123.126.113.94 /index.php/Home/Web/psydetail/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_psy` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_psy` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T00:53:07+08:00 ] 123.126.113.94 /index.php/Home/Web/contactusdetail/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_contactus` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_contactus` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T00:53:17+08:00 ] 123.126.113.94 /index.php/Home/Web/contactus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_contactus` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T00:53:27+08:00 ] 123.126.113.94 /index.php/Home/Web/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant 豆立宁 - assumed '豆立宁' D:\www\mind\Home\Controller\WebController.class.php 第 51 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='豆立宁' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant 于爽 - assumed '于爽' D:\www\mind\Home\Controller\WebController.class.php 第 54 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='于爽' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 王焕 - assumed '王焕' D:\www\mind\Home\Controller\WebController.class.php 第 57 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='王焕' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=5 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T00:53:37+08:00 ] 123.126.113.94 /index.php/Home/Web/expert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_expert` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T00:53:47+08:00 ] 123.126.113.94 /index.php/Home/Web/machine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_machine` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T00:53:57+08:00 ] 123.126.113.94 /index.php/Home/Web/servicedetail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_service` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_service` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T00:54:07+08:00 ] 123.126.113.94 /index.php/Home/Web/mpthreedetail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_mpthree` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_mpthree` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-01-09T00:54:17+08:00 ] 123.126.113.94 /index.php/Home/Web/psydetail/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_psy` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_psy` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T00:54:27+08:00 ] 123.126.113.94 /index.php/Home/Web/psydetail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_psy` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_psy` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T03:59:35+08:00 ] 123.126.113.94 /index.php/Home/Web/newsdetail/id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_news` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T04:22:52+08:00 ] 140.205.201.19 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T04:22:52+08:00 ] 140.205.201.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T04:22:52+08:00 ] 140.205.201.19 /index.php/Home/Web/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 2   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 豆立宁 - assumed '豆立宁' D:\www\mind\Home\Controller\WebController.class.php 第 51 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='豆立宁' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 于爽 - assumed '于爽' D:\www\mind\Home\Controller\WebController.class.php 第 54 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='于爽' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 王焕 - assumed '王焕' D:\www\mind\Home\Controller\WebController.class.php 第 57 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='王焕' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=5 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T04:22:52+08:00 ] 140.205.201.3 /index.php/Home/Web/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 豆立宁 - assumed '豆立宁' D:\www\mind\Home\Controller\WebController.class.php 第 51 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='豆立宁' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 于爽 - assumed '于爽' D:\www\mind\Home\Controller\WebController.class.php 第 54 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='于爽' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 王焕 - assumed '王焕' D:\www\mind\Home\Controller\WebController.class.php 第 57 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='王焕' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T04:52:01+08:00 ] 42.236.99.218 /index.php/Home/Web/machine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_machine` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-09T04:52:01+08:00 ] 42.236.99.154 /index.php/Home/Web/newstdetail/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_newst` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T04:52:02+08:00 ] 42.236.99.206 /index.php/Home/Web/newst/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 32,16   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T04:52:02+08:00 ] 42.236.99.242 /index.php/Home/Web/newstdetail/id/73.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_newst` WHERE `id` = 73 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T04:52:02+08:00 ] 180.153.236.125 /index.php/Home/Web/newstdetail/id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_newst` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T05:06:33+08:00 ] 123.126.113.94 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T05:06:43+08:00 ] 123.126.113.94 /index.php/Home/Web/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant 豆立宁 - assumed '豆立宁' D:\www\mind\Home\Controller\WebController.class.php 第 51 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='豆立宁' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 于爽 - assumed '于爽' D:\www\mind\Home\Controller\WebController.class.php 第 54 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='于爽' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 王焕 - assumed '王焕' D:\www\mind\Home\Controller\WebController.class.php 第 57 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='王焕' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T07:36:09+08:00 ] 123.125.71.18 /index.php/Home/Web/ipassdetail/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_ipass` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_ipass` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T09:28:15+08:00 ] 220.181.108.184 /index.php/Home/Web/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,16   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T10:18:39+08:00 ] 157.55.39.249 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T10:34:55+08:00 ] 123.125.71.48 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T10:34:55+08:00 ] 220.181.108.162 /index.php/Home/Web/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 2   [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant 豆立宁 - assumed '豆立宁' D:\www\mind\Home\Controller\WebController.class.php 第 51 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='豆立宁' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant 于爽 - assumed '于爽' D:\www\mind\Home\Controller\WebController.class.php 第 54 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='于爽' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 王焕 - assumed '王焕' D:\www\mind\Home\Controller\WebController.class.php 第 57 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='王焕' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=5 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T11:08:15+08:00 ] 123.125.71.14 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T11:08:15+08:00 ] 123.125.71.84 /index.php/Home/Web/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0090s ]
+NOTIC: [8] Use of undefined constant 豆立宁 - assumed '豆立宁' D:\www\mind\Home\Controller\WebController.class.php 第 51 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='豆立宁' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant 于爽 - assumed '于爽' D:\www\mind\Home\Controller\WebController.class.php 第 54 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='于爽' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 王焕 - assumed '王焕' D:\www\mind\Home\Controller\WebController.class.php 第 57 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='王焕' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T11:41:43+08:00 ] 157.55.39.249 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T16:02:17+08:00 ] 123.151.42.46 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T16:02:18+08:00 ] 123.151.42.46 /index.php/Home/Web/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 2   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant 豆立宁 - assumed '豆立宁' D:\www\mind\Home\Controller\WebController.class.php 第 51 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='豆立宁' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 于爽 - assumed '于爽' D:\www\mind\Home\Controller\WebController.class.php 第 54 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='于爽' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 王焕 - assumed '王焕' D:\www\mind\Home\Controller\WebController.class.php 第 57 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='王焕' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T16:02:19+08:00 ] 111.161.105.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T16:02:19+08:00 ] 111.161.59.195 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-01-09T16:02:19+08:00 ] 61.49.57.60 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T16:02:19+08:00 ] 111.161.59.193 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-09T16:02:19+08:00 ] 125.39.208.232 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T16:02:33+08:00 ] 101.226.33.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T16:02:34+08:00 ] 101.226.33.204 /index.php/Home/Web/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant 豆立宁 - assumed '豆立宁' D:\www\mind\Home\Controller\WebController.class.php 第 51 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='豆立宁' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant 于爽 - assumed '于爽' D:\www\mind\Home\Controller\WebController.class.php 第 54 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='于爽' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant 王焕 - assumed '王焕' D:\www\mind\Home\Controller\WebController.class.php 第 57 行.
+SQL: SELECT * FROM `hw_expert` WHERE ( name='王焕' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic` WHERE ( id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T21:48:06+08:00 ] 207.46.13.171 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-09T23:01:54+08:00 ] 207.46.13.171 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+

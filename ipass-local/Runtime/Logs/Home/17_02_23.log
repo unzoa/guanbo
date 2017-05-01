@@ -1,0 +1,88 @@
+[ 2017-02-23T10:00:51+08:00 ] 127.0.0.1 /ipass/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.037595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.037927s ]
+
+[ 2017-02-23T10:00:54+08:00 ] 127.0.0.1 /ipass/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0930s ]
+SQL: SELECT * FROM `student` WHERE `number` = '111' LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2017-02-23T10:00:54+08:00 ] 127.0.0.1 /ipass/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+
+[ 2017-02-23T10:00:54+08:00 ] 127.0.0.1 /ipass/index.php/Home/Index/lb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0092s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ipass_lblist` [ RunTime:0.1113s ]
+SQL: SELECT * FROM `ipass_lblist`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000577s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003012s ]
+
+[ 2017-02-23T10:01:03+08:00 ] 127.0.0.1 /ipass/index.php/Home/Index/lbtest/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0874s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0952s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0100s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001822s ]
+

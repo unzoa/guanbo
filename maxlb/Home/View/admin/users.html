@@ -1,0 +1,66 @@
+<div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>账号</th>
+            <th>密码</th>
+            <th>身份证</th>
+            <th>昵称</th>
+            <th>用户类型</th>
+            <th>时效</th>
+          </tr>
+        </thead>
+        <tbody>
+
+	        <volist id="v" name='info'>
+	          <tr>
+	            <th scope="row">{$v.id}</th>
+	            <td>{$v.number}</td>
+	            <td>
+	            	{$v.password}
+		            <span class="glyphicon glyphicon-pencil" onclick="upd_pwd_btn('{$v.id}')"></span>
+	            </td>
+	            <td>{$v.archive}</td>
+	            <td>
+	            	{$v.nickname}
+	            </td>
+	            <td>
+	            	{$v.type}
+		            <span class="glyphicon glyphicon-pencil" onclick="upd_type_btn('{$v.id}')"></span>
+	            </td>
+	            <td>
+	            	{$v.timeout}
+		            <span class="glyphicon glyphicon-pencil" onclick="upd_timeout_btn('{$v.id}')"></span>
+	            </td>
+	          </tr>
+	        </volist>
+	        <volist id="v" name='user'>
+	          <tr>
+	            <th scope="row">{$v.id}</th>
+	            <td>{$v.number}</td>
+	            <td>
+	            	{$v.password}
+		            <span class="glyphicon glyphicon-pencil" onclick="upd_pwd_btn('{$v.id}')"></span>
+	            </td>
+	            <td>{$v.archive}</td>
+	            <td>
+	            	{$v.nickname}
+	            </td>
+	            <td>
+	            	{$v.type}
+		            <span class="glyphicon glyphicon-pencil" onclick="upd_type_btn('{$v.id}')"></span>
+	            </td>
+	            <td>
+	            	{$v.timeout}
+	            	<span class="glyphicon glyphicon-pencil" onclick="upd_timeout_btn('{$v.id}')"></span>
+	            </td>
+	            
+	          </tr>
+	        </volist>
+        </tbody>
+      </table>
+      <nav aria-label="Page navigation" class="pagenav">
+      	{$show}
+      </nav>
+    </div>

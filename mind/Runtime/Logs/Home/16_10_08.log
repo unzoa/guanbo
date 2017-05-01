@@ -1,0 +1,6 @@
+[ 2016-10-08T16:12:33+08:00 ] 192.168.1.144 /h_wei/hw/Home/Web/indx
+ERR: 非法操作:indx
+
+[ 2016-10-08T17:03:44+08:00 ] 127.0.0.1 /h_wei/hw/Home/Web/expert
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+

@@ -1,0 +1,2 @@
+1，修改index.html 裁剪上传后跳转ip
+2，修改action2.php 的数据库连接信息

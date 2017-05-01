@@ -1,0 +1,170 @@
+<div class="left_con">
+<h2 style="color:#404040">家庭信息</h2>
+<i style="color: #9aaabf">i.P.A.S.S 小改变创造大不同</i>
+<br/><br/>
+<form method="post" action="{:U('Home/Index/archive_family')}" id="myform2">
+	<!-- 居住在一起 -->
+	<div class="row">
+		<div class="col-xs-3 edit_archive_p0">
+			<label class="pull-right">居住在一起</label>
+		</div>
+		<div class="col-xs-9 col-sm-5">
+			<input type="checkbox" name="live_with[]" id="" class="" value="母亲"></input>
+			<label>母亲</label>
+			<input type="checkbox" name="live_with[]" id="" class="" value="父亲"></input>
+			<label>父亲</label>
+			<input type="checkbox" name="live_with[]" id="" class="" value="祖父"></input>
+			<label>祖父</label>
+			<input type="checkbox" name="live_with[]" id="" class="" value="祖母"></input>
+			<label>祖母</label>
+			<input type="checkbox" name="live_with[]" id="" class="" value="外祖父"></input>
+			<label>外祖父</label>
+			<input type="checkbox" name="live_with[]" id="" class="" value="外祖母"></input>
+			<label>外祖母</label>
+		</div>
+	</div>
+	<!-- 家庭关系 -->
+	<div class="row">
+		<div class="col-xs-3 edit_archive_p0">
+			<label class="pull-right">家庭关系</label>
+		</div>
+		<div class="col-xs-9 col-sm-5">
+				<input type="radio" name="family_relation" id="hemu" value="和睦"></input>
+			  	<label>和睦</label>
+			  	<input type="radio" name="family_relation" id="normal" value="一般"/>
+			  	<label>一般</label>
+			  	<input type="radio" name="family_relation" id="chaojia" value="经常吵架"/>
+			  	<label>经常吵架</label>
+			  	<input type="radio" name="family_relation" id="liyi" value="离异"/>
+			  	<label>离异</label>
+		</div>
+	</div>
+	<!-- 与父母关系 -->
+	<div class="row">
+		<div class="col-xs-3 edit_archive_p0">
+			<label class="pull-right">与父母关系</label>
+		</div>
+		<div class="col-xs-9 col-sm-5">
+				<input type="radio" name="dadmom_relation" id="all_well" value="都好"></input>
+			  	<label>都好</label>
+			  	<input type="radio" name="dadmom_relation" id="dad_well" value="与父亲好"/>
+			  	<label>与父亲好</label>
+			  	<input type="radio" name="dadmom_relation" id="mom_well" value="与母亲好"/>
+			  	<label>与母亲好</label>
+			  	<input type="radio" name="dadmom_relation" id="neither_well" value="都不好"/>
+			  	<label>都不好</label>
+		</div>
+	</div>
+	<!-- 教育方式 -->
+	<div class="row">
+		<div class="col-xs-3 edit_archive_p0">
+			<label class="pull-right">教育方式</label>
+		</div>
+		<div class="col-xs-9 col-sm-5">
+				<input type="radio" name="teach_way" id="teach_shuofu" value="说服教育"></input>
+			  	<label>说服教育</label>
+			  	<input type="radio" name="teach_way" id="teach_hurt" value="责骂或打"/>
+			  	<label>责骂或打</label>
+			  	<input type="radio" name="teach_way" id="teach_chengfa" value="其他惩罚"/>
+			  	<label>其他惩罚</label>
+			  	<input type="radio" name="teach_way" id="teach_encourage" value="鼓励多"/>
+			  	<label>鼓励多</label>
+			  	<input type="radio" name="teach_way" id="teach_order" value="命令指责多"/>
+			  	<label>命令指责多</label>
+			  	<input type="radio" name="teach_way" id="teach_softTalk" value="与孩子商量"/>
+			  	<label>与孩子商量</label>
+		</div>
+	</div>
+	<!-- 父母管教 -->
+	<div class="row">
+		<div class="col-xs-3 edit_archive_p0">
+			<label class="pull-right">父母管教</label>
+		</div>
+		<div class="col-xs-9 col-sm-5">
+				<input type="radio" name="guanjiao" id="teach_same" value="一致"></input>
+			  	<label>一致</label>
+			  	<input type="radio" name="guanjiao" id="teach_notSame" value="不一致"/>
+			  	<label>不一致</label>
+			  	<input type="radio" name="guanjiao" id="teach_fightSame" value="有分歧"/>
+			  	<label>有分歧</label>
+		</div>
+	</div>
+	<!-- 父亲学历 -->
+	<div class="row">
+		<div class="col-xs-3 edit_archive_p0">
+			<label class="pull-right">父亲学历</label>
+		</div>
+		<div class="col-xs-9 col-sm-5">
+			<input type="radio" name="dad_record" id="dad_record_middle" value="初中及以下"></input>
+		  	<label>初中及以下</label>
+		  	<input type="radio" name="dad_record" id="dad_record_high" value="高中"/>
+		  	<label>高中</label>
+		  	<input type="radio" name="dad_record" id="dad_record_college" value="大专及以上"/>
+		  	<label>大专及以上</label>
+		</div>
+	</div>
+	<!-- 母亲学历 -->
+	<div class="row">
+		<div class="col-xs-3 edit_archive_p0">
+			<label class="pull-right">母亲学历</label>
+		</div>
+		<div class="col-xs-9 col-sm-5">
+			<input type="radio" name="mom_record" id="mom_record_middle" value="初中及以下"></input>
+		  	<label>初中及以下</label>
+		  	<input type="radio" name="mom_record" id="mom_record_high" value="高中"/>
+		  	<label>高中</label>
+		  	<input type="radio" name="mom_record" id="mom_record_college" value="大专及以上"/>
+		  	<label>大专及以上</label>
+		</div>
+	</div>
+	<!-- 父亲职业 -->
+	<div class="row">
+		<div class="col-xs-3 edit_archive_p0">
+			<label class="pull-right">父亲职业</label>
+		</div>
+		<div class="col-xs-9 col-sm-5">
+			<input type="radio" name="dad_job" id="dad_job_zhigong" value="职工"></input>
+		  	<label>职工</label>
+		  	<input type="radio" name="dad_job" id="dad_job_gongwuyuan" value="公务员"/>
+		  	<label>公务员</label>
+		  	<input type="radio" name="dad_job" id="dad_job_government" value="企业"/>
+		  	<label>企业</label>
+
+		  	<input type="radio" name="dad_job" id="dad_job_shiyedanwei" value="事业单位"/>
+		  	<label>事业单位</label>
+		  	<input type="radio" name="dad_job" id="dad_job_getihu" value="个体户"/>
+		  	<label>个体户</label>
+		  	<input type="radio" name="dad_job" id="dad_job_other" value="其他"/>
+		  	<label>其他</label>
+		</div>
+	</div>
+	<!-- 母亲职业 -->
+	<div class="row">
+		<div class="col-xs-3 edit_archive_p0">
+			<label class="pull-right">母亲职业</label>
+		</div>
+		<div class="col-xs-9 col-sm-5">
+			<input type="radio" name="mom_job" id="mom_job_zhigong" value="职工"></input>
+		  	<label>职工</label>
+		  	<input type="radio" name="mom_job" id="mom_job_gongwuyuan" value="公务员"/>
+		  	<label>公务员</label>
+		  	<input type="radio" name="mom_job" id="mom_job_government" value="企业"/>
+		  	<label>企业</label>
+
+		  	<input type="radio" name="mom_job" id="mom_job_shiyedanwei" value="事业单位"/>
+		  	<label>事业单位</label>
+		  	<input type="radio" name="mom_job" id="mom_job_getihu" value="个体户"/>
+		  	<label>个体户</label>
+		  	<input type="radio" name="mom_job" id="mom_job_other" value="其他"/>
+		  	<label>其他</label>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4 col-sm-offset-4">
+			<button type="button" onclick="formsubmit2()" class="btn btn-lg btn-block btn-primary">
+		        保存
+		    </button>
+		</div>
+	</div>
+</form>
+</div>

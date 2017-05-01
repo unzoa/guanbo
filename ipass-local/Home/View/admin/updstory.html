@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<include file="Index:head"/>
+<include file="Admin:story_js"/>
+<include file="Admin:style"/>
+<style type="text/css">
+.my_footer{
+	position: relative;
+	bottom: 0;
+	width: 100%
+}
+@media (max-width: 767px){
+	.my_footer{
+		position: relative;
+	}
+</style>
+<body>
+<include file="Admin:nav"/>
+<section class="container my_nav_padding">
+	<div class="col-sm-4 col-sm-offset-4">
+	<form action="{:U('Home/Admin/updstory',array('id'=>$story1[0][id]))}" method="post" id="my_form11" enctype="multipart/form-data">
+		<br/><br/>
+		<input type="text" id="title" class="form-control" name="title" value="{$story1[0][title]}"></input>
+		<br/>
+		<img src="{$Think.const.UIMG}{$story1[0][img]}" alt="" style="width: 100%">
+		<br/><br/>
+		<textarea id="intro" class="form-control" name="intro" placeholder="介绍...">
+			{$story1[0][intro]}
+		</textarea>
+		<br/>
+		<textarea id="content" class="form-control" name="content" placeholder="正文内容...">
+			{$story1[0][content]}
+		</textarea>
+		<br/>
+		<select id="type" class="form-control" name="type">
+			<option value="1">公益行走</option>
+			<option value="2">亲子桥梁</option>
+			<option value="3">教育热点</option>
+		</select>
+		<br/>
+		<input type="button" class="btn btn-primary btn-block" value="保存" onclick="formsubmit11()"></input>
+	</form>
+		
+	</div>
+</section>
+<br/>
+<include file="Admin:prompt"/>
+</body>
+</html>

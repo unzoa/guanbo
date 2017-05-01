@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<include file="Index:head" />
+<script type="text/javascript">
+    window.document.title = '量表 - i.P.A.S.S';
+</script>
+<style type="text/css">
+	.lb-con{box-shadow: 0 0 15px 5px #999;border-radius: 5px;padding-top: 20px;margin-top: 20px;margin-bottom: 20px}
+	.dropdown-menu > ul > li > a {
+	    color: #fff;
+	    padding-left: 15px;
+	    padding-top: 5px
+	}
+	.dropdown-menu > ul > li > a:hover, .dropdown-menu > li > a:focus {
+	    color: #fff!important;
+	}
+	.lblist-menu li a{
+		display: block;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	@media (max-width: 767px){
+		body{background-color: #f5f5f5}
+		.lb-con{box-shadow: none;margin-bottom: 10px;margin-top: 10px;padding-top: 0px}
+	}
+</style>
+<body>
+<include file="Index:footer"/>
+<div class="container-fluid">
+	<include file="Index:nav" />
+	<div class="row">
+		<div class="col-sm-10 col-sm-offset-1 lb-con tab-content">
+			<div role="tabpanel" class="tab-pane active" id="home">
+				<div class="row">
+					<volist name="lblist1" id='vo'>
+						<div class="col-md-3 col-sm-4 lblist_item">
+							<div class="col-xs-3 col-sm-12 xsp0">
+								<div class="lb_cover" style="background-image: url({$Think.const.UIMG}{$vo.img});background-position: center;background-size: cover;"></div>
+							</div>
+							<div class="col-xs-9 col-sm-12 lblist_item_bottom">
+								<p class="lb_title">
+									<a href="{:U('Home/Index/lbtest',array('id'=>$vo['id']))}">
+									{$vo.name_ch}</a>
+								</p>
+								<p class="lb_new_intro"><i>{$vo.new_intro}</i></p>
+							</div>
+						</div>
+					</volist>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="home2">
+				<div class="row">
+					<volist name="lblist2" id='vo'>
+						<div class="col-md-3 col-sm-4 lblist_item">
+							<div class="col-xs-3 col-sm-12 xsp0">
+								<div class="lb_cover" style="background-image: url({$Think.const.UIMG}{$vo.img});background-position: center;background-size: cover;"></div>
+							</div>
+							<div class="col-xs-9 col-sm-12 lblist_item_bottom">
+								<p class="lb_title">
+									<a href="{:U('Home/Index/lbtest',array('id'=>$vo['id']))}">
+									{$vo.name_ch}</a>
+								</p>
+								<p class="lb_new_intro"><i>{$vo.new_intro}</i></p>
+							</div>
+						</div>
+					</volist>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="home3">
+				<div class="row">
+					<volist name="lblist3" id='vo'>
+						<div class="col-md-3 col-sm-4 lblist_item">
+							<div class="col-xs-3 col-sm-12 xsp0">
+								<div class="lb_cover" style="background-image: url({$Think.const.UIMG}{$vo.img});background-position: center;background-size: cover;"></div>
+							</div>
+							<div class="col-xs-9 col-sm-12 lblist_item_bottom">
+								<p class="lb_title">
+									<a href="{:U('Home/Index/lbtest',array('id'=>$vo['id']))}">
+									{$vo.name_ch}</a>
+								</p>
+								<p class="lb_new_intro"><i>{$vo.new_intro}</i></p>
+							</div>
+						</div>
+					</volist>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="home4">
+				<div class="row">
+					<volist name="lblist4" id='vo'>
+						<div class="col-md-3 col-sm-4 lblist_item">
+							<div class="col-xs-3 col-sm-12 xsp0">
+								<div class="lb_cover" style="background-image: url({$Think.const.UIMG}{$vo.img});background-position: center;background-size: cover;"></div>
+							</div>
+							<div class="col-xs-9 col-sm-12 lblist_item_bottom">
+								<p class="lb_title">
+									<a href="{:U('Home/Index/lbtest',array('id'=>$vo['id']))}">
+									{$vo.name_ch}</a>
+								</p>
+								<p class="lb_new_intro"><i>{$vo.new_intro}</i></p>
+							</div>
+						</div>
+					</volist>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="home5">
+				<div class="row">
+					<volist name="lblist5" id='vo'>
+						<div class="col-md-3 col-sm-4 lblist_item">
+							<div class="col-xs-3 col-sm-12 xsp0">
+								<div class="lb_cover" style="background-image: url({$Think.const.UIMG}{$vo.img});background-position: center;background-size: cover;"></div>
+							</div>
+							<div class="col-xs-9 col-sm-12 lblist_item_bottom">
+								<p class="lb_title">
+									<a href="{:U('Home/Index/lbtest',array('id'=>$vo['id']))}">
+									{$vo.name_ch}</a>
+								</p>
+								<p class="lb_new_intro"><i>{$vo.new_intro}</i></p>
+							</div>
+						</div>
+					</volist>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="home6">
+				<div class="row">
+					<volist name="lblist6" id='vo'>
+						<div class="col-md-3 col-sm-4 lblist_item">
+							<div class="col-xs-3 col-sm-12 xsp0">
+								<div class="lb_cover" style="background-image: url({$Think.const.UIMG}{$vo.img});background-position: center;background-size: cover;"></div>
+							</div>
+							<div class="col-xs-9 col-sm-12 lblist_item_bottom">
+								<p class="lb_title">
+									<a href="{:U('Home/Index/lbtest',array('id'=>$vo['id']))}">
+									{$vo.name_ch}</a>
+								</p>
+								<p class="lb_new_intro"><i>{$vo.new_intro}</i></p>
+							</div>
+						</div>
+					</volist>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="home7">
+				<div class="row">
+					<volist name="lblist7" id='vo'>
+						<div class="col-md-3 col-sm-4 lblist_item">
+							<div class="col-xs-3 col-sm-12 xsp0">
+								<div class="lb_cover" style="background-image: url({$Think.const.UIMG}{$vo.img});background-position: center;background-size: cover;"></div>
+							</div>
+							<div class="col-xs-9 col-sm-12 lblist_item_bottom">
+								<p class="lb_title">
+									<a href="{:U('Home/Index/lbtest',array('id'=>$vo['id']))}">
+									{$vo.name_ch}</a>
+								</p>
+								<p class="lb_new_intro"><i>{$vo.new_intro}</i></p>
+							</div>
+						</div>
+					</volist>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="home8">
+				<div class="row">
+					<volist name="lblist8" id='vo'>
+						<div class="col-md-3 col-sm-4 lblist_item">
+							<div class="col-xs-3 col-sm-12 xsp0">
+								<div class="lb_cover" style="background-image: url({$Think.const.UIMG}{$vo.img});background-position: center;background-size: cover;"></div>
+							</div>
+							<div class="col-xs-9 col-sm-12 lblist_item_bottom">
+								<p class="lb_title">
+									<a href="{:U('Home/Index/lbtest',array('id'=>$vo['id']))}">
+									{$vo.name_ch}</a>
+								</p>
+								<p class="lb_new_intro"><i>{$vo.new_intro}</i></p>
+							</div>
+						</div>
+					</volist>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="home9">
+				<div class="row">
+					<volist name="lblist9" id='vo'>
+						<div class="col-md-3 col-sm-4 lblist_item">
+							<div class="col-xs-3 col-sm-12 xsp0">
+								<div class="lb_cover" style="background-image: url({$Think.const.UIMG}{$vo.img});background-position: center;background-size: cover;"></div>
+							</div>
+							<div class="col-xs-9 col-sm-12 lblist_item_bottom">
+								<p class="lb_title">
+									<a href="{:U('Home/Index/lbtest',array('id'=>$vo['id']))}">
+									{$vo.name_ch}</a>
+								</p>
+								<p class="lb_new_intro"><i>{$vo.new_intro}</i></p>
+							</div>
+						</div>
+					</volist>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="home10">
+				<div class="row">
+					<volist name="lblist10" id='vo'>
+						<div class="col-md-3 col-sm-4 lblist_item">
+							<div class="col-xs-3 col-sm-12 xsp0">
+								<div class="lb_cover" style="background-image: url({$Think.const.UIMG}{$vo.img});background-position: center;background-size: cover;"></div>
+							</div>
+							<div class="col-xs-9 col-sm-12 lblist_item_bottom">
+								<p class="lb_title">
+									<a href="{:U('Home/Index/lbtest',array('id'=>$vo['id']))}">
+									{$vo.name_ch}</a>
+								</p>
+								<p class="lb_new_intro"><i>{$vo.new_intro}</i></p>
+							</div>
+						</div>
+					</volist>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="home11">
+				<div class="row">
+					<volist name="lblist11" id='vo'>
+						<div class="col-md-3 col-sm-4 lblist_item">
+							<div class="col-xs-3 col-sm-12 xsp0">
+								<div class="lb_cover" style="background-image: url({$Think.const.UIMG}{$vo.img});background-position: center;background-size: cover;"></div>
+							</div>
+							<div class="col-xs-9 col-sm-12 lblist_item_bottom">
+								<p class="lb_title">
+									<a href="{:U('Home/Index/lbtest',array('id'=>$vo['id']))}">
+									{$vo.name_ch}</a>
+								</p>
+								<p class="lb_new_intro"><i>{$vo.new_intro}</i></p>
+							</div>
+						</div>
+					</volist>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="dropup" style="position: fixed;bottom: 13px;right: 10px">
+	  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #8c8c8c;color: #fff">
+	    <i class="icon-align-right"></i> 菜单
+	    <span class="caret"></span>
+	  </button>
+
+	  <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
+		  <ul role="tablist" class="lblist-menu" style="list-style-type: none;">
+		    <li role="presentation" class="active">
+		    	<a href="#home" aria-controls="home" role="tab" data-toggle="tab">个性量表类</a>
+		    </li>
+		    <li role="presentation">
+		    	<a href="#home2" aria-controls="home2" role="tab" data-toggle="tab">自我认知类</a>
+		    </li>
+		    <li role="presentation">
+		    	<a href="#home3" aria-controls="home3" role="tab" data-toggle="tab">职业与兴趣类量表</a>
+		    </li>
+		    <li role="presentation">
+		    	<a href="#home4" aria-controls="home4" role="tab" data-toggle="tab">学习心理类量表</a>
+		    </li>
+
+		    <li role="separator" class="divider"></li>
+
+		    <li role="presentation">
+		    	<a href="#home5" aria-controls="home5" role="tab" data-toggle="tab">情绪情感类</a>
+		    </li>
+		    <li role="presentation">
+		    	<a href="#home6" aria-controls="home6" role="tab" data-toggle="tab">家庭婚姻类</a>
+		    </li>
+		    <li role="presentation">
+		    	<a href="#home7" aria-controls="home7" role="tab" data-toggle="tab">人际交往类</a>
+		    </li>
+		    <li role="presentation">
+		    	<a href="#home8" aria-controls="home8" role="tab" data-toggle="tab">生活质量类</a>
+		    </li>
+
+		    <li role="separator" class="divider"></li>
+
+		    <li role="presentation">
+		    	<a href="#home9" aria-controls="home9" role="tab" data-toggle="tab">儿童行为类</a>
+		    </li>
+
+		    <li role="separator" class="divider"></li>
+
+		    <li role="presentation">
+		    	<a href="#home10" aria-controls="home10" role="tab" data-toggle="tab">智商类</a>
+		    </li>
+
+		    <li role="separator" class="divider"></li>
+
+		    <li role="presentation" style="margin-bottom: 5px">
+		    	<a href="#home11" aria-controls="home11" role="tab" data-toggle="tab">心理筛查</a>
+		    </li>
+		  </ul>
+	  </ul>
+	</div>	
+</div>
+<!-- preload -->
+<link rel="stylesheet" type="text/css" href="{$Think.const.HCSS}preload.css">
+<script type="text/javascript" src="{$Think.const.HJS}preload.js"></script>
+
+</body>
+</html>

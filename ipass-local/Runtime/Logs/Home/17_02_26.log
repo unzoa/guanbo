@@ -1,0 +1,236 @@
+[ 2017-02-26T20:01:04+08:00 ] 127.0.0.1 /ipass/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018123s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027254s ]
+
+[ 2017-02-26T20:01:10+08:00 ] 127.0.0.1 /ipass/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0697s ]
+SQL: SELECT * FROM `student` WHERE `number` = '111' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2017-02-26T20:01:10+08:00 ] 127.0.0.1 /ipass/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+
+[ 2017-02-26T20:01:10+08:00 ] 127.0.0.1 /ipass/index.php/Home/Index/lb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0027s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ipass_lblist` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `ipass_lblist`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2017-02-26T20:01:16+08:00 ] 127.0.0.1 /ipass/index.php/Home/index/archive.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0754s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0978s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_archive` WHERE ( child_id="111111111111111111" )  [ RunTime:0.0264s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0040s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0052s ]
+SQL: SELECT `head` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 115 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 133 行.
+NOTIC: [8] Use of undefined constant minzu - assumed 'minzu' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 134 行.
+NOTIC: [8] Use of undefined constant birthday - assumed 'birthday' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 135 行.
+NOTIC: [8] Use of undefined constant xuexing - assumed 'xuexing' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 136 行.
+NOTIC: [8] Use of undefined constant shengao - assumed 'shengao' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 137 行.
+NOTIC: [8] Use of undefined constant tizhong - assumed 'tizhong' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 138 行.
+NOTIC: [8] Use of undefined constant banji - assumed 'banji' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 143 行.
+NOTIC: [8] Use of undefined constant xuexiaolocation - assumed 'xuexiaolocation' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 145 行.
+NOTIC: [8] Use of undefined constant xuexiaoleixing - assumed 'xuexiaoleixing' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 146 行.
+NOTIC: [8] Use of undefined constant laoshiguanxi - assumed 'laoshiguanxi' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 148 行.
+NOTIC: [8] Use of undefined constant tongxueguanxi - assumed 'tongxueguanxi' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 150 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 155 行.
+NOTIC: [8] Use of undefined constant fenwan - assumed 'fenwan' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 156 行.
+NOTIC: [8] Use of undefined constant manyue - assumed 'manyue' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 157 行.
+NOTIC: [8] Use of undefined constant birth_tizhong - assumed 'birth_tizhong' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 159 行.
+NOTIC: [8] Use of undefined constant fuyangren - assumed 'fuyangren' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 160 行.
+NOTIC: [8] Use of undefined constant dadnianling - assumed 'dadnianling' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 162 行.
+NOTIC: [8] Use of undefined constant momnianling - assumed 'momnianling' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 164 行.
+NOTIC: [8] Use of undefined constant brother - assumed 'brother' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 166 行.
+NOTIC: [8] Use of undefined constant paihang - assumed 'paihang' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 168 行.
+NOTIC: [8] Use of undefined constant duzi - assumed 'duzi' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 169 行.
+NOTIC: [8] Use of undefined constant walknianling - assumed 'walknianling' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 170 行.
+NOTIC: [8] Use of undefined constant talknianling - assumed 'talknianling' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 172 行.
+NOTIC: [8] Use of undefined constant rutuo - assumed 'rutuo' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 174 行.
+NOTIC: [8] Use of undefined constant home - assumed 'home' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 179 行.
+NOTIC: [8] Use of undefined constant tongjuren - assumed 'tongjuren' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 181 行.
+NOTIC: [8] Use of undefined constant homewell - assumed 'homewell' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 183 行.
+NOTIC: [8] Use of undefined constant dadmom - assumed 'dadmom' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 185 行.
+NOTIC: [8] Use of undefined constant jiaoyufangshi - assumed 'jiaoyufangshi' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 187 行.
+NOTIC: [8] Use of undefined constant guanjiaoyijian - assumed 'guanjiaoyijian' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 189 行.
+NOTIC: [8] Use of undefined constant fuqinxueli - assumed 'fuqinxueli' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 191 行.
+NOTIC: [8] Use of undefined constant fuqinzhiye - assumed 'fuqinzhiye' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 193 行.
+NOTIC: [8] Use of undefined constant muqinxueli - assumed 'muqinxueli' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 195 行.
+NOTIC: [8] Use of undefined constant muqinzhiye - assumed 'muqinzhiye' D:\wamp\www\ipass\Runtime\Cache\Home\07fc4b2920d08a63c251691d6d265bdc.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001485s ]
+
+[ 2017-02-26T20:01:19+08:00 ] 127.0.0.1 /ipass/index.php/Home/Index/edit_archive.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ot_archive` WHERE ( child_id="111111111111111111" )  [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0027s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000395s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 46 行.
+NOTIC: [8] Use of undefined constant minzu - assumed 'minzu' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 49 行.
+NOTIC: [8] Use of undefined constant fenwan - assumed 'fenwan' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 53 行.
+NOTIC: [8] Use of undefined constant manyue - assumed 'manyue' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 56 行.
+NOTIC: [8] Use of undefined constant duzi - assumed 'duzi' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 59 行.
+NOTIC: [8] Use of undefined constant home - assumed 'home' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 62 行.
+NOTIC: [8] Use of undefined constant fuyangren - assumed 'fuyangren' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 65 行.
+NOTIC: [8] Use of undefined constant tongjuren - assumed 'tongjuren' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 71 行.
+NOTIC: [8] Use of undefined constant homewell - assumed 'homewell' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 77 行.
+NOTIC: [8] Use of undefined constant dadmom - assumed 'dadmom' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 80 行.
+NOTIC: [8] Use of undefined constant jiaoyufangshi - assumed 'jiaoyufangshi' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 83 行.
+NOTIC: [8] Use of undefined constant guanjiaoyijian - assumed 'guanjiaoyijian' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 86 行.
+NOTIC: [8] Use of undefined constant fuqinxueli - assumed 'fuqinxueli' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 89 行.
+NOTIC: [8] Use of undefined constant muqinxueli - assumed 'muqinxueli' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 92 行.
+NOTIC: [8] Use of undefined constant fuqinzhiye - assumed 'fuqinzhiye' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 95 行.
+NOTIC: [8] Use of undefined constant muqinzhiye - assumed 'muqinzhiye' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 98 行.
+NOTIC: [8] Use of undefined constant xuexiaolocation - assumed 'xuexiaolocation' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 103 行.
+NOTIC: [8] Use of undefined constant xuexiaoleixing - assumed 'xuexiaoleixing' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 112 行.
+NOTIC: [8] Use of undefined constant laoshiguanxi - assumed 'laoshiguanxi' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 115 行.
+NOTIC: [8] Use of undefined constant tongxueguanxi - assumed 'tongxueguanxi' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 118 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 217 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 240 行.
+NOTIC: [8] Use of undefined constant birthday - assumed 'birthday' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 273 行.
+NOTIC: [8] Use of undefined constant xuexing - assumed 'xuexing' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 282 行.
+NOTIC: [8] Use of undefined constant shengao - assumed 'shengao' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 291 行.
+NOTIC: [8] Use of undefined constant tizhong - assumed 'tizhong' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 300 行.
+NOTIC: [8] Use of undefined constant birth_tizhong - assumed 'birth_tizhong' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 335 行.
+NOTIC: [8] Use of undefined constant brother - assumed 'brother' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 356 行.
+NOTIC: [8] Use of undefined constant paihang - assumed 'paihang' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 365 行.
+NOTIC: [8] Use of undefined constant dadnianling - assumed 'dadnianling' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 401 行.
+NOTIC: [8] Use of undefined constant momnianling - assumed 'momnianling' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 410 行.
+NOTIC: [8] Use of undefined constant rutuo - assumed 'rutuo' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 419 行.
+NOTIC: [8] Use of undefined constant walknianling - assumed 'walknianling' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 428 行.
+NOTIC: [8] Use of undefined constant talknianling - assumed 'talknianling' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 437 行.
+NOTIC: [8] Use of undefined constant banji - assumed 'banji' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 637 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\ipass\Runtime\Cache\Home\527d35c37301ef782cbe9080788a5176.php 第 728 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2017-02-26T20:01:32+08:00 ] 127.0.0.1 /ipass/index.php/Home/Index/mytest.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0042s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0027s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2017-02-26T20:01:35+08:00 ] 127.0.0.1 /ipass/index.php/Home/Index/lb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0028s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ipass_lblist` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ipass_lblist`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+

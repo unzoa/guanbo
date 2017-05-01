@@ -1,0 +1,28 @@
+[ 2016-09-12T21:00:41+08:00 ] 127.0.0.1 /h_wei/hw/home/web/4
+ERR: 非法操作:4
+
+[ 2016-09-12T21:00:41+08:00 ] 127.0.0.1 /h_wei/hw/home/web/%EF%BF%BD
+ERR: 非法操作:�
+
+[ 2016-09-12T21:00:41+08:00 ] 127.0.0.1 /h_wei/hw/home/web/&
+ERR: 非法操作:&
+
+[ 2016-09-12T21:00:41+08:00 ] 127.0.0.1 /h_wei/hw/home/web/U
+ERR: 非法操作:U
+
+[ 2016-09-12T21:01:59+08:00 ] 127.0.0.1 /h_wei/hw/home/web/4
+ERR: 非法操作:4
+
+[ 2016-09-12T21:01:59+08:00 ] 127.0.0.1 /h_wei/hw/home/web/%EF%BF%BD
+ERR: 非法操作:�
+
+[ 2016-09-12T21:01:59+08:00 ] 127.0.0.1 /h_wei/hw/home/web/&
+ERR: 非法操作:&
+
+[ 2016-09-12T21:01:59+08:00 ] 127.0.0.1 /h_wei/hw/home/web/U
+ERR: 非法操作:U
+
+[ 2016-09-12T21:42:58+08:00 ] 127.0.0.1 /h_wei/hw/home/web/index
+ERR: 1054:Unknown column '豆立宁' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `hw_expert` WHERE ( name=豆立宁 ) 
+

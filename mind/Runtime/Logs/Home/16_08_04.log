@@ -1,0 +1,9 @@
+[ 2016-08-04T08:11:20+08:00 ] 127.0.0.1 /hanwei/hw/home/web/index
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-08-04T08:12:23+08:00 ] 127.0.0.1 /hanwei/hw/home/web/
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-08-04T08:12:49+08:00 ] 127.0.0.1 /hanwei/hw/home/test/testnav
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+

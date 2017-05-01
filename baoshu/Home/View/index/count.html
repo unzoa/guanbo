@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh" class="no-js">
+<include file="Index/head"/>
+<style type="text/css">
+	html,body{width: 100%; height: 100%}
+</style>
+<body>
+	<div class="container-fluid">
+
+	<!-- ================导航栏================= -->
+	<div class="row">
+		<include file="Index:nav" />
+	</div>
+	<!-- ================jing=================== -->
+	<div class="row">
+		<!-- <div id="carousel-example-generic" class="carousel slide" data-ride="flase" data-wrap="false">
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		    <div class="row" style="margin: 0">
+		    	<volist id="v" name="teamjing">
+		    		<div class="" style="position: relative; float: left; width: 33.33%;">
+		    			<img src="{$Think.const.UIMG}{$v.big_img}" class="bs_jing_bigimg">
+		    			<span class="badge bs_badge">{$v.jingcount}</span>
+		    		</div>
+		    	</volist>
+		    </div>
+		        <h3 class="bs_captain">共修</h3>
+		    </div>
+		    <div class="item">
+		      	<volist id="v" name="myjing">
+		    		<span style="position: relative;">
+		    			<img src="{$Think.const.UIMG}{$v.big_img}" class="bs_jing_bigimg">
+		    			<span class="badge bs_badge">{$v.jingcount}</span>
+		    		</span>
+		    	</volist>
+		        <h3 class="bs_captain">{$username}</h3>
+		    </div>
+		  </div>
+
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		  </ol>
+
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div> -->
+		<div class="col-xs-12">
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <h4 class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		          {$myteamname}共修
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		      <div class="panel-body">
+		        <volist id="v" name="teamjing">
+		    		<div class="bs_jing_icon_con">
+		    			<img src="{$Think.const.UIMG}{$v.big_img}" class="bs_jing_bigimg">
+		    			<span class="badge bs_badge">{$v.jingcount}</span>
+		    		</div>
+		    	</volist>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingTwo">
+		      <h4 class="panel-title">
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		          {$username}
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+		      <div class="panel-body">
+		        <volist id="v" name="myjing">
+		    		<div class="bs_jing_icon_con">
+		    			<img src="{$Think.const.UIMG}{$v.big_img}" class="bs_jing_bigimg">
+		    			<span class="badge bs_badge">{$v.jingcount}</span>
+		    		</div>
+		    	</volist>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		</div>
+	</div>
+<!-- 
+	<script>
+	$(document).ready(function(){
+	    //手势右滑 回到上一个画面
+	    $('#carousel-example-generic').bind('swiperight swiperightup swiperightdown',function(){
+	        $("#carousel-example-generic").carousel('prev');
+	    })
+	    //手势左滑 进入下一个画面
+	    $('#carousel-example-generic').bind('swipeleft swipeleftup swipeleftdown',function(){
+	        $("#carousel-example-generic").carousel('next');
+	    })
+	})
+	</script>
+	 -->
+	<!-- ================body==================== -->
+	<div class="row">
+		<div class="col-xs-12">
+			<!-- <button class="bs_count_full btn-info mb10">
+				<span>团队：{$teamname}</span><span class="badge">{$sumCount}</span>
+			</button>
+			<button class="bs_count_full btn-primary mb10">
+				<span>我：{$username}</span><span class="badge">{$sumCount2}</span>
+			</button>
+			<button class="bs_count_full btn-success mb10">
+				<span>今日报数：{$username}</span><span class="badge">{$sumCount3}</span>
+			</button> -->
+			<!-- <button class="bs_count_full btn-warning mb10">
+				<span>间断天数：</span><span class="badge">{$jianduan}</span>
+			</button> -->
+		</div>
+		<div class="col-xs-12">
+			<div class="col-sm-3">
+				<h2>报数</h2>
+				<button class="bs_count_full btn-warning btn-block mb10">
+					<span>间断</span>
+					<span class="badge">{$jianduan}</span><span> &nbsp天</span> 
+				</button>
+				<form action="{$think.const.__SELF__}" role="form" class="form-signin" enctype="multipart/form-data" method="post"> 
+					<div class="input-group mb10">
+					  	<span class="input-group-addon">密咒</span>
+						<select class="form-control" name="jid" id="tech" onchange="showValue(this)">
+							<volist name="jing" id="v">
+								<option value="{$v.name}" data-image="{$Think.const.UIMG}{$v.big_img}">{$v.name}</option>
+							</volist>
+						</select>
+					</div>
+					<!-- ===============密咒================== -->
+					<script>
+					$(document).ready(function(e) {     
+					    //convert
+					    $("select").msDropdown({roundedBorder:false});
+					    createByJson();
+					    $("#tech").data("dd");
+					});
+					function showValue(h) {
+					    console.log(h.name, h.value);
+					}
+					$("#tech").change(function() {
+					    console.log("by jquery: ", this.value);
+					})
+					</script>
+					<div class="input-group mb10">
+					  <span class="input-group-addon">报数</span>
+					  <input type="tel" name="count" class="form-control" placeholder="输入数字" required></input>
+					</div> 
+					<button class="btn btn-lg btn-block btn-primary bs_count_full" type="submit">确定</button>
+				</form>
+			</div>
+			<div class="col-sm-9 bs_count_table">
+				<h2>今日报数</h2>
+				<table class="table table-condensed">
+				  <thead>
+				  	<tr>
+				  		<th>我</th>
+				  		<th>密咒</th>
+				  		<th>报数</th>
+				  		<th>操作</th>
+				  	</tr>
+				  </thead>
+				  <tbody>
+				  	<volist name="myDay" id="v">
+				  	<tr>
+					  	<td>{$v.uid}</td>
+					  	<td>{$v.jid}</td>
+					  	<td>{$v.count}</td>
+					  	<td><a href="{:U("Home/index/delbaoshu",array('did'=>$v['did']))}">删除</a></td>
+				  	</tr>
+				  	</volist>
+				  </tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

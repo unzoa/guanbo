@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<include file="Index:head" />
+<script type="text/javascript">
+	function nullRadio(haha){
+		if (haha=='') {
+			haha = '哈哈，哈哈';
+			return haha;
+		}else{
+			return haha;
+		}
+	}
+	function aaa(qq){
+		// radio赋值
+		var mySex = nullRadio('{$archive[0][sex]}');
+		$("input[name='sex'][value="+mySex+"]").attr("checked",true);
+
+		var myMinzu = nullRadio('{$archive[0][minzu]}');
+		$("input[name='minzu'][value="+myMinzu+"]").attr("checked",true);
+
+		// select赋值
+		var myfen_wan = '{$archive[0][fenwan]}';
+		document.getElementById('fen_wan').value = myfen_wan;
+
+		var myfull_month = nullRadio('{$archive[0][manyue]}');
+		$("input[name='full_month'][value="+myfull_month+"]").attr("checked",true);
+
+		var myOnly_child = nullRadio('{$archive[0][duzi]}');
+		$("input[name='only_child'][value="+myOnly_child+"]").attr("checked",true);
+
+		var myNow_live = nullRadio('{$archive[0][home]}');
+		$("input[name='now_live'][value="+myNow_live+"]").attr("checked",true);
+
+		var myChild_mother = '{$archive[0][fuyangren]}';
+		document.getElementById('child_mother').value = myChild_mother;
+
+
+		// family
+		// checkbox的赋值
+		var myLive_with = nullRadio('{$archive[0][tongjuren]}');
+		var lala = myLive_with.split(',');
+		for(i=0; i<lala.length; i++){
+			$("input[name='live_with[]'][value="+lala[i]+"]").attr("checked",true);
+		}
+		
+		var myfamily_relation = nullRadio('{$archive[0][homewell]}');
+		$("input[name='family_relation'][value="+myfamily_relation+"]").attr("checked",true);
+
+		var mydadmom_relation = nullRadio('{$archive[0][dadmom]}');
+		$("input[name='dadmom_relation'][value="+mydadmom_relation+"]").attr("checked",true);
+
+		var myTeach_way = nullRadio('{$archive[0][jiaoyufangshi]}');
+		$("input[name='teach_way'][value="+myTeach_way+"]").attr("checked",true);
+
+		var myGuanjiao = nullRadio('{$archive[0][guanjiaoyijian]}');
+		$("input[name='guanjiao'][value="+myGuanjiao+"]").attr("checked",true);
+
+		var mydad_record = nullRadio('{$archive[0][fuqinxueli]}');
+		$("input[name='dad_record'][value="+mydad_record+"]").attr("checked",true);
+
+		var myMom_record = nullRadio('{$archive[0][muqinxueli]}');
+		$("input[name='mom_record'][value="+myMom_record+"]").attr("checked",true);
+
+		var mydad_job = nullRadio('{$archive[0][fuqinzhiye]}');
+		$("input[name='dad_job'][value="+mydad_job+"]").attr("checked",true);
+
+		var myMom_job = nullRadio('{$archive[0][muqinzhiye]}');
+		$("input[name='mom_job'][value="+myMom_job+"]").attr("checked",true);
+
+		// school
+		// 地名赋值
+		var myschool = '{$archive[0][xuexiaolocation]}';
+		document.getElementById('showMySchool').value = myschool;
+		if (myschool=='') {
+			$('.showMySchool_con').hide();
+			$('.edit_school_addr_btn').hide();
+		}else{
+			$('.left_select_con2').hide();
+		}
+
+		var mySchool_style = nullRadio('{$archive[0][xuexiaoleixing]}');
+		$("input[name='school_style'][value="+mySchool_style+"]").attr("checked",true);
+
+		var myTeacher_relation = nullRadio('{$archive[0][laoshiguanxi]}');
+		$("input[name='teacher_relation'][value="+myTeacher_relation+"]").attr("checked",true);
+
+		var myMates_relation = nullRadio('{$archive[0][tongxueguanxi]}');
+		$("input[name='mates_relation'][value="+myMates_relation+"]").attr("checked",true);
+		
+	}
+</script>
+<script type="text/javascript">
+    window.document.title = '编辑档案 - i.P.A.S.S';
+</script>
+<script>
+  $(function () {
+    $('#myTab a:first').tab('show')
+  })
+</script>
+<style type="text/css">
+	body{background: #f7f8fa}
+	.daohang{display: none;}
+	.nav-tabs{border-bottom: none;background-color: #78a1ce;padding-bottom: 1px;width: 100%}
+	.nav-tabs li{width: 25%;}
+	.nav-tabs li a{text-align: center; padding-right: 5px;padding-left: 5px;color: #fff;border: 1px #f7f8fa solid ;border-top-left-radius: 0px;border-top-right-radius: 0px;margin-right: 0px}
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	    color: #333;
+	    cursor: default;
+	    background-color: #fff;
+	    border: none;
+	    /*border-bottom-color: transparent;*/
+	    border-left: 1px #f7f8fa solid ;
+	    border: 1px #fff solid ;
+	    border-radius: 0px;
+	    padding-left:5px;
+	    padding-right: 5px;
+	}
+	@media (max-width: 767px){
+		.edit_archive_p0{padding:0;}
+		.daohang{display: block;}
+	}
+	/*清除ios默认按钮样式*/
+	input[type="button"], input[type="submit"], input[type="reset"],input[type="date"] ,select{
+        -webkit-appearance: none;
+    }
+</style>
+<body onload="aaa('aa')">
+<div class="container-fluid">
+	<include file="Index:nav" />
+	<div class="row daohang">
+		<ul class="nav nav-tabs" role="tablist" id="myTab">
+			<li role="presentation"><a href="http://psy-ipass.com/Jcropchild/index.html?id={$archive[0][id]}">修改头像</a></li>
+		  	<li role="presentation" class="active"><a href="#basic" role="tab" data-toggle="tab">基本信息</a></li>
+		  	<li role="presentation"><a href="#family" role="tab" data-toggle="tab">家庭信息</a></li>
+		  	<li role="presentation"><a href="#school" role="tab" data-toggle="tab">学校信息</a></li>
+		</ul>
+	</div>
+	
+	<div class="row body_top">
+		<div class="col-sm-8 col-sm-offset-2 edit_archive_p0">
+			<div class="col-sm-9 edit_archive_p0">
+				<div class="tab-content">
+				  	<div role="tabpanel" class="tab-pane active" id="basic">
+				  		<include file="Index:archive_basic" />
+				  	</div>
+				  	<div role="tabpanel" class="tab-pane" id="family">
+				  		<include file="Index:archive_family" />
+				  	</div>
+				  	<div role="tabpanel" class="tab-pane" id="school">
+				  		<include file="Index:archive_school" />
+				  	</div>
+				</div>
+			</div>
+			<div class="col-sm-3 hidden-xs">
+				<div class="right_heading">
+					档案管理
+				</div>
+				<div class="right_body">
+					<ul class="" role="tablist" id="myTab">
+						<li role="presentation"><a href="http://psy-ipass.com/Jcropchild/index.html?id={$archive[0][id]}">修改头像</a></li>
+					  	<li role="presentation" class="active"><a href="#basic" role="tab" data-toggle="tab">基本信息</a></li>
+					  	<li role="presentation"><a href="#family" role="tab" data-toggle="tab">家庭信息</a></li>
+					  	<li role="presentation"><a href="#school" role="tab" data-toggle="tab">学校信息</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<include file="Index:footer"/>
+<!-- 提示框 -->
+<div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">提示</h4>
+      </div>
+      <div class="modal-body">
+        不能漏填哦!
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

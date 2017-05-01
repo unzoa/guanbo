@@ -1,0 +1,48 @@
+[ 2017-02-04T10:08:15+08:00 ] 127.0.0.1 /maxlb/index.php/Admin/Index/lb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-02-04T10:08:20+08:00 ] 127.0.0.1 /maxlb/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-02-04T10:08:28+08:00 ] 127.0.0.1 /maxlb/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-02-04T10:08:33+08:00 ] 127.0.0.1 /maxlb/index.php/Admin/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-02-04T10:08:51+08:00 ] 127.0.0.1 /maxlb/index.php/Admin/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-02-04T10:09:09+08:00 ] 127.0.0.1 /maxlb/index.php/Admin/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-02-04T10:09:10+08:00 ] 127.0.0.1 /maxlb/index.php/Admin/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-02-04T10:09:17+08:00 ] 127.0.0.1 /maxlb/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+ERR: 无法加载模块:Admin
+

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh" class="no-js">
+<include file="Index/head"/>
+<style type="text/css">
+	.aa{border:1px solid red;}
+	.user{line-height: 40px;margin-bottom: 10px;border-bottom: 1px solid #eee;padding-bottom: 10px}
+	.users{margin-top:30px;}
+	.userscon{border:1px #d8d8d8 solid;border-radius:7px; box-shadow: 0 4px 15px 4px #999;padding-bottom: 20px}
+	@media (max-width: 767px){
+		.users{margin-top: 0px}
+		.userscon{box-shadow: 0 0 0 0;border:0;}
+	}
+	.name{font-size: 20px;color: #000079;margin-left: 5px;line-height: 30px;}
+	.userpic{width: 40px;height:40px;border-radius:25px;border:1px solid #4ed487;margin-top: -5px}
+	.badge{background-color: red!important}
+</style>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<include file="Index:nav" />
+		</div>
+		<div class="row users">
+			<div class="col-sm-6 col-sm-offset-3 userscon">
+				<h2 style="margin-bottom: 30px">我的伙伴</h2>
+				<volist id="v" name="user">
+				<div class="user">
+					<img src="{$Think.const.SITE_URL}Jcrop/{$v.img}" class="userpic">
+					<span class="name">{$v.name}</span>
+					<span class="level">[ {$v.level} ]</span>
+					<!-- <span class="pull-right" style="line-height: 50px">次</span>
+					<span class="badge pull-right">{$v.fullcount}</span> -->
+					<button type="button" class="btn bs_btn_chat pull-right" data-toggle="modal" data-target=".bs-example-modal-sm">聊天</button>
+				</div>
+				</volist>
+			</div>
+		</div>
+	</div>
+	<!-- Small modal -->
+	<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-sm">
+	    <div class="modal-content">
+	      <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">提示</h3>
+            </div>
+            <div class="panel-body">
+            <p>“帝洛巴千诺”</p>
+              聊天软件开发中，敬请期待！
+            </div>
+          </div>
+	    </div>
+	  </div>
+	</div>
+</body>
+</html>

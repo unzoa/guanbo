@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<include file="Index:head"/>
+<include file="Admin:story_js"/>
+<include file="Admin:style"/>
+<style type="text/css">
+.my_footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%
+}
+@media (max-width: 767px){
+	.my_footer{
+		position: relative;
+	}
+</style>
+<body>
+<include file="Admin:nav"/>
+<section class="container my_nav_padding">
+	<div class="col-sm-4 col-sm-offset-4">
+	<form action="{:U('Home/Admin/updbanner',array('id'=>$banner[0][id]))}" method="post" id="my_banner" enctype="multipart/form-data">
+		<br/><br/>
+		<img src="{$Think.const.UIMG}{$banner[0][img]}" alt="" style="width: 100%">
+		<br/><br/>
+		<input type="file" id="img" class="" name="img"></input>
+		<br/>
+		<input type="text" id="intro" class="form-control" name="intro" value="{$banner[0][intro]}"></input>
+		<br/>
+		<input type="button" class="btn btn-primary btn-block" value="保存" onclick="formsubmit12()"></input>
+	</form>
+		
+	</div>
+</section>
+<include file="Admin:prompt"/>
+</body>
+</html>

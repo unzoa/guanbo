@@ -1,0 +1,43 @@
+<script type="text/javascript">
+	function formsubmit1(){
+		var title = $('#title').val();
+		var img = $('#img').val();
+		var intro = $('#intro').val();
+		var content = $('#content').val();
+		var type = $('#type').val();
+		if (title==''||img==''||intro==''||content==''||type=='') {
+			$('#myModal').modal('show');
+		}else{
+			$('#my_form1').submit();
+		}
+	}
+	function formsubmit11(){
+		var title = $('#title').val();
+		var intro = $('#intro').val();
+		var content = $('#content').val();
+		var type = $('#type').val();
+		if (title==''||intro==''||content==''||type=='') {
+			$('#myModal').modal('show');
+		}else{
+			$('#my_form11').submit();
+		}
+	}
+	function loginsubmit(){
+		var name = $('#name').val();
+		var pwd = $('#pwd').val();
+		if (name==''||pwd=='') {
+			$('#myModal').modal('show');
+		}else{
+			$('#loginorm').submit();
+		}
+	}
+	function formsubmit12(){
+		var img = $('#img').val();
+		var intro = $('#intro').val();
+		if (img==''||intro=='') {
+			$('#myModal').modal('show');
+		}else{
+			$('#my_banner').submit();
+		}
+	}
+</script>

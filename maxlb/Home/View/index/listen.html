@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<include file="Index:head" />
+
+<link rel="stylesheet" href="{$Think.const.HCSS}reset.css" />
+<link rel="stylesheet" href="{$Think.const.HCSS}demo.css" />
+<link rel="stylesheet" href="{$Think.const.HCSS}audioplayer.css" />
+
+<link rel="stylesheet" type="text/css" href="{$Think.const.HCSS}listen.ver2.css">
+
+<script type="text/javascript">
+    window.document.title = '{$name2} - i.P.A.S.S';
+    		/*
+				VIEWPORT BUG FIX
+				iOS viewport scaling bug fix, by @mathias, @cheeaun and @jdalton
+			*/
+			(function(doc){var addEvent='addEventListener',type='gesturestart',qsa='querySelectorAll',scales=[1,1],meta=qsa in doc?doc[qsa]('meta[name=viewport]'):[];function fix(){meta.content='width=device-width,minimum-scale='+scales[0]+',maximum-scale='+scales[1];doc.removeEventListener(type,fix,true);}if((meta=meta[meta.length-1])&&addEvent in doc){fix();scales=[.25,1.6];doc[addEvent](type,fix,true);}}(document));
+</script>
+<style type="text/css">
+	.cover{
+		background-image: url('{$Think.const.HIMG}{$name2}.jpg'); 
+		background-position: center;
+		background-size: cover;
+		width: 150px;
+		height: 150px;
+		margin: 0 auto;
+		box-shadow: 0 0 15px 3px #666;
+	}
+audio::-webkit-media-controls {
+    overflow: hidden !important
+}
+audio::-webkit-media-controls-enclosure {
+    width: calc(100% + 32px);
+    margin-left: auto;
+}
+</style>
+<body>
+<div class="container-fluid">
+	<include file="Index:nav" />
+	<div id="cover-con">
+		<div class="cover"></div>
+	</div>
+</div>
+
+<div class="other">
+	<p class="music-title">{$name2}<i> {$name}</i><span>{$music_count}人听过</span> </p>
+	<div id="wrapper">
+		<audio preload="auto" controls>
+			<source src="{$Think.const.HAUDIO}{$name2}.mp3">
+		</audio>
+		<script src="{$Think.const.HJS}audioplayer.js"></script>
+		<script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
+	</div>
+	<div id="intro">
+		<p>五行之间相生相克。 "生"中有"制"，"克"中有"生"构成了大自然气息变化的内稳状态，化育了自然的万物，使人有肝、心、脾、肺、肾五脏，配以胆、小肠、胃、大肠、膀胱五腑，各合筋、脉、肉、皮毛、骨五体，各通目、舌、口、鼻、耳五窍，各主怒、喜、忧、悲、恐五情；使音乐有角、徵、宫、商、羽五声。这五个系统之间相互配合，协调活动，构成了完整的人与天地之气和谐相应的规律，同时可调整人体“气”的运行，使人达到健康、平衡的状态。</p>
+	</div>
+</div>
+<include file="Index:footer"/>
+<!-- preload -->
+<link rel="stylesheet" type="text/css" href="{$Think.const.HCSS}preload.css">
+<script type="text/javascript" src="{$Think.const.HJS}preload.js"></script>
+
+</body>
+</html>

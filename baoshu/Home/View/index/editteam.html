@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh" class="no-js">
+<include file="Index/head"/>
+<style type="text/css">
+	.aa{border:1px solid red;}
+	.users{margin-top:30px;}
+	.userscon{border:1px #d8d8d8 solid;border-radius:7px; box-shadow: 0 4px 15px 4px #999;padding-bottom: 20px}
+	@media (max-width: 767px){
+		.users{margin-top: 0px}
+		.userscon{box-shadow: 0 0 0 0;border:0;}
+	}
+	.inputfile{background-color: #4ed487;border-radius:5px;height:45px;position: relative;margin-bottom: 10px}
+    #input1{height:inherit;width: 100%;font-size: 17px; text-align: center; color:red;background-color: transparent; position: absolute;top: 0;border:0;}
+    #input1::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        color:   #fff!important;
+    }
+    #input1:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+       color:    #fff!important;
+       opacity:  1;
+    }
+    #input1::-moz-placeholder { /* Mozilla Firefox 19+ */
+       color:    #fff!important;
+       opacity:  1;
+    }
+    #input1:-ms-input-placeholder { /* Internet Explorer 10-11 */
+       color:    #fff!important;
+    }
+    #btn1{width:100%;height:inherit;font-size:16px;color:#999;background-color: transparent;border:0; position: absolute;top: 0}
+
+</style>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<include file="Index:nav" />
+		</div>
+		<div class="row users">
+			<div class="col-sm-4 col-sm-offset-4 userscon">
+				<h2>更新团队</h2>
+				<form action="{$think.const.__SELF__}" method="post" enctype="multipart/form-data">
+					<div class="input-group mb10">
+				      	<div class="input-group-addon">团队</div>
+				      	<input type="text" class="form-control" name="name" placeholder="{$team[0]['name']}"></input>
+				      	<div class="input-group-addon">
+				      		<input type="submit" value="提交" class="bs_submit"></input> 
+				      	</div>
+				    </div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

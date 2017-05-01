@@ -1,0 +1,27 @@
+[ 2016-07-11T10:58:57+08:00 ] 127.0.0.1 /hanwei/hw/admin/admin/cate
+ERR: 非法操作:cate
+
+[ 2016-07-11T10:59:13+08:00 ] 127.0.0.1 /hanwei/hw/Admin/admin/cate
+ERR: 非法操作:cate
+
+[ 2016-07-11T10:59:17+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Admin/cate
+ERR: 非法操作:cate
+
+[ 2016-07-11T12:00:35+08:00 ] 127.0.0.1 /hanwei/hw/Admin/admin/index%E3%80%81
+ERR: 非法操作:index、
+
+[ 2016-07-11T13:52:59+08:00 ] 127.0.0.1 /hanwei/hw/Admin/admin/index%E3%80%81
+ERR: 非法操作:index、
+
+[ 2016-07-11T14:41:10+08:00 ] 127.0.0.1 /hanwei/hw/Admin/admin/addcate.htmlArray
+ERR: 非法操作:addcate.htmlArray
+
+[ 2016-07-11T14:41:54+08:00 ] 127.0.0.1 /hanwei/hw/Admin/admin/addcate.htmlArray
+ERR: 非法操作:addcate.htmlArray
+
+[ 2016-07-11T14:42:02+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Admin/addcate.htmlArray
+ERR: 非法操作:addcate.htmlArray
+
+[ 2016-07-11T14:42:20+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Admin/addcate.htmlArray
+ERR: 非法操作:addcate.htmlArray
+

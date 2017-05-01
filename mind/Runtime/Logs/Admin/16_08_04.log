@@ -1,0 +1,15 @@
+[ 2016-08-04T08:09:47+08:00 ] 127.0.0.1 /hanwei/hw/admin/web/index
+ERR: 无法加载控制器:Web
+
+[ 2016-08-04T08:10:02+08:00 ] 127.0.0.1 /hanwei/hw/admin/admin/index
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-08-04T08:11:04+08:00 ] 127.0.0.1 /hanwei/hw/admin/admin/index
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-08-04T08:14:03+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Manage/login.html
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-08-04T08:14:37+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Manage/login.html
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+

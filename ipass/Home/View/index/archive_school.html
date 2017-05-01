@@ -1,0 +1,93 @@
+<div class="left_con">
+	<h2 style="color:#404040">学校信息</h2>
+	<i style="color: #9aaabf">i.P.A.S.S 小改变创造大不同</i>
+	<br/><br/>
+	<form method="post" action="{:U('Home/Index/archive_school')}" id="myform3">
+		<!-- 学校 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label">学校</label>
+			</div>
+			<div class="col-xs-9 col-sm-5">
+				<input type="text" name="myschool" id="myschool" placeholder="学校" value="{$archive[0][banji]}" class="form-control" />
+			</div>
+		</div>
+		<!-- 学校地址 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_select_label">学校地址</label>
+			</div>
+			<div class="col-xs-6 col-sm-5">
+				<div class="showMySchool_con">
+					<input type="text" class="form-control" placeholder="学校地址" id="showMySchool"></input>
+				</div>
+				<div class="left_select_con2">
+					<select id="c_province" class="left_select" name="c_province"></select>  
+				    <select id="c_city" class="left_select" name="c_city" ></select>  
+				    <select id="c_county" class="left_select" name="c_county"></select>
+				    <input type="button" class="btn btn-info" onclick="cancel_edit_school_addr()" value="取消"></input>
+				    <script class="resources library" src="{$Think.const.HJS}area2.js" type="text/javascript"></script>
+				    <script type="text/javascript">
+				    	_init_area2();
+				    </script>
+				</div>
+			</div>
+			<div class="col-sm-3 col-xs-3 edit_archive_p0" >
+				<input type="button" class="form-control btn-info edit_school_addr_btn" onclick="edit_school_addr()" value="修改"></input>
+			</div>
+		</div>
+		<!-- 学校属于 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right">学校属于</label>
+			</div>
+			<div class="col-xs-9 col-sm-5">
+				<input type="radio" name="school_style" id="school_province" value="省重点"></input>
+			  	<label>省重点</label>
+			  	<input type="radio" name="school_style" id="school_city" value="市重点"/>
+			  	<label>市重点</label>
+			  	<input type="radio" name="school_style" id="school_qu" value="区重点"/>
+			  	<label>区重点</label>
+			  	<input type="radio" name="school_style" id="school_xian" value="县"/>
+			  	<label>县</label>
+			  	<input type="radio" name="school_style" id="school_normal" value="一般学校"/>
+			  	<label>一般学校</label>
+			</div>
+		</div>
+		<!-- 与老师关系 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right">与老师关系</label>
+			</div>
+			<div class="col-xs-9 col-sm-5">
+				<input type="radio" name="teacher_relation" id="teacher_well" value="良好"></input>
+			  	<label>良好</label>
+			  	<input type="radio" name="teacher_relation" id="teacher_normal" value="一般"/>
+			  	<label>一般</label>
+			  	<input type="radio" name="teacher_relation" id="teacher_bad" value="不好"/>
+			  	<label>不好</label>
+			</div>
+		</div>
+		<!-- 与同学关系 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right">与同学关系</label>
+			</div>
+			<div class="col-xs-9 col-sm-5">
+				<input type="radio" name="mates_relation" id="mates_well" value="良好"></input>
+			  	<label>良好</label>
+			  	<input type="radio" name="mates_relation" id="mates_normal" value="一般"/>
+			  	<label>一般</label>
+			  	<input type="radio" name="mates_relation" id="mates_bad" value="不好"/>
+			  	<label>不好</label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-4">
+				<button type="button" onclick="formsubmit3()" class="btn btn-lg btn-block btn-primary">
+			        保存
+			    </button>
+			</div>
+		</div>
+	</form>
+</div>

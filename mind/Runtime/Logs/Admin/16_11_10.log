@@ -1,0 +1,1005 @@
+[ 2016-11-10T09:51:51+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-10T09:51:51+08:00 ] 211.137.13.86 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\8bf5cf33f1344337a13a2f1279036828.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T09:52:01+08:00 ] 211.137.13.86 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `hw_manage` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `hw_manage` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-10T09:52:01+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T10:02:38+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\7f9eb48c00da6b0122992baf32f07507.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T10:05:50+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('怎么让老板听你的','这篇文章分享了一些很好的建议给资深经理人和高级管理人员。它分享了5个很清晰的观点，怎样和很有经验和忙碌的人沟通，告诉他们怎样接收和处理你目前的项目','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161110/1478743372417279.png&quot; title=&quot;8833018262983122.png&quot; alt=&quot;引1.png&quot;/&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这篇文章分享了一些很好的建议给资深经理人和高级管理人员。它分享了5个很清晰的观点，怎样和很有经验和忙碌的人沟通，告诉他们怎样接收和处理你目前的项目。通过分享这些，让你更深入的理解当你想让别人赞同或肯定你的想法你应该做什么和不做什么&lt;/span&gt;。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: right; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;Larry Wang 王承伦 | 职商网及王李亚洲资源CEO&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161110/1478743373722675.png&quot; title=&quot;4834321035673457.png&quot; alt=&quot;引2.png&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-size: 18px; color: rgb(0, 112, 192); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;想让上司批准你的创意计划，关键是要好好表达你的主意。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;也许你的新计划需要资金，或是正在努力达成一项能使第四季度收入飞涨的交易，或是希望上司（或上司的上司）能随时了解产品的最新动态。无论具体是什么内容，人们都常常需要向繁忙、没有耐心、想直接了解重点的高管做展示。如何才能知道要向他们提供多少信息？何时才能传达高水准的信息？何时该深入细节？好消息是，The Presentation Company的总裁和创始人Janine Kurnoff说，你不必咨询心理学家，便能想知道高管在展示中想听到什么。&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;一些常识指南能帮助你了解高管的思维，使他们保持清醒、投入的状态，而且乐意了解你的计划，对它充满希望。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;以下五个小技巧能帮助你更有策略、更有效地与高管进行沟通。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-size: 18px; color: rgb(0, 112, 192); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;1.找到好主意&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“直入重点，这句话在不同人眼中有着不同意思”，Kurnoff解释道。“在高管眼中，这个重点值得就是‘好’主意，即展示的核心。假如你要展示许多好主意，那么挑一个你最希望让听众记住的主意。”然而，Kurnoff警告说，“不要将好主意和展示方式混淆起来。这不是指产品细节、解决方案或推荐策略，人们常常会犯这种错误。&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;你应该在说清楚展示核心是什么之后，再介绍这些内容，除非上司另有指示。讲清楚好主意将带来哪些可观的好处，一一列出这些好处，最多三点。”&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;以下列出了几个好主意，以及该如何将它们展示给上司：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我们需要推出绩效跟踪板仪表盘，以改善业务结果。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;拥抱可持续发展将帮助我们满足客户需求，巩固我们的领导地位。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我们应该创造出更多的相关内容，给客户提供一个令人信服的理由，鼓励他们分享和转发。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;重点是要在更多细节干扰交流前，用简洁明了的语句，让高管马上明白你的好主意是什么。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-size: 18px; color: rgb(0, 112, 192); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;2.在前30至60秒说清好主意&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“人们常常会在一开始陈述为什么要这么做，但高管并不想听这些内容。“如果高管不能在展示开始之后的60秒内了解你的展示核心，那你就完了”，Kurnoff警告说。要想明白其中缘由，你需要先了解一下高管的思维。Kurnoff 解释道，“高管是大忙人，他们坐在你面前时，还想着其他事情：刚开完的董事会议、员工问题、能不能在5:30前赶到孩子的网球比赛。来听你展示时，他们希望能马上准确地知道你的需求。&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;如果你能马上引起他们的兴趣，他们就能根据你的信息组织思路、提问、马上做决定，然后前往下一场会议。&lt;/span&gt;策略性地在展示开头单独陈述关键信息，防止浪费时间，偏离讨论方向，或掩盖掉主要信息。”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-size: 18px; color: rgb(0, 112, 192); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;3.去除常识性内容和多余信息意&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“你知道高管最反感什么吗？”Kurnoff问道&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(36, 64, 97); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;他们已经知道的东西。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(36, 64, 97); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;他们没必要知道的东西。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;Kurnoff建议道，“首先直入主题，去除任何背景介绍。高管可没时间听你说这么多细节内容——这是你的任务！业余的展示才会告诉人们关于这个话题的一切信息，或你对此主意的贡献。许多数据收集者会热衷于汇报他们所做的系列研究，因为他们在这上面花了很多时间。&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;如果你不能迅速强调最重要的发现，带听众入戏，一堆堆图表将很快会使他们丧失兴趣。&lt;/span&gt;”记住：管理层如果要想知道更多信息，他们会发问的。如果你的表现一直很好，他们会信任你，觉得你是个善于思考、理智的可信之人。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;绘声绘色地讲好一个故事非常重要。针对此点，The Presentation Company开设了一个名为“策略性打造出好故事（Crafting Strategic Visual Stories）”的工作坊，旨在帮助你利用你想要展示的资料，打造出一个好故事。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-size: 18px; color: rgb(0, 112, 192); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;4.欢迎提问&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“在第三点的基础上，Kurnoff又说，“高管们善于在你的逻辑或内容中找漏洞。事实上，许多高管认为他们的职责正在于此&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;。不要觉得高管打断你的话就觉得颜面无光，你应该欢迎它们。他们给了你一个弥补细节信息的机会，而且不会使听众觉得无聊。&lt;/span&gt;”如何才能做到这一点呢？Kurnoff解释道：“频繁地检查听众的反应，在合理的时间点欢迎大家提问。让他们告诉你还想知道哪些相关信息，你也不用在意他们怎么看你的主意。明确知道他们想要听到更多的内容时，你便可以用更多的事实支撑你的主意。如果他们已做好准备，聆听你的具体解决方案，那就直接快进，深入细节内容。高管喜欢自己主导会议——他们越这么做，越能投入其中。”灵活一些，征询反馈，随时准备好用数据支撑你的想法。记住要随时重申你的好主意，研究和其他数据都要与此核心内容紧密相关。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-size: 18px; color: rgb(0, 112, 192); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;5.提早结束&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“让每一句话都比预计花费时间短，这会使大家皆大欢喜。“没有高管会抱怨某个会议结束得太早”，Kurnoff说。“如果你结束得早，那正好给了他们最热爱的资源——时间。假设你的展示时间只用了规定时间的三分之一，那么接下来有充足的时间供听众提问和讨论。然后每个人都开开心心地结束。耶！”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;始终记住一点，高管已听过无数的展示，经验丰富。&lt;/span&gt;展示者若能有组织地表达出高质量的信息，而且能让他们马上明白要点，展示必将成功。准备好随时填补与上下文相关或单独的细节信息，这会使你与高管间的沟通顺利进行。不过，成功的关键在于展示内容要始终与展示核心紧密相连。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','Upload/2016-11-10/5823d5fe027a4.jpg','2016-11-10 10:05:50') [ RunTime:0.0312s ]
+
+[ 2016-11-10T10:05:50+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-10T10:06:41+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\7f9eb48c00da6b0122992baf32f07507.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T10:13:49+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('高学历女性做全职主妇是不是一种浪费？','这个问题的核心分歧，就在于大家对「高学历女性」和「全职主妇」的刻板印象。','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161110/1478743771111645.jpg&quot; title=&quot;2131529260851872.jpg&quot; alt=&quot;47035439_m.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;文：苏德中 |&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; color: rgb(84, 141, 212); text-decoration: underline;&quot;&gt;&lt;a href=&quot;https://www.zhihu.com/question/35588329/answer/64548808&quot; target=&quot;_blank&quot; style=&quot;outline: 0px; zoom: 1; color: rgb(84, 141, 212);&quot;&gt;&amp;nbsp;来源：知乎&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;有纠结吗？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这个问题的核心分歧，就在于大家对「高学历女性」和「全职主妇」的刻板印象。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;第一，是性别刻板印象&lt;/span&gt;，这也是社会上普遍存在的一种刻板印象。性别刻板印象又称为性别偏见，在国内大家基本都遇到过：女孩子学理科不如男孩子、学习方面男孩子后劲足、女主内男主外等等。当这种性别刻板印象过渡到社会职能当中，就会出现诸如「女孩子读那么多书干嘛，只要好好嫁人」这样的观念、&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这种性别刻板印象的形成，基本来源于儿童时期的家庭教育。父母将自己的价值观、社会观传递给孩子，让他们的行为逐渐符合这个社会的「规范」。女权主义、平权主义，一直以来要做的，就是打破这种性别刻板印象，扭转这种文化环境。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;第二，是职业刻板印象&lt;/span&gt;，是指人类对于某些特定职业的一种概括的看法。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;打比方来说，这是工人：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161110/1478743771238611.jpg&quot; title=&quot;5642788508531752.jpg&quot; alt=&quot;4affc60ff7e35d9979f72a861735bfdf_b.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这是农民：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161110/1478743771554249.jpg&quot; title=&quot;3628170314877335.jpg&quot; alt=&quot;e9b0227e6a53d281cbdb0749e3efbdcd_b.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这是白领：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161110/1478743772432856.jpg&quot; title=&quot;8316417290495406.jpg&quot; alt=&quot;f837bfd17d4d95b1dabb30cd34b9aa91_b.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;无论你是否承认，从心底里来讲，大部分人都会认为工人和农民土、没文化、没素质，而一位白领，则可能气质出众、谈吐优雅——即使很多时候，一位农民创造的价值远远超过一位白领。而以知乎上这么多白领来看，各位应该也明白，不讲素质、不爱干净的白领，其实也多了去了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;那我们来想想，在我们的刻板印象中，全职主妇是怎样的呢？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在对于「全职主妇」的刻板印象中，免不了一副啰哩啰嗦、无所事事、不修边幅的模样，人到中年，差不多就是微胖，提着篮子，骑着电动车，在菜市场里和菜贩子们砍价。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;无论是性别的刻板印象，还是职业的刻板印象，都是在社会上普遍存在的现象。一个女权主义者，可能会反对性别的刻板印象，但不代表 ta 就没有职业的刻板印象。譬如说，在这样一个问题里，很多人会觉得，一位高学历女性，如果成为一名高级白领，一名律师，一位医生，一个科学家，则无愧于社会，无愧于教育资源。然而成为一名「全职主妇」，则成了大大的浪费。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在我个人看来，「浪费」这件事情，不应该由他人来定义，而是由自己来判定是否值得。我花五千块买一个玻璃杯，朋友们都觉得我很浪费，但我从中收获到了快乐，这就是值得的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;而一名高学历女性，选择成为一名全职主妇（前提是自己的意愿），即使身边的人吵得热火朝天，各种痛陈利弊，只要她内心满足，感到幸福，我认为，就绝不可称之为浪费。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我曾经听过一句话，有些武断，但也略有道理。大概就是，&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;中国人认同很多成功，唯独不认同的，就是家庭的成功。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/hanwei/hw/Public/Upload/20161110/2016-11-10_104278_734259315736686796.jpg&quot; title=&quot;2016-11-10_104278_734259315736686796.jpg&quot; alt=&quot;734259315736686796.jpg&quot;/&gt;&lt;/p&gt;','Upload/2016-11-10/5823d7dd4e5de.jpg','2016-11-10 10:13:49') [ RunTime:0.0000s ]
+
+[ 2016-11-10T10:13:49+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T10:16:15+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\7f9eb48c00da6b0122992baf32f07507.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T10:18:07+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('年收入多少，我们才不会焦虑？','难道生命只是个巨大的齿轮，而我们注定不停地被焦虑感碾压？我们该如何在职场上摆脱无处不在的焦虑呢？','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161110/1478744178125958.jpg&quot; title=&quot;8072512025974654.jpg&quot; alt=&quot;37189677_xxl.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;文|赵晓璃 壹心理专栏作者 微信公众号：璃语&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;前些天，朋友圈疯传着一条消息：“年收入12万元以上被定为高收入群体，要加税！”&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;“年收入12万挣北上广深一套房要100年，勉强够活，怎么会是高收入群体？”&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;是的，这只不过是一个谣言。虽然是谣言，但这个问题仍然像一块巨石那样压在我们的胸口，那就是：&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;年收入多少，我们才不会焦虑？&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;难道生命只是个巨大的齿轮，而我们注定不停地被焦虑感碾压？我们该如何在职场上摆脱无处不在的焦虑呢？&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161110/1478744179724138.jpg&quot; title=&quot;6409827387502642.jpg&quot; alt=&quot;bb2b322.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;01&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;工资太少，先别急着岁月静好&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;小静（化名）在一家私企做出纳，每个月3000左右的工资，工作內容也没有什么难度，只要细心就可以了。刚开始她还挺享受这种状态的，毕竟做起来不用太费神，也有双休和法定节假日，每到周末，小静上午喜欢去图书馆转悠，下午则找一家咖啡店坐坐，点上一杯几十元的咖啡，看着窗外来来往往的人，觉得好不惬意。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;“有那么一阵子，我就喜欢拍一些景致，用手机里的美图软件做成漂亮的效果发到朋友圈，然后配的文字也大约类似于‘岁月静好’之类的，直到有一次，我发生了一件事，让我感觉自己必须规划自己的职业了。”小静说。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;“哦？能说说是什么事情吗？”我问。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;“上半年我身体不好住了一次院，为了不让父母担心，我没有通知家人，好在有同事帮忙。这不住院不知道，一住院吓一跳。每天大把大把的钞票往外流，而且根本没有讨价还价的余地。从药物到点滴都分好多档次，价格不等，据说效果也不一样。我躺在病床上第一次认识到，哪有什么岁月静好？我生平第一次觉得自己太无能了，我突然感到了一阵焦虑，这种焦虑是以前从来没有过的。”小静说。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;“所以听起来，这种焦虑是和未来不确定的风险与变化相关，是这样的吗？”我问。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;“是这样的，老师，你说我该怎么办？”小静问。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;类似小静这样的案例，在职业咨询中绝不是个别现象。这种现象通常出现在毕业没多久的职场新人身上，很多人在那个时候感情没有着落或者即便有了着落也还谈不上稳定，基本处于“一人吃饱全家不饿”的生存状态，收入勉强能够维持基本的日常所需，但一旦遭遇变故，就会感到束手无策，之前构筑的“岁月静好”的幻象终究抵不过现实残酷的一击。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;我们无法否认的是，我们所处的世界是一个物质世界，虽说钱不是万能的，但没有钱却是万万不能的。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;问题在于，赚多少钱才能保证起码的衣食无忧同时也能具有基本的抗风险能力呢？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;这里就有一个收入安全线的问题。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;国内有份调查显示，要在相应城市生活的“不惶恐”，你的月薪就必须达到相应的数目。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;这里的数据当然也是因人而异，但至少可以提供一个参考值。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;对照这个表格，小静很快找到了她的收入安全线，按照小静目前的收入水平，距离这样的安全线收入还差大约3000元。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;问题来了，该如何达到这样的收入标准呢？&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161110/1478744179102398.jpg&quot; title=&quot;8361705286560916.jpg&quot; alt=&quot;22558795_xl.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;02&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;收入的背后，到底隐藏着怎样的秘密？&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;经过进一步梳理，小静给自己定下了一个小目标，那就是月入6000元。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;定完目标之后的第一步，是要将目标进行具体的分解。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;我问小静：“如果要达到这样的收入，你觉得需要经过几个步骤？每个步骤结束之后能够达到的收入是多少？这些收入达成的时间节点大概在什么时候？”&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;在定制计划的时候，一定要越详细越具体越好。&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;小静想了想说：“如果达到这样的目标，我觉得首先我必须要进行转岗，光做出纳并没有太多收入的上升空间，所以我需要尽快转行做会计，按照我们公司的情况，一名普通会计的月薪能达到4000左右；如果要达到5000元月薪，可能需要接手全盘账务处理，就是做主办会计，那个时候需要中级职称以及五年左右的会计工作经验；如果再往上，想要达到6000，那就是在主办会计的岗位上做上几年，达到6000元月薪是指日可待的。”&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;“嗯，收到。你觉得第一步就是转岗是吗？从出纳转向会计，转完之后收入能达到4000元上下。第二步继续提升自己，从基层会计岗位转到主办会计岗位，如果这一步成功收入可达到5000元。第三步在主办会计岗位上潜心钻研，预计没几年就能达到期望的薪资标准，是这样的吗？”我进一步和小静确认道。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;“是的。”小静很肯定地说。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;“好，那我们给每个阶段定一个时间吧。你觉得每个阶段大概需要花多久的时间呢？还有你需要做的努力有哪些？”我问。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;“嗯，完成第一个阶段的转变我需要一年左右的时间，这一年我需要考过初级职称，然后看现有公司能否给我调岗，如果不行我就跳槽去另一家公司做基层会计人员；完成第二个阶段大概需要花三年时间，一方面我要加强自己实际工作能力，另一方面我还需要考到中级职称；这些条件满足之后我就可以去尝试主办会计岗位，然后在主办会计岗位上做个三年左右的时间，并且要学会报表分析这些核心技能，&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;这样算下来，我需要花七年时间才能达到目标收入。”&lt;/span&gt;小静说。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;看的出来，小静已经很清楚未来努力的目标和方向了。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;“所以小静，你发现没有？其实我们在梳理收入的时候，也是在盘点自己的能力和知识储备对吗？&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;你这个思路很棒，只有提高自己的价值，才能提升自己的价格。这就是将收入提到安全线这个阶段最核心的秘笈所在。&lt;/span&gt;”我说。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161110/1478744179887057.jpg&quot; title=&quot;2377882069678914.jpg&quot; alt=&quot;27433877_xxl.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;03&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;达到甚至超出了这个安全线&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;就一定不焦虑了吗？&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;除去收入不多的职场人存在焦虑之外，很多收入不错的职场人也存在着焦虑。&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;曾经我做过一例职业咨询，来询者是一位年薪二十万的房产销售经理。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;他和我说，自己在没钱的时候拼命赚钱，觉得做销售来钱，就做了房地产，&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;如今也做到了一定职位，收入也绰绰有余，可不知为何，他的内心还是会感到莫名的焦虑。&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;经过一番专业梳理之后，对方才发现，原来自己焦虑的根源在于，这份看似体面的收入，和自己本身并没有太大关联，也就意味着这份收入大部分得益于公司的平台，无法体现自己的能力。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;其实你仔细分析会不难发现，房产销售这个岗位之所以能赚钱，和房子特殊的商品属性以及公司规模有关，至于具体是由哪个业务员经办的，对于消费者来说并没有什么印象。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;什么意思呢？就是你卖了N栋房子获得的成就感和卖一栋房子的成就感大体相当，也就是提成部分满足了你的物质需求，但真正意义上，你获得的认可感很低，说的再透彻一些，那就是人们并不是冲着你来买房子的。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;所以今天的收入虽然很高，但和你并没有本质的关联，这是很多职场老人的焦虑根源。&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;在这种情形下，丰厚的收入同样会存在不安全的隐患，如果公司倒闭或者大环境不景气，也就意味着你还需要面临转行或创业的选择。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;问题来了，既然做销售的时候并没有多少人是冲着你产生购买行为的，你又如何确保转行或创业的客户资源呢？&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;后来我和来询者探讨的一个话题就是，什么样的销售才是有价值有意义的？&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;这就像销售大王乔吉拉德的例子一样，做销售如果能做到人们认你的人而不是你所在的公司、所卖的产品，这才意味着你到哪里去都不愁没有客户，你卖什么都能够卖出去，那个时候，&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;你的收入真正能够体现你的价值，焦虑感自然就会得到缓解。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161110/1478744180710454.jpg&quot; title=&quot;1600300107659240.jpg&quot; alt=&quot;36899706_xxl.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;04&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;靠职位提升带来的收入增长实在太有限了&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;这种体验对于有过十年以上工龄的上班族最感同身受，年龄多在三十五岁上下。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;你真的发现职场有它固有的短板与限制，你的身价往往不是自己说了算的，它需要受到老板观念的制约，所以在这种前提下，很多人都萌生出想创业的念头。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161110/1478744180104898.jpg&quot; title=&quot;6056223875172474.jpg&quot; alt=&quot;f527f55.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;迟早有一天你可能都要走出一条自己的路，那么现在你需要做哪些准备呢？&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;1、在工作过程中，尽可能找到自己的优势领域，不断强化这一优势；&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;2、不断放大这一优势，做持续性输出，让更多的人知道你的存在；&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;3、集结自己的作品，塑造自己的辨识度；&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;4、提高人脉圈，积极寻找平台合作，积累人气，打造个人IP。&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;当然还有些焦虑是因为职业平衡问题没有妥善处理好，多重角色冲突导致内心焦虑，等等，鉴于篇幅有限，就不一一展开了。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;综上所述，&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;在一个人的职业生涯中，焦虑会如影随形&lt;/span&gt;，收入只是诸多因素中容易被人看见的显性因素，很多隐性因素需要经过专业梳理，才能对现状有个明确认知，才能制定出详细的目标与努力的步骤。&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/hanwei/hw/Public/Upload/20161110/2016-11-10_122967_734259315736686796.jpg&quot; title=&quot;2016-11-10_122967_734259315736686796.jpg&quot; alt=&quot;734259315736686796.jpg&quot;/&gt;&lt;/p&gt;','Upload/2016-11-10/5823d8dfca674.jpg','2016-11-10 10:18:07') [ RunTime:0.0156s ]
+
+[ 2016-11-10T10:18:08+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T10:20:47+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\7f9eb48c00da6b0122992baf32f07507.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T10:39:48+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\7f9eb48c00da6b0122992baf32f07507.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-10T10:41:35+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\7f9eb48c00da6b0122992baf32f07507.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T10:51:12+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('合群的意义是什么？','“当你所处的群体，普遍在智力、道德、经验、思考等等任何一个方面都没有办法给你可能性、赋予你一个榜样和目标的时候，你合群的意义到底在哪里？”','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; text-indent: 0em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161110/1478746057372870.jpg&quot; title=&quot;2054567561369087.jpg&quot; alt=&quot;39054741_xxl.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“当你所处的群体，普遍在智力、道德、经验、思考等等任何一个方面都没有办法给你可能性、赋予你一个榜样和目标的时候，你合群的意义到底在哪里？”&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;一年前的某天，一位初入职场的小伙子M在网上和我预约了一次咨询。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;M问我的第一个问题就是：“老师，我总感觉自己不合群，是不是自己哪里出了问题？”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;其实何止是M呢，很多来询者在遇到问题在没有经过系统分析之前，总会给自己贴一个标签，将原因归结在自己身上，于是会倍感沮丧，乃至于怀疑自我。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我问：“哦？听起来你似乎很沮丧，能告诉我到底发生了什么吗？”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在没有弄清楚具体情况之前，咨询师需要做的，就是帮助来询者澄清问题。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“老师，是这样的。我来这家公司大约有两个多月了，平时不太喜欢吵闹，每天做完了工作就准点下班。但最近部门领导找我谈了好几次，嘱咐我尽快融入部门的氛围，于是为了让我和他们打成一片，这几天领导会刻意安排部门聚餐或者去K歌这样的活动，并且让每个人都要参加。我一到那种场合，感觉自己的尴尬癌就犯了，不仅没法和他们打成一片，反而各种别扭，连一句话也说不出来，整个人就僵在那里，结果本来就不熟的同事对我更有看法了，甚至有一个人还把我作为一个典型，写了一篇文章，刊登在了我们公司的内部期刊里，这让我更觉得无法面对这些人了。老师，你说我应该怎么办才好呢？”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“你平时都喜欢做些什么呢？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“我平时喜欢打篮球。”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“哦？是一个人打还是和一群人打呢？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“当然是一群人打，我们有一帮固定的哥们儿，每个周末都会约着一道打篮球。”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在询问爱好的时候，其实只要仔细问下去，是可以了解到对方大概的情况的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;从M的爱好中我们不难发现，他喜欢一群人打篮球的感觉，说明他并非是一个不合群的人。那么到底是什么让他不愿意和现在的同事打成一片，这个问题需要进行进一步的梳理。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“我想知道的是，你目前是做什么工作的？又是在什么部门呢？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“我目前是在销售部，做些基础的资料整理及报价工作。”M回答。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“听你的描述，似乎你在工作中找不到热情对吗？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“目前好像还真是这样”，M说：“我挺怵和人讨价还价的，我甚至一直在怀疑自己，是否适合做销售这份工作。”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“那你上学期间有没有特别感兴趣的学科呢？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“我上学那会儿对金融及财务方面很感兴趣，喜欢看经济频道的栏目，对赚钱也很有感觉。”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“嗯，那么你在大学期间有没有付出相应的努力呢？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“有的，我在大学期间考取了会计证和初级职称，还考取了证券从业资格证，我目前还在准备注会考试。不过我的专业本身是市场营销，毕业时应聘证券公司没能被录用，想做财务又听人赚不了什么钱，所以我想了想，觉得年轻的时候还是要多挣钱，所以选择了销售。”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;经过这一段的梳理，你会发现M不合群的背后，更多的是对自己目前职业的迷茫与怀疑。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“但显然销售没能给你带来你想要的是吗？至少从目前来看，你所接触到的领导和同事仿佛都对你的不合群问题很重视，另外从你刚才的描述中，我能察觉到他们也试图通过组织部门聚餐等方式改变你，但好像效果并不是特别好。”我说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“是的，老师，说起来我对他们过于吵闹、见谁都自来熟的特点实在看不惯，更别提他们在聚餐的时候胡吃海喝、以及他们喝醉酒去包厢K歌的模样了，我真的打心底觉得他们活得好累，总像在戴着一副面具，每天打了鸡血一样刻意保持亢奋的状态。经常为了能签单，他们不得不陪着笑脸说尽好话，请人吃饭喝酒甚至按摩桑拿也都是常态，而我却觉得自己永远都在远远观望，我也曾试图说服自己强装笑脸和他们吹吹牛，但还是做不到。”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;经过初步诊断，我发现M在表达方面基本没有障碍，同时思路清晰表述完整，他的问题更不是社交障碍，而是源于他在现有的职业中找不到意义，同时身边的领导和同事的状态并不是他想要的，所以自然而然，他对这份职业就会表现得麻木冰冷，带到人际交往中，很容易自带一种格格不入的感觉。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;3&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;那么，该如何突破目前的人际困境呢？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;首先我们需要知道的是，“合群”这个词在传统观念里，常常被定义为“受欢迎的”，这自然不错，但问题在于，这真的重要吗？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;你很难想象一个说着Hip Hop跳着街舞的大男孩混进一支跳着广场舞的大妈队伍里，那个时候不论这个男孩跳的多么棒，在广场舞的大背景下就会显得十分诡异和滑稽。这个时候，或许大妈队伍里会有个别热心的大妈劝说小伙子跟着自己扭动腰肢跳起广场舞，但毫无疑问，对这个小伙子而言，只要他一天喜欢街舞，就一天也不能合群。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;其次我们要了解，除了极少数自闭症的人，我们多数人的不合群，本质上都是排斥行为。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;原因无非是：你们做的事情我心底并不是非常认可，我找不到这件事对我的意义和价值，我实在无法认同你们的行为方式等等。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这种情况下，如果小伙子想继续他的街舞生涯，最好的办法就是离开广场舞大妈们的队伍，找到一群同样热爱街舞的年轻人，否则继续混下去，对他的街舞水平有害无益。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;最后我们要明确的是，即便诸如朋友这样的关系，也并非一成不变的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;随着见识、经历、眼界、能力等方面的提升，人们更喜欢寻找比自己优秀的人做朋友，这倒不是说指望对方能给自己带来多少钱多少资源，而是因为在对方身上，你会被赋予一种神奇而珍贵的力量，那就是三个字，可能性。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;4&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;切换到M这个案例中，你不难发现，M心里向往的是金融和财务方向，而他在销售部所接触到的领导也好同事也罢，都是典型的销售从业者形象——每天被客户虐上千百遍，还要陪酒赔笑小心伺候，这种生活并不是M内心想要的，所以他会本能地予以排斥。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;而在这样的前提下，领导及同事看似好心的“安排”只会给他带来更大的心理压力，不仅起不到任何积极的作用，反而让他看见了这些人酒醉后的洋相及失态，自然更加排斥。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这场咨询最后的结果，M坚定了自己从事金融或财务工作的决心，虽然刚开始可能不如销售那么赚钱，但这两个领域只要深耕细作个十年半年之后，也是同样能够给自己带来丰厚的物质回报的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;所以在我给M出具的咨询辅导报告里，最后的那条建议就是——&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“你应该立刻马上，探寻你内心深处热爱的领域与职业，只要你足够优秀，钱自然会追着你跑。”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我知道M后来终于如愿以偿地应聘到了一家会计师事务所上班，他说出差已经成了家常便饭，然而奇妙的是，再也没有人说他不合群了，相反，人们看到的是一个热情阳光也很健谈的小伙子，客户对他纷纷好评，领导对他也非常认可。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;是的，从某种程度上而言，当你所处的群体无法满足你内心的渴求时，你会从心底排斥身边的人和事，表现出孤僻冷漠的一面，&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;而事实上，如果你愿意遵循内心尝试另外一条路，找到志同道合的那群人，你能够从他们身上看到自己命运的可能性以及今后努力的方向，你的能量与潜力自然而然会被激活，呈现出一种令你自己都刮目相看的状态。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;/section&gt;&lt;section&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;小贴士：&lt;/span&gt;&lt;/p&gt;&lt;section&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;如果你觉得自己不合群，不妨按照以下思路检视一番——&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;1、你觉得是什么原因造成的不合群？是工作满足不了你的需求，还是身边的人都是奇葩？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;2、如果你们互相看不顺眼，你需要反思的是，又到底是什么原因让你留到了今天？找到那个诉求点，看看牵绊你的到底是什么因素。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;3、将那个因素排除在外，如果让你重新选择，你更倾向于哪种选择，你又为此做出过哪些努力？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;4、如果既不合群，又没有其他选择，就去找一个你渴望成为的那个人，审视一下自己的差距在哪里，制定计划做出切实的努力。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;5、如果还不清楚，建议向专业人士求助。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/hanwei/hw/Public/Upload/20161110/2016-11-10_769494_734259315736686796.jpg&quot; title=&quot;2016-11-10_769494_734259315736686796.jpg&quot; alt=&quot;734259315736686796.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;','Upload/2016-11-10/5823e0a04b531.jpg','2016-11-10 10:51:12') [ RunTime:0.0156s ]
+
+[ 2016-11-10T10:51:12+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('合群的意义是什么？','“当你所处的群体，普遍在智力、道德、经验、思考等等任何一个方面都没有办法给你可能性、赋予你一个榜样和目标的时候，你合群的意义到底在哪里？”','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; text-indent: 0em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161110/1478746057372870.jpg&quot; title=&quot;2054567561369087.jpg&quot; alt=&quot;39054741_xxl.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“当你所处的群体，普遍在智力、道德、经验、思考等等任何一个方面都没有办法给你可能性、赋予你一个榜样和目标的时候，你合群的意义到底在哪里？”&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;一年前的某天，一位初入职场的小伙子M在网上和我预约了一次咨询。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;M问我的第一个问题就是：“老师，我总感觉自己不合群，是不是自己哪里出了问题？”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;其实何止是M呢，很多来询者在遇到问题在没有经过系统分析之前，总会给自己贴一个标签，将原因归结在自己身上，于是会倍感沮丧，乃至于怀疑自我。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我问：“哦？听起来你似乎很沮丧，能告诉我到底发生了什么吗？”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在没有弄清楚具体情况之前，咨询师需要做的，就是帮助来询者澄清问题。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“老师，是这样的。我来这家公司大约有两个多月了，平时不太喜欢吵闹，每天做完了工作就准点下班。但最近部门领导找我谈了好几次，嘱咐我尽快融入部门的氛围，于是为了让我和他们打成一片，这几天领导会刻意安排部门聚餐或者去K歌这样的活动，并且让每个人都要参加。我一到那种场合，感觉自己的尴尬癌就犯了，不仅没法和他们打成一片，反而各种别扭，连一句话也说不出来，整个人就僵在那里，结果本来就不熟的同事对我更有看法了，甚至有一个人还把我作为一个典型，写了一篇文章，刊登在了我们公司的内部期刊里，这让我更觉得无法面对这些人了。老师，你说我应该怎么办才好呢？”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“你平时都喜欢做些什么呢？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“我平时喜欢打篮球。”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“哦？是一个人打还是和一群人打呢？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“当然是一群人打，我们有一帮固定的哥们儿，每个周末都会约着一道打篮球。”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在询问爱好的时候，其实只要仔细问下去，是可以了解到对方大概的情况的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;从M的爱好中我们不难发现，他喜欢一群人打篮球的感觉，说明他并非是一个不合群的人。那么到底是什么让他不愿意和现在的同事打成一片，这个问题需要进行进一步的梳理。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“我想知道的是，你目前是做什么工作的？又是在什么部门呢？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“我目前是在销售部，做些基础的资料整理及报价工作。”M回答。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“听你的描述，似乎你在工作中找不到热情对吗？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“目前好像还真是这样”，M说：“我挺怵和人讨价还价的，我甚至一直在怀疑自己，是否适合做销售这份工作。”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“那你上学期间有没有特别感兴趣的学科呢？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“我上学那会儿对金融及财务方面很感兴趣，喜欢看经济频道的栏目，对赚钱也很有感觉。”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“嗯，那么你在大学期间有没有付出相应的努力呢？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“有的，我在大学期间考取了会计证和初级职称，还考取了证券从业资格证，我目前还在准备注会考试。不过我的专业本身是市场营销，毕业时应聘证券公司没能被录用，想做财务又听人赚不了什么钱，所以我想了想，觉得年轻的时候还是要多挣钱，所以选择了销售。”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;经过这一段的梳理，你会发现M不合群的背后，更多的是对自己目前职业的迷茫与怀疑。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“但显然销售没能给你带来你想要的是吗？至少从目前来看，你所接触到的领导和同事仿佛都对你的不合群问题很重视，另外从你刚才的描述中，我能察觉到他们也试图通过组织部门聚餐等方式改变你，但好像效果并不是特别好。”我说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“是的，老师，说起来我对他们过于吵闹、见谁都自来熟的特点实在看不惯，更别提他们在聚餐的时候胡吃海喝、以及他们喝醉酒去包厢K歌的模样了，我真的打心底觉得他们活得好累，总像在戴着一副面具，每天打了鸡血一样刻意保持亢奋的状态。经常为了能签单，他们不得不陪着笑脸说尽好话，请人吃饭喝酒甚至按摩桑拿也都是常态，而我却觉得自己永远都在远远观望，我也曾试图说服自己强装笑脸和他们吹吹牛，但还是做不到。”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;经过初步诊断，我发现M在表达方面基本没有障碍，同时思路清晰表述完整，他的问题更不是社交障碍，而是源于他在现有的职业中找不到意义，同时身边的领导和同事的状态并不是他想要的，所以自然而然，他对这份职业就会表现得麻木冰冷，带到人际交往中，很容易自带一种格格不入的感觉。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;3&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;那么，该如何突破目前的人际困境呢？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;首先我们需要知道的是，“合群”这个词在传统观念里，常常被定义为“受欢迎的”，这自然不错，但问题在于，这真的重要吗？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;你很难想象一个说着Hip Hop跳着街舞的大男孩混进一支跳着广场舞的大妈队伍里，那个时候不论这个男孩跳的多么棒，在广场舞的大背景下就会显得十分诡异和滑稽。这个时候，或许大妈队伍里会有个别热心的大妈劝说小伙子跟着自己扭动腰肢跳起广场舞，但毫无疑问，对这个小伙子而言，只要他一天喜欢街舞，就一天也不能合群。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;其次我们要了解，除了极少数自闭症的人，我们多数人的不合群，本质上都是排斥行为。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;原因无非是：你们做的事情我心底并不是非常认可，我找不到这件事对我的意义和价值，我实在无法认同你们的行为方式等等。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这种情况下，如果小伙子想继续他的街舞生涯，最好的办法就是离开广场舞大妈们的队伍，找到一群同样热爱街舞的年轻人，否则继续混下去，对他的街舞水平有害无益。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;最后我们要明确的是，即便诸如朋友这样的关系，也并非一成不变的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;随着见识、经历、眼界、能力等方面的提升，人们更喜欢寻找比自己优秀的人做朋友，这倒不是说指望对方能给自己带来多少钱多少资源，而是因为在对方身上，你会被赋予一种神奇而珍贵的力量，那就是三个字，可能性。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;4&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;切换到M这个案例中，你不难发现，M心里向往的是金融和财务方向，而他在销售部所接触到的领导也好同事也罢，都是典型的销售从业者形象——每天被客户虐上千百遍，还要陪酒赔笑小心伺候，这种生活并不是M内心想要的，所以他会本能地予以排斥。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;而在这样的前提下，领导及同事看似好心的“安排”只会给他带来更大的心理压力，不仅起不到任何积极的作用，反而让他看见了这些人酒醉后的洋相及失态，自然更加排斥。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这场咨询最后的结果，M坚定了自己从事金融或财务工作的决心，虽然刚开始可能不如销售那么赚钱，但这两个领域只要深耕细作个十年半年之后，也是同样能够给自己带来丰厚的物质回报的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;所以在我给M出具的咨询辅导报告里，最后的那条建议就是——&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“你应该立刻马上，探寻你内心深处热爱的领域与职业，只要你足够优秀，钱自然会追着你跑。”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我知道M后来终于如愿以偿地应聘到了一家会计师事务所上班，他说出差已经成了家常便饭，然而奇妙的是，再也没有人说他不合群了，相反，人们看到的是一个热情阳光也很健谈的小伙子，客户对他纷纷好评，领导对他也非常认可。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;是的，从某种程度上而言，当你所处的群体无法满足你内心的渴求时，你会从心底排斥身边的人和事，表现出孤僻冷漠的一面，&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;而事实上，如果你愿意遵循内心尝试另外一条路，找到志同道合的那群人，你能够从他们身上看到自己命运的可能性以及今后努力的方向，你的能量与潜力自然而然会被激活，呈现出一种令你自己都刮目相看的状态。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;/section&gt;&lt;section&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;小贴士：&lt;/span&gt;&lt;/p&gt;&lt;section&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;如果你觉得自己不合群，不妨按照以下思路检视一番——&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;1、你觉得是什么原因造成的不合群？是工作满足不了你的需求，还是身边的人都是奇葩？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;2、如果你们互相看不顺眼，你需要反思的是，又到底是什么原因让你留到了今天？找到那个诉求点，看看牵绊你的到底是什么因素。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;3、将那个因素排除在外，如果让你重新选择，你更倾向于哪种选择，你又为此做出过哪些努力？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;4、如果既不合群，又没有其他选择，就去找一个你渴望成为的那个人，审视一下自己的差距在哪里，制定计划做出切实的努力。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;5、如果还不清楚，建议向专业人士求助。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/hanwei/hw/Public/Upload/20161110/2016-11-10_769494_734259315736686796.jpg&quot; title=&quot;2016-11-10_769494_734259315736686796.jpg&quot; alt=&quot;734259315736686796.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;','Upload/2016-11-10/5823e0a07cd61.jpg','2016-11-10 10:51:12') [ RunTime:0.0000s ]
+
+[ 2016-11-10T10:51:13+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('合群的意义是什么？','“当你所处的群体，普遍在智力、道德、经验、思考等等任何一个方面都没有办法给你可能性、赋予你一个榜样和目标的时候，你合群的意义到底在哪里？”','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; text-indent: 0em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161110/1478746057372870.jpg&quot; title=&quot;2054567561369087.jpg&quot; alt=&quot;39054741_xxl.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“当你所处的群体，普遍在智力、道德、经验、思考等等任何一个方面都没有办法给你可能性、赋予你一个榜样和目标的时候，你合群的意义到底在哪里？”&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;一年前的某天，一位初入职场的小伙子M在网上和我预约了一次咨询。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;M问我的第一个问题就是：“老师，我总感觉自己不合群，是不是自己哪里出了问题？”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;其实何止是M呢，很多来询者在遇到问题在没有经过系统分析之前，总会给自己贴一个标签，将原因归结在自己身上，于是会倍感沮丧，乃至于怀疑自我。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我问：“哦？听起来你似乎很沮丧，能告诉我到底发生了什么吗？”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在没有弄清楚具体情况之前，咨询师需要做的，就是帮助来询者澄清问题。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“老师，是这样的。我来这家公司大约有两个多月了，平时不太喜欢吵闹，每天做完了工作就准点下班。但最近部门领导找我谈了好几次，嘱咐我尽快融入部门的氛围，于是为了让我和他们打成一片，这几天领导会刻意安排部门聚餐或者去K歌这样的活动，并且让每个人都要参加。我一到那种场合，感觉自己的尴尬癌就犯了，不仅没法和他们打成一片，反而各种别扭，连一句话也说不出来，整个人就僵在那里，结果本来就不熟的同事对我更有看法了，甚至有一个人还把我作为一个典型，写了一篇文章，刊登在了我们公司的内部期刊里，这让我更觉得无法面对这些人了。老师，你说我应该怎么办才好呢？”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“你平时都喜欢做些什么呢？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“我平时喜欢打篮球。”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“哦？是一个人打还是和一群人打呢？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“当然是一群人打，我们有一帮固定的哥们儿，每个周末都会约着一道打篮球。”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在询问爱好的时候，其实只要仔细问下去，是可以了解到对方大概的情况的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;从M的爱好中我们不难发现，他喜欢一群人打篮球的感觉，说明他并非是一个不合群的人。那么到底是什么让他不愿意和现在的同事打成一片，这个问题需要进行进一步的梳理。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“我想知道的是，你目前是做什么工作的？又是在什么部门呢？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“我目前是在销售部，做些基础的资料整理及报价工作。”M回答。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“听你的描述，似乎你在工作中找不到热情对吗？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“目前好像还真是这样”，M说：“我挺怵和人讨价还价的，我甚至一直在怀疑自己，是否适合做销售这份工作。”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“那你上学期间有没有特别感兴趣的学科呢？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“我上学那会儿对金融及财务方面很感兴趣，喜欢看经济频道的栏目，对赚钱也很有感觉。”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“嗯，那么你在大学期间有没有付出相应的努力呢？”我问。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“有的，我在大学期间考取了会计证和初级职称，还考取了证券从业资格证，我目前还在准备注会考试。不过我的专业本身是市场营销，毕业时应聘证券公司没能被录用，想做财务又听人赚不了什么钱，所以我想了想，觉得年轻的时候还是要多挣钱，所以选择了销售。”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;经过这一段的梳理，你会发现M不合群的背后，更多的是对自己目前职业的迷茫与怀疑。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“但显然销售没能给你带来你想要的是吗？至少从目前来看，你所接触到的领导和同事仿佛都对你的不合群问题很重视，另外从你刚才的描述中，我能察觉到他们也试图通过组织部门聚餐等方式改变你，但好像效果并不是特别好。”我说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“是的，老师，说起来我对他们过于吵闹、见谁都自来熟的特点实在看不惯，更别提他们在聚餐的时候胡吃海喝、以及他们喝醉酒去包厢K歌的模样了，我真的打心底觉得他们活得好累，总像在戴着一副面具，每天打了鸡血一样刻意保持亢奋的状态。经常为了能签单，他们不得不陪着笑脸说尽好话，请人吃饭喝酒甚至按摩桑拿也都是常态，而我却觉得自己永远都在远远观望，我也曾试图说服自己强装笑脸和他们吹吹牛，但还是做不到。”M说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;经过初步诊断，我发现M在表达方面基本没有障碍，同时思路清晰表述完整，他的问题更不是社交障碍，而是源于他在现有的职业中找不到意义，同时身边的领导和同事的状态并不是他想要的，所以自然而然，他对这份职业就会表现得麻木冰冷，带到人际交往中，很容易自带一种格格不入的感觉。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;3&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;那么，该如何突破目前的人际困境呢？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;首先我们需要知道的是，“合群”这个词在传统观念里，常常被定义为“受欢迎的”，这自然不错，但问题在于，这真的重要吗？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;你很难想象一个说着Hip Hop跳着街舞的大男孩混进一支跳着广场舞的大妈队伍里，那个时候不论这个男孩跳的多么棒，在广场舞的大背景下就会显得十分诡异和滑稽。这个时候，或许大妈队伍里会有个别热心的大妈劝说小伙子跟着自己扭动腰肢跳起广场舞，但毫无疑问，对这个小伙子而言，只要他一天喜欢街舞，就一天也不能合群。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;其次我们要了解，除了极少数自闭症的人，我们多数人的不合群，本质上都是排斥行为。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;原因无非是：你们做的事情我心底并不是非常认可，我找不到这件事对我的意义和价值，我实在无法认同你们的行为方式等等。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这种情况下，如果小伙子想继续他的街舞生涯，最好的办法就是离开广场舞大妈们的队伍，找到一群同样热爱街舞的年轻人，否则继续混下去，对他的街舞水平有害无益。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;最后我们要明确的是，即便诸如朋友这样的关系，也并非一成不变的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;随着见识、经历、眼界、能力等方面的提升，人们更喜欢寻找比自己优秀的人做朋友，这倒不是说指望对方能给自己带来多少钱多少资源，而是因为在对方身上，你会被赋予一种神奇而珍贵的力量，那就是三个字，可能性。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;p style=&quot;text-indent: 2em;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;4&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;切换到M这个案例中，你不难发现，M心里向往的是金融和财务方向，而他在销售部所接触到的领导也好同事也罢，都是典型的销售从业者形象——每天被客户虐上千百遍，还要陪酒赔笑小心伺候，这种生活并不是M内心想要的，所以他会本能地予以排斥。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;而在这样的前提下，领导及同事看似好心的“安排”只会给他带来更大的心理压力，不仅起不到任何积极的作用，反而让他看见了这些人酒醉后的洋相及失态，自然更加排斥。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这场咨询最后的结果，M坚定了自己从事金融或财务工作的决心，虽然刚开始可能不如销售那么赚钱，但这两个领域只要深耕细作个十年半年之后，也是同样能够给自己带来丰厚的物质回报的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;所以在我给M出具的咨询辅导报告里，最后的那条建议就是——&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;“你应该立刻马上，探寻你内心深处热爱的领域与职业，只要你足够优秀，钱自然会追着你跑。”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我知道M后来终于如愿以偿地应聘到了一家会计师事务所上班，他说出差已经成了家常便饭，然而奇妙的是，再也没有人说他不合群了，相反，人们看到的是一个热情阳光也很健谈的小伙子，客户对他纷纷好评，领导对他也非常认可。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-indent: 2em; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;是的，从某种程度上而言，当你所处的群体无法满足你内心的渴求时，你会从心底排斥身边的人和事，表现出孤僻冷漠的一面，&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;而事实上，如果你愿意遵循内心尝试另外一条路，找到志同道合的那群人，你能够从他们身上看到自己命运的可能性以及今后努力的方向，你的能量与潜力自然而然会被激活，呈现出一种令你自己都刮目相看的状态。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;/section&gt;&lt;section&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;小贴士：&lt;/span&gt;&lt;/p&gt;&lt;section&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;如果你觉得自己不合群，不妨按照以下思路检视一番——&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;section&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;1、你觉得是什么原因造成的不合群？是工作满足不了你的需求，还是身边的人都是奇葩？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;2、如果你们互相看不顺眼，你需要反思的是，又到底是什么原因让你留到了今天？找到那个诉求点，看看牵绊你的到底是什么因素。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;3、将那个因素排除在外，如果让你重新选择，你更倾向于哪种选择，你又为此做出过哪些努力？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;4、如果既不合群，又没有其他选择，就去找一个你渴望成为的那个人，审视一下自己的差距在哪里，制定计划做出切实的努力。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;5、如果还不清楚，建议向专业人士求助。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/hanwei/hw/Public/Upload/20161110/2016-11-10_769494_734259315736686796.jpg&quot; title=&quot;2016-11-10_769494_734259315736686796.jpg&quot; alt=&quot;734259315736686796.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;','Upload/2016-11-10/5823e0a0f2e72.jpg','2016-11-10 10:51:12') [ RunTime:0.0156s ]
+
+[ 2016-11-10T10:51:13+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T10:55:25+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T10:55:26+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T10:55:27+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-10T10:55:30+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T10:55:34+08:00 ] 211.137.13.86 /index.php/Admin/Admin/delhnewst/id/60.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: DELETE FROM `hw_newst` WHERE ( id=60 ) [ RunTime:0.0312s ]
+
+[ 2016-11-10T10:55:34+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T10:55:39+08:00 ] 211.137.13.86 /index.php/Admin/Admin/delhnewst/id/61.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: DELETE FROM `hw_newst` WHERE ( id=61 ) [ RunTime:0.0156s ]
+
+[ 2016-11-10T10:55:40+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T10:56:38+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\7f9eb48c00da6b0122992baf32f07507.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

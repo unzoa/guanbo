@@ -1,0 +1,46 @@
+<div class="row footer">
+	<i class="icon-phone-sign">
+		<a href="tel:02467755317" class="cfff"> 联系我们:024-67755317</a>
+	</i>
+	<i class="glyphicon glyphicon-hand-left teleclick"></i>
+</div>
+<style type="text/css">
+	.footer{
+		margin:0;
+		background-color: #333;
+		color: #faf1ce;
+		padding: 5px 20px;
+		text-align: center;
+		position: fixed;
+		bottom: 0;
+		width: 100%
+	}
+	@media (max-width: 767px){
+		.footer{
+			margin:0;
+			background-color: #333;
+			color: #faf1ce;
+			padding: 5px 20px;
+			text-align: center;
+			position: relative
+		}
+	}
+	.teleclick{
+		-webkit-animation:fadeout 2s infinite ease-in-out;
+		-moz-animation:fadeout 2s infinite ease-in-out;
+		-ms-animation:fadeout 2s infinite ease-in-out;
+		animation:fadeout 2s infinite ease-in-out;
+	}
+	@-webkit-keyframes fadeout{
+		from{opacity: 0}
+		to{opacity: 1}
+	}
+	@-moz-keyframes fadeout{
+		from{opacity: 0}
+		to{opacity: 1}
+	}
+	@keyframes fadeout{
+		from{opacity: 0}
+		to{opacity: 1}
+	}
+</style>

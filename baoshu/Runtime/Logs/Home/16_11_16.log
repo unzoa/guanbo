@@ -1,0 +1,75 @@
+[ 2016-11-16T22:32:28+08:00 ] 127.0.0.1 /baoshu/index.php/home/index/vertifuImg
+ERR: 非法操作:vertifuimg
+
+[ 2016-11-16T22:32:44+08:00 ] 127.0.0.1 /baoshu/index.php/Home/index/vertifuImg
+ERR: 非法操作:vertifuimg
+
+[ 2016-11-16T22:32:49+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/vertifuImg
+ERR: 非法操作:vertifuimg
+
+[ 2016-11-16T22:32:56+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/vertifyImg
+ERR: 非法操作:vertifyimg
+
+[ 2016-11-16T22:35:05+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/vertifyImg
+ERR: 非法操作:vertifyimg
+
+[ 2016-11-16T22:35:06+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/vertifuImg
+ERR: 非法操作:vertifuimg
+
+[ 2016-11-16T23:16:27+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:17:10+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:17:25+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:19:33+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:21:01+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:23:52+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:25:07+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:26:52+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:27:50+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:35:06+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:36:46+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:38:44+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:40:46+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:45:07+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:46:41+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:47:05+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:48:24+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:48:42+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-16T23:55:57+08:00 ] 127.0.0.1 /baoshu/index.php/Home/Index/index
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+

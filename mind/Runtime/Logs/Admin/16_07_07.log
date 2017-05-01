@@ -1,0 +1,50 @@
+[ 2016-07-07T11:51:15+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1' at line 1
+ [ SQL语句 ] : select * from testLimit 0, 1
+
+[ 2016-07-07T11:52:03+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1' at line 1
+ [ SQL语句 ] : select * from hw_testLimit 0, 1
+
+[ 2016-07-07T11:52:07+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1' at line 1
+ [ SQL语句 ] : select * from hw_testLimit 0, 1
+
+[ 2016-07-07T11:54:28+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1' at line 1
+ [ SQL语句 ] : select * from hw_testLimit 0, 1
+
+[ 2016-07-07T11:54:33+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1' at line 1
+ [ SQL语句 ] : select * from hw_testLimit 0, 1
+
+[ 2016-07-07T11:58:47+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1' at line 1
+ [ SQL语句 ] : select * from hw_testLimit 0, 1
+
+[ 2016-07-07T11:58:52+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1' at line 1
+ [ SQL语句 ] : select * from hw_testLimit 0, 1
+
+[ 2016-07-07T12:01:10+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1' at line 1
+ [ SQL语句 ] : select * from hw_testLimit 0, 1
+
+[ 2016-07-07T12:05:39+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 1065:Query was empty
+
+[ 2016-07-07T12:09:44+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 7' at line 1
+ [ SQL语句 ] : select * from hw_testLimit 0, 7
+
+[ 2016-07-07T12:27:11+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 7' at line 1
+ [ SQL语句 ] : select * from hw_testLimit 0, 7
+
+[ 2016-07-07T14:12:51+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testpage
+ERR: 1054:Unknown column 'create_time' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `hw_test` ORDER BY create_time LIMIT 0,4  
+
+[ 2016-07-07T16:19:22+08:00 ] 127.0.0.1 /hanwei/hw/admin/test/testread
+ERR: 无法加载控制器:Test
+

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh" class="no-js">
+<include file="Index/head"/>
+<body>
+<p>haha,session('id')</p>
+	<div class="container-fluid">
+	<div class="row">
+		<nav class="navbar navbar-default bs_nav" role="navigation">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="{:U('Home/index/index')}">Brand</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse bs_collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="{:U('Home/index/dongtai')}">动态</a></li>
+		        <li><a href="{:U('Home/index/huoban')}">伙伴</a></li>
+		        <li><a href="{:U('Home/index/count')}">报数</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown"></span>我：{$Think.session.name}</span> <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li class="divider"></li>
+		            <li><a onclick="if (confirm('确定要退出吗？')) return true; else return false;" href="{:U('Home/Manage/logout')}">退出</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		</nav>
+	</div>
+	</div>
+</body>
+</html>

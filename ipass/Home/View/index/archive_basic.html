@@ -1,0 +1,223 @@
+<div class="left_con">
+	<h2 style="color:#404040">基本信息</h2>
+	<i style="color: #9aaabf">i.P.A.S.S 小改变创造大不同</i>
+	<br/><br/>
+	<form action="{:U('Home/Index/archive_basic')}" method="post" id="myform">
+		<!-- 名字 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label">名字</label>
+			</div>
+			<div class="col-xs-9 col-sm-5">
+				<input type="text" name="name" id="name" placeholder="名字" value="{$archive[0][name]}" class="form-control" />
+			</div>
+		</div>
+		<!-- 性别 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label_radio">性别</label>
+			</div>
+			<div class="col-xs-5">
+				<div class="radio">
+				  <label><input type="radio" name="sex" id="male" value="男">男</label>
+				  <label><input type="radio" name="sex" id="female" value="女">女</label>
+				</div>
+			</div>
+		</div>
+		<!-- 民族 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label_radio">民族</label>
+			</div>
+			<div class="col-xs-5">
+				<div class="radio">
+				  <label><input type="radio" name="minzu" id="han" value="汉">汉</label>
+				  <label><input type="radio" name="minzu" id="un_han" value="非汉">非汉</label>
+				</div>
+			</div>
+		</div>
+		<!-- 出生日期 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label">出生日期</label>
+			</div>
+			<div class="col-xs-9 col-sm-5">
+				<input type="date" name="birthday" id="birthday" value="{$archive[0][birthday]}" class="form-control" />
+			</div>
+		</div>
+		<!-- 血型 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label">血型</label>
+			</div>
+			<div class="col-xs-9 col-sm-5">
+				<input type="text" name="xue_xing" id="xue_xing" value="{$archive[0][xuexing]}" placeholder="血型" class="form-control" />
+			</div>
+		</div>
+		<!-- 身高 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label">身高/cm</label>
+			</div>
+			<div class="col-xs-9 col-sm-5">
+				<input type="text" name="shen_gao" id="shen_gao" placeholder="身高" value="{$archive[0][shengao]}" class="form-control" />
+			</div>
+		</div>
+		<!-- 体重 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label">体重/kg</label>
+			</div>
+			<div class="col-xs-9 col-sm-5">
+				<input type="text" name="weight" id="weight" placeholder="体重" value="{$archive[0][tizhong]}" class="form-control" />
+			</div>
+		</div>
+		<!-- 分娩方式 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label">分娩方式</label>
+			</div>
+			<div class="col-xs-9 col-sm-5">
+				<select name="fen_wan" id="fen_wan" class="form-control">
+					<option>顺产</option>
+					<option>刨宫产</option>
+					<option>产钳</option>
+					<option>胎吸</option>
+				</select>
+			</div>
+		</div>
+		<!-- 满月 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label_radio">是否足月</label>
+			</div>
+			<div class="col-xs-5">
+				<div class="radio">
+				  <label><input type="radio" name="full_month" id="yes" value="已满月">是</label>
+				  <label><input type="radio" name="full_month" id="no" value="未满月">否</label>
+				</div>
+			</div>
+		</div>
+		<!-- 出生体重 -->
+		<div class="row">
+			<div class="col-sm-3 edit_archive_p0">
+				<label class="left_pull_right left_label">出生体重/kg</label>
+			</div>
+			<div class="col-xs-12 col-sm-5">
+				<input type="text" name="birth_weight" id="birth_weight" placeholder="出生体重" value="{$archive[0][birth_tizhong]}" class="form-control" />
+			</div>
+		</div>
+		<!-- 独生子女 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label_radio">独生子女</label>
+			</div>
+			<div class="col-xs-5">
+				<div class="radio">
+				  <label><input type="radio" name="only_child" id="yes" value="独子">是</label>
+				  <label><input type="radio" name="only_child" id="no" value="非独子">否</label>
+				</div>
+			</div>
+		</div>
+		<!-- 兄弟姐妹 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label">兄弟姐妹/位</label>
+			</div>
+			<div class="col-xs-9 col-sm-5">
+				<input type="text" name="brother_sister" id="brother_sister" placeholder="/位" value="{$archive[0][brother]}" class="form-control" />
+			</div>
+		</div>
+		<!-- 家中排行 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label">家中排行</label>
+			</div>
+			<div class="col-xs-9 col-sm-5">
+				<input type="text" name="home_place" id="home_place" placeholder="家中排行" value="{$archive[0][paihang]}" class="form-control" />
+			</div>
+		</div>
+		<!-- 现居住地 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label_radio">现居住地</label>
+			</div>
+			<div class="col-xs-9 col-sm-5">
+				<div class="radio">
+				  <label><input type="radio" name="now_live" id="now_city" value="城市">城市</label>
+				  <label><input type="radio" name="now_live" id="now_town" value="城郊">城郊</label>
+				  <label><input type="radio" name="now_live" id="now_country" value="农村">农村</label>
+				</div>
+			</div>
+		</div>
+		<!-- 主要抚养人 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label">主要抚养人</label>
+			</div>
+			<div class="col-xs-9 col-sm-5">
+				<select name="child_mother" id="child_mother" class="form-control">
+					<option>父亲</option>
+					<option>母亲</option>
+					<option>(外)祖父母</option>
+					<option>其他</option>
+				</select>
+			</div>
+		</div>
+		<!-- 孩子出生时父亲年龄 -->
+		<div class="row">
+			<div class="col-sm-3 edit_archive_p0">
+				<label class="left_pull_right left_label">出生时父亲年龄</label>
+			</div>
+			<div class="col-xs-12 col-sm-5">
+				<input type="text" name="father_age" id="father_age" placeholder="/岁" value="{$archive[0][dadnianling]}" class="form-control" />
+			</div>
+		</div>
+		<!-- 孩子出生时母亲年龄 -->
+		<div class="row">
+			<div class="col-sm-3 edit_archive_p0">
+				<label class="left_pull_right left_label">出生时母亲年龄</label>
+			</div>
+			<div class="col-xs-12 col-sm-5">
+				<input type="text" name="mother_age" id="mother_age" placeholder="/岁" value="{$archive[0][momnianling]}" class="form-control" />
+			</div>
+		</div>
+		<!-- 入托年龄 -->
+		<div class="row">
+			<div class="col-xs-3 edit_archive_p0">
+				<label class="pull-right left_label">入托年龄</label>
+			</div>
+			<div class="col-xs-9 col-sm-5">
+				<input type="text" name="baby_farm_age" id="baby_farm_age" placeholder="入托年龄/岁" value="{$archive[0][rutuo]}" class="form-control" />
+			</div>
+		</div>
+		<!-- 学会走路的年龄 -->
+		<div class="row">
+			<div class="col-sm-3 edit_archive_p0">
+				<label class="left_pull_right left_label">学会走路的年龄</label>
+			</div>
+			<div class="col-xs-12 col-sm-5">
+				<input type="text" name="walk_age" id="walk_age" placeholder="/岁" value="{$archive[0][walknianling]}" class="form-control" />
+			</div>
+		</div>
+		<!-- 学会说话的年龄 -->
+		<div class="row">
+			<div class="col-sm-3 edit_archive_p0">
+				<label class="left_pull_right left_label">学会说话的年龄</label>
+			</div>
+			<div class="col-xs-12 col-sm-5">
+				<input type="text" name="talk_age" id="talk_age" placeholder="/岁" value="{$archive[0][talknianling]}" class="form-control" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-4">
+				<button type="button" onclick="formsubmit()" class="btn btn-lg btn-block btn-primary">
+			        保存
+			    </button>
+			</div>
+			<div class="col-sm-4">
+				
+			</div>
+		</div>
+	</form>
+</div>

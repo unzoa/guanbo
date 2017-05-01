@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh" class="no-js">
+<include file="Index/head"/>
+<style type="text/css">
+	.aa{border:1px solid red;}
+	
+</style>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<include file="Index:nav" />
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<form action="{$think.const.__SELF__}" method="post">
+					<h2>设置公告</h2>
+					<textarea class="btn-block" name="content" placeholder="请输入公告..." style="min-height: 100px;padding:10px 7px;"></textarea>
+					<input type="submit" class="btn btn-lg btn-primary btn-block" value="确认"></input>
+				</form>
+				<div>
+					<h2>密咒
+						<a href="{:U('Home/index/addjing')}">
+							<button class="btn btn-md btn-warning "> + 增加</button>
+						</a>
+					</h2>
+					
+					<table class="table table-condensed">
+						<thead>
+							<tr>
+								<td>图标</td>
+								<th>密咒</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<volist id="v" name="jing">
+							<tr>
+								<td><img src="{$Think.const.UIMG}{$v.big_img}" class="bs_jing_bigimg"></td>
+								<td>{$v.name}</td>
+								<td>
+									[<a href='{:U("Home/index/editjing",array("id"=>$v["id"]))}'>更新</a>]
+					  				[<a href='{:U("Home/index/deljing",array("id"=>$v["id"]))}'>删除</a>]
+								</td>
+							</tr>
+							</volist>
+						</tbody>
+					</table>
+				</div>
+				
+
+				</div>
+			<div class="col-sm-8">
+				<h2>用户管理</h2>
+				<table class="table table-condensed">
+				  <thead>
+				  	<tr>
+				  		<th>昵称</th>
+				  		<th>级别</th>
+				  		<th>团队</th>
+				  		<th>操作</th>
+				  	</tr>
+				  </thead>
+				  <tbody>
+				  	<volist name="user" id="v">
+				  	<tr>
+					  	<td>{$v.name}</td>
+					  	<td>{$v.level}</td>
+					  	<td>{$v.team}</td>
+					  	<td>
+					  		[<a href='{:U("Home/index/edituser",array("id"=>$v["id"]))}'>管理</a>]
+					  		[<a href='{:U("Home/index/deluser",array("id"=>$v["id"]))}'>删除</a>]
+					  	</td>
+				  	</tr>
+				  	</volist>
+					<tr>
+				  		<td colspan="4" class="bs_page" style="padding-top: 20px!important;">
+				  			{$show}
+				  		</td>
+				  	</tr>
+				  </tbody>
+				</table>
+				<div>
+					<h2>团队
+						<a href="{:U('Home/index/addteam')}">
+							<button class="btn btn-md btn-warning "> + 增加</button>
+						</a>
+					</h2>
+					
+					<table class="table table-condensed">
+						<thead>
+							<tr>
+								<th>团队</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<volist id="v" name="team">
+							<tr>
+								<td>{$v.name}</td>
+								<td>
+									[<a href='{:U("Home/index/editteam",array("id"=>$v["id"]))}'>更新</a>]
+					  				[<a href='{:U("Home/index/delteam",array("id"=>$v["id"]))}'>删除</a>]
+								</td>
+							</tr>
+							</volist>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

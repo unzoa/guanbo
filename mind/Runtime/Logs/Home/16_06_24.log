@@ -1,0 +1,15 @@
+[ 2016-06-24T09:32:00+08:00 ] 127.0.0.1 /hanwei/hw/index.php/home/hanwei/test
+ERR: 非法操作:test
+
+[ 2016-06-24T09:32:13+08:00 ] 127.0.0.1 /hanwei/hw/index.php/home/test/test
+ERR: 非法操作:test
+
+[ 2016-06-24T10:33:16+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Home/test/upd.htmlid/1
+ERR: 非法操作:upd.htmlid
+
+[ 2016-06-24T10:33:37+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Home/test/upd.htmlid/1
+ERR: 非法操作:upd.htmlid
+
+[ 2016-06-24T10:33:42+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Home/test/upd.htmlid/1
+ERR: 非法操作:upd.htmlid
+

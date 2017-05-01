@@ -1,0 +1,678 @@
+[ 2017-03-28T07:35:49+08:00 ] 127.0.0.1 /guanbo/baoshu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.062301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035961s ]
+
+[ 2017-03-28T07:35:50+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000594s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\337e4dd8dd445b2a617d2e4e8f2c88c1.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.320018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.320558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.039717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009631s ]
+
+[ 2017-03-28T07:35:53+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0485s ]
+SQL: SELECT * FROM `bs_user` WHERE `name` = '111' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000810s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\337e4dd8dd445b2a617d2e4e8f2c88c1.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001565s ]
+
+[ 2017-03-28T07:36:00+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `bs_user` WHERE `name` = '管理员' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-03-28T07:36:00+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0718s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-03-28T07:36:00+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Index/dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0028s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0028s ]
+SQL: SELECT `team_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_dongtai` [ RunTime:0.0567s ]
+SQL: SELECT * FROM `bs_dongtai` WHERE `daytime` = '2017-03-28' AND `teamid` = 2 ORDER BY did desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2017-03-28T07:36:03+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/index/huoban.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0218s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0025s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `team_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `bs_user` WHERE ( team_id="2" )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bs_dongtai` [ RunTime:0.0030s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="16" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bs_level` [ RunTime:0.0777s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="31" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="48" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="49" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="52" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="53" ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="54" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="55" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2017-03-28T07:36:11+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/index/count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0033s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0026s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0816s ]
+SQL: SELECT * FROM `bs_jing`  [ RunTime:0.0008s ]
+SQL: SELECT `team_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0277s ]
+SQL: SELECT `name` FROM `bs_team` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bs_jing` WHERE ( id<9 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `bs_dongtai` [ RunTime:0.0049s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="上师心咒" and teamid="2" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="百字明" and teamid="2" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大头" and teamid="2" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="灯供" and teamid="2" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大威德" and teamid="2" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="光明佛母" and teamid="2" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大日如来" and teamid="2" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="财宝天王" and teamid="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0056s ]
+SQL: SELECT `level_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0046s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_jing` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bs_jing` WHERE ( id<="19" )  [ RunTime:0.0008s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="上师心咒" and userid="31" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="百字明" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大头" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="灯供" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大威德" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="光明佛母" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大日如来" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="财宝天王" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="十福心咒" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="莲师心咒" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="金刚持心咒" and userid="31" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="文殊金刚" and userid="31" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="文殊心咒" and userid="31" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="九大金刚" and userid="31" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="财宝金刚" and userid="31" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="黄财神" and userid="31" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="度母" and userid="31" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="四归一" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="供" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `level_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bs_jing` LIMIT 19   [ RunTime:0.0004s ]
+SQL: SELECT `team_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( teamid="2" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `bs_team` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( uid='管理员' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE `uid` = '管理员' AND `daytime` = '2017-03-28' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bs_dongtai` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `bs_dongtai` WHERE `uid` = '管理员' AND `daytime` = '2017-03-28'  [ RunTime:0.0005s ]
+SQL: SELECT `lastDayTime` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `newDayTime` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `jianduan` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `jianduan` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\689f99d7c8c5d6774212f8dc8aa1b5b9.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2017-03-28T07:36:17+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/index/count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0024s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `bs_jing`  [ RunTime:0.0005s ]
+SQL: SELECT `team_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0027s ]
+SQL: SELECT `name` FROM `bs_team` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bs_jing` WHERE ( id<9 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_dongtai` [ RunTime:0.0030s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="上师心咒" and teamid="2" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="百字明" and teamid="2" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大头" and teamid="2" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="灯供" and teamid="2" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大威德" and teamid="2" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="光明佛母" and teamid="2" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大日如来" and teamid="2" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="财宝天王" and teamid="2" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0028s ]
+SQL: SELECT `level_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0025s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_jing` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bs_jing` WHERE ( id<="19" )  [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="上师心咒" and userid="31" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="百字明" and userid="31" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大头" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="灯供" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大威德" and userid="31" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="光明佛母" and userid="31" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大日如来" and userid="31" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="财宝天王" and userid="31" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="十福心咒" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="莲师心咒" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="金刚持心咒" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="文殊金刚" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="文殊心咒" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="九大金刚" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="财宝金刚" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="黄财神" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="度母" and userid="31" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="四归一" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="供" and userid="31" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `level_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bs_jing` LIMIT 19   [ RunTime:0.0005s ]
+SQL: SELECT `team_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( teamid="2" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0024s ]
+SQL: SELECT `name` FROM `bs_team` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( uid='管理员' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE `uid` = '管理员' AND `daytime` = '2017-03-28' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_dongtai` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `bs_dongtai` WHERE `uid` = '管理员' AND `daytime` = '2017-03-28'  [ RunTime:0.0007s ]
+SQL: SELECT `lastDayTime` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `newDayTime` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `jianduan` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `jianduan` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\689f99d7c8c5d6774212f8dc8aa1b5b9.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2017-03-28T07:36:26+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/index/usersetting.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0039s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0028s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `bs_user` WHERE ( id="31" )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\bb7fa31c28ade5321d9e723762f248a2.php 第 103 行.
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\bb7fa31c28ade5321d9e723762f248a2.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-03-28T07:38:03+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/index/usersetting.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0033s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0029s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `bs_user` WHERE ( id="31" )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\bb7fa31c28ade5321d9e723762f248a2.php 第 103 行.
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\bb7fa31c28ade5321d9e723762f248a2.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2017-03-28T07:39:02+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/index/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0031s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0025s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `bs_jing`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `bs_team`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bs_user` LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bs_level` [ RunTime:0.0026s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0031s ]
+SQL: SELECT `name` FROM `bs_team` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `bs_team` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `bs_team` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `bs_team` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `bs_team` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `bs_team` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `bs_team` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `bs_team` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000503s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2017-03-28T15:51:26+08:00 ] 127.0.0.1 /guanbo/baoshu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002797s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0491s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0513s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0256s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-03-28T15:51:26+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Index/dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0049s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0054s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0051s ]
+SQL: SELECT `team_id` FROM `bs_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bs_dongtai` [ RunTime:0.0375s ]
+SQL: SELECT * FROM `bs_dongtai` WHERE `daytime` = '2017-03-28' AND `teamid` = null ORDER BY did desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000757s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009570s ]
+
+[ 2017-03-28T15:51:31+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Manage/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+
+[ 2017-03-28T15:51:31+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\337e4dd8dd445b2a617d2e4e8f2c88c1.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2017-03-28T15:51:42+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `bs_user` WHERE `name` = '管理员' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-03-28T15:51:42+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0025s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-03-28T15:51:42+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Index/dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0026s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0027s ]
+SQL: SELECT `team_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_dongtai` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `bs_dongtai` WHERE `daytime` = '2017-03-28' AND `teamid` = 2 ORDER BY did desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2017-03-28T15:51:55+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/index/huoban.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0027s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0023s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `team_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `bs_user` WHERE ( team_id="2" )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bs_dongtai` [ RunTime:0.0030s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="16" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bs_level` [ RunTime:0.0804s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="31" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="48" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="49" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="52" ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="53" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="54" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( userid="55" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `bs_level` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001793s ]
+
+[ 2017-03-28T15:52:20+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/index/count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0023s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0525s ]
+SQL: SELECT * FROM `bs_jing`  [ RunTime:0.0008s ]
+SQL: SELECT `team_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0279s ]
+SQL: SELECT `name` FROM `bs_team` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bs_jing` WHERE ( id<9 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bs_dongtai` [ RunTime:0.0047s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="上师心咒" and teamid="2" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="百字明" and teamid="2" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大头" and teamid="2" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="灯供" and teamid="2" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大威德" and teamid="2" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="光明佛母" and teamid="2" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大日如来" and teamid="2" ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="财宝天王" and teamid="2" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0040s ]
+SQL: SELECT `level_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0037s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_jing` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bs_jing` WHERE ( id<="19" )  [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="上师心咒" and userid="31" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="百字明" and userid="31" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大头" and userid="31" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="灯供" and userid="31" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大威德" and userid="31" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="光明佛母" and userid="31" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="大日如来" and userid="31" ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="财宝天王" and userid="31" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="十福心咒" and userid="31" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="莲师心咒" and userid="31" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="金刚持心咒" and userid="31" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="文殊金刚" and userid="31" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="文殊心咒" and userid="31" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="九大金刚" and userid="31" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="财宝金刚" and userid="31" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="黄财神" and userid="31" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="度母" and userid="31" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="四归一" and userid="31" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( jid="供" and userid="31" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `level_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bs_jing` LIMIT 19   [ RunTime:0.0007s ]
+SQL: SELECT `team_id` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( teamid="2" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0047s ]
+SQL: SELECT `name` FROM `bs_team` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE ( uid='管理员' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(count) AS tp_sum FROM `bs_dongtai` WHERE `uid` = '管理员' AND `daytime` = '2017-03-28' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bs_dongtai` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `bs_dongtai` WHERE `uid` = '管理员' AND `daytime` = '2017-03-28'  [ RunTime:0.0008s ]
+SQL: SELECT `lastDayTime` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `newDayTime` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `jianduan` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `jianduan` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\689f99d7c8c5d6774212f8dc8aa1b5b9.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+

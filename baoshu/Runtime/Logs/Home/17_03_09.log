@@ -1,0 +1,44 @@
+[ 2017-03-09T16:45:41+08:00 ] 127.0.0.1 /guanbo/baoshu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0545s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0558s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-03-09T16:45:41+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Index/dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0038s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0054s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0060s ]
+SQL: SELECT `team_id` FROM `bs_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_dongtai` [ RunTime:0.0920s ]
+SQL: SELECT * FROM `bs_dongtai` WHERE `daytime` = '2017-03-09' AND `teamid` = null ORDER BY did desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001359s ]
+

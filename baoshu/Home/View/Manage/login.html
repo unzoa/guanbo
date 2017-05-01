@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<include file="Index/head"/>
+  <style>
+  ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+      color:   #fff!important;
+  }
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+     color:    #fff!important;
+     opacity:  1;
+  }
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+     color:    #fff!important;
+     opacity:  1;
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+     color:    #fff!important;
+  }
+  .row{padding: 0;margin:0 }
+  </style>
+  <body style="background-image: url({$Think.const.HIMG}gb.jpg);background-size: cover;">
+  <br/>
+    <!-- <div class="container-fluid aa "> -->
+    <div class="row bs_login_con">
+      <div class="col-sm-4">
+        <form class="form-signin" role="form" action="{$think.const.__SELF__}" method="post">
+          <!-- <h2 class="cfff">登录</h2> -->
+          <input type="text" name="name" id="inputName" class="form-control bs_log_input" placeholder="昵称" required>
+          <input type="password" name="pwd" id="inputPassword" class="form-control bs_log_input" placeholder="密码" required>
+          <button class="btn btn-lg bs_login_btn pull-left" type="submit" style="margin-top: 10px;width: 46%">登录</button>
+          <a href="{:U('Home/Manage/register')}">
+            <button class="btn btn-lg bs_login_btn pull-left" type="button" style="margin-top: 10px;margin-left:8%;width: 46%">注册</button>
+          </a>
+        </form>
+      </div>
+    <!-- </div> -->
+      
+      <script type="text/javascript">
+        var btn = document.getElementById('hyh');
+        btn.onclick=function(){
+          window.location.reload();
+        }
+      </script>
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="{$Think.const.HJS}ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

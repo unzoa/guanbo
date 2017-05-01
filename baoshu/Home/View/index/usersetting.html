@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh" class="no-js">
+<include file="Index/head"/>
+<style type="text/css">
+	.aa{border:1px solid red;}
+	.user{line-height: 40px;margin-bottom: 10px;border-bottom: 1px solid #eee;padding-bottom: 10px}
+	.users{margin-top:30px;}
+	.userscon{border:1px #d8d8d8 solid;border-radius:7px; box-shadow: 0 4px 15px 4px #999;padding-bottom: 20px}
+	@media (max-width: 767px){
+		.users{margin-top: 0px}
+		.userscon{box-shadow: 0 0 0 0;border:0;}
+	}
+	.name{font-size: 20px;color: #000079;margin-left: 5px;line-height: 30px;}
+	.userpic{width: 40px;height:40px;border-radius:25px;border:1px solid #4ed487;margin-top: -5px}
+	.badge{background-color: red!important}
+</style>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<include file="Index:nav" />
+		</div>
+		<div class="row users">
+			<div class="col-sm-4 col-sm-offset-4 userscon">
+				<h2 style="margin-bottom: 30px">账户设置</h2>
+				<form action="{$think.const.__SELF__}" method="post">
+					<volist id="v" name="me">
+						<div class="input-group mb10">
+					      <div class="input-group-addon">昵称</div>
+					      <input class="form-control" type="text" name="name" value="{$v.name}">
+					      <div class="input-group-addon">
+					      <input type="submit" value="提交" class="bs_submit"></input> 
+					      </div>
+					    </div>
+					</volist>
+				</form>
+				<form action="{$think.const.__SELF__}" method="post">
+					<volist id="v" name="me">
+						<div class="input-group">
+					      <div class="input-group-addon">密码</div>
+					      <input class="form-control" type="password" name="pwd" value="{$v.pwd}">
+					      <div class="input-group-addon">
+					      <input type="submit" value="提交" class="bs_submit"></input> 
+					    </div>
+					</volist>
+
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,573 @@
+[ 2016-11-21T10:15:37+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-21T10:15:37+08:00 ] 211.137.13.86 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\8bf5cf33f1344337a13a2f1279036828.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-21T10:15:45+08:00 ] 211.137.13.86 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_manage` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_manage` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-21T10:15:46+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-21T10:15:49+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-21T10:15:55+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\7f9eb48c00da6b0122992baf32f07507.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-21T11:20:52+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('存在感：你没有被随时看见，但你值得被看见 ',' 被关注是人类很深的一个心理需求。很多人似乎只有在被关注的时候，才有存在感。于是通过各种有意无意的动作来刷存在感，或者放弃了寻找存在感。','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;/ueditor/php/upload/image/20161121/1479698384998595.jpg&quot;/&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;被关注是人类很深的一个心理需求。很多人似乎只有在被关注的时候，才有存在感。于是通过各种有意无意的动作来刷存在感，或者放弃了寻找存在感。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;我也会这样，经常通过各种SB和zhuangB的动作来获取别人的注意力。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;有时候我觉得我没有朋友。当我独处的时候，我会觉得孤单。甚至会觉得在这个世界上很多余。我觉得每个人都那么充实快乐的活着，而我却会感受到似乎被世界遗忘了，不会被人记得。当电话没有响起，qq没有滴滴声，关机3天，再开机会发现——根本没有人找你。这是多么深的一种失落感。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;这种失落感在说，你并不被人们在意。你对于这个世界来说，并不重要。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;当我去参加一个活动，或者去上某个课程，参加一个聚会，到一个新单位，到一个陌生的环境的时候，我常常难以开口，不知道怎么跟身边的人开启话题。有时候告诉自己该认识下身边的这个陌生人，该多个朋友，该主动与人连接，但是我不知道说什么，常常不知所措。所以我会独来独往。他们互相认识，我自己和我认识。即使是旅游的时候、做火车的时候也是如此，基本不会主动去和人说话，自己干自己的。他们可以玩得不亦乐乎，但这不会包括我。我总感觉对群体有种格格不入的心，融入不了他们的欢乐。所以我宁愿躲在角落里默默呆着，告诉自己其实是我不愿意加入，以获得一点主动感。其实这时候如果有人发现了我并主动过来跟我说话，我会觉得非常被安慰。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;以前我会把这种行为定义为我太内向，但是后来我却发现，其实当我不说，我是渴望别人主动跟我说话的。当有人主动跟我说话的时候，我会感到莫大的安慰。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;我也怕那种主动找个伙伴去做练习，去拥抱每一个你喜欢的人的活动。我肯定会站在那里不动，等待着被选择或者剩下，我很难去主动找别人。我甚至会故意把自己躲起来，以找到一个理由：是我不愿意玩，不愿意参加。以让自己感受到舒服点，而不是被忽视。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;有时候我觉得，我根本就不知道该怎么交朋友。所以没有朋友。所以常常不被人想起。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;另一面，我又拼命的通过各种炫耀得瑟来刷存在感，我把微信弄成1k多个好友，好顺理成章的每次收集到上百个赞。享受着那种每发一次朋友圈，5分钟之内必有一堆赞，然后看到“1条新消息”的时候就兴奋。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;被关注，被看到，被需要，被喜欢。真的是一件非常美妙的事情。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;总之，我希望可以这样：当我到一个环境里，我希望别人主动找我说话；当我一个人呆着的时候，我希望别人可以想起我并联系我；当我跟某人说话的时候，我希望他可以及时回复我；当我打电话的时候，我希望对方可以即刻接到。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;然而我总是失败。因为我总是被遗忘。在群体中，我总不是他们的中心点。我只能在角落里安静的做个美男子。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;后来我们做过很多练习，很多人对着一个人说“我看到你了”。被说的人会泪如雨下。我感动于人性的脆弱，原来我们内心都有着这么多被看到的需求。原来我们这么需要在别人面前证明自己的存在。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;我们为什么这么需要被别人看到，才会觉得自己是存在的。我们为什么要在存在上都这么依赖别人。我们为什么需要他人的关注，才会感觉到好一点。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;实际上我们真的没有得到过吗？显然不是。当我有困难的时候，只要发出呼喊，总有人来支援。当我需要聊天的时候，只要弹起小窗，总有人陪伴。当在群体中，我主动去和别人说话的时候，总是不被拒绝，并热情得以解答。为什么我们会需要别人“主动”看到我们。甚至要通过各种zhuangB炫耀得瑟来刷存在感，证明自己是值得被看到的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;在鲍比的依恋理论中，讲过依恋的形成过程。我觉得可以很好的解释了这个过程：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;小孩子在婴幼儿时期，对母亲是极度依恋的。因为他们需要被母亲看到，才觉得安全。他们也只有看到母亲，才觉得踏实。所以小孩子在最初期，他可以自己玩，但是一定要妈妈在身边。妈妈一旦超出了他们的视线，他们就会又哭又闹无法继续玩。这就是我们最初的存在感。后来些，小孩子长大些，相信了妈妈一直在身边。有时候玩起来的时候，就会不让妈妈看到，会推开妈妈。但是他内心里会相信妈妈一直在身边。也就是他建立了一个信念：当我想自己玩的时候我就自己玩，当我需要妈妈的时候我只要一喊妈妈就会过来。所以小孩子有时候会不断的喊“妈妈”来刷存在感，证明妈妈是存在的。于是安全型的依恋就被建立。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;安全型依恋的小孩有这么的特征：妈妈不需要实体在场，只要小孩子的心里相信妈妈一直在，他就可以很安心的自己玩。他相信自己一旦遇到危险，妈妈一定会出现来保护自己。相信自己一有需要，妈妈就会出现。他也可以看着妈妈去做自己的事，甚至离开一段时间，因为他相信妈妈始终会回来。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;但是我们很多人都没有过这么幸运，有过这么敏感的妈妈。当小孩子感受到危险情境的时候，当小孩子需要妈妈的时候，妈妈常常都不在。甚至有很多妈妈，因为工作要出门，小孩子不舍得，就趁小孩子睡着的时候偷偷离开，或者看着小孩子大哭而不得不忙自己的事。这对小孩子来说创伤就极大了：一旦妈妈离开了我的视线，就可能再也没有了。所以他建立这样的信念；妈妈只有随时在我的视线范围内才安全，一旦她离开我的视线，可能就再也没有了。她对妈妈并没有安全的信任和依赖。这也就是不安全型的依恋。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;小时候没有得到过的心理满足，我们是要穷其一生来填补的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;长大后，我们身边的人、我们的社会，就成了妈妈的象征。我们渴望从他们那里得到以前没有得到的东西。比如说，存在感。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;当别人没有关注我们，当别人在做自己的事情，过自己的生活，我们在那一刻感受不到自己是重要的，感受不到自己是被关注的。就会觉得自己不值得，不重要，就会失落。只有他们主动关心我们，主动找我们，主动跟我们聊天，主动点赞，我们才感到自己是被关注的。而这，就是不安全型依恋的小孩，只有当妈妈主动关心自己、在视线范围之内的时候，才觉得自己是被关爱的。一旦妈妈离开，就似乎永远都没了一样。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;他人此刻没有关注我们，并不意味着不关注我们。因为当我们需要并表达出来的时候，就能得到关注，就能得到热切的回应。即使他们没有来得及热切，至少会在心里重视了下我们。只是他们不是我们的妈妈，他们有自己的生活，不能把我们当做世界的中心，够随时给我们关注。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;甚至妈妈都不能。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;当我们长大后，我们也可以去理解妈妈。妈妈除了孩子外，还有生活，工作，她的世界。她很重视孩子，但却不能把100分的注意力都给到孩子。她有自己的悲伤、无奈、无能为力。她有着一个普通人具有的一切局限。她努力关注我们，但却总会失手。她没有接受过依恋理论的学习，没有掌握婴幼儿的心理规律，她不是育儿专家，不知道会带来哪些伤害。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;所以我们注定从小就会经常感受不到存在感。经常会被忽视，经常会觉得自己不重要，不值得。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;但妈妈的这些忽视并不意味着她不重视。长大了也是这样，他人也有着自己的生活、局限、悲哀，他人也有着自己的内在小孩的渴望。甚至他人也很需要我们点赞，主动，关注。也需要我们这个成年人来看到他。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;即使你安静的坐在角落里，没有人看到，不被人注意。没有人点赞，没有电话响起，没有人主动关心你，没有人能秒回你信息，你都依然是值得被看到的。你是成年人，不再是那个随时需要妈妈看到的婴儿了。你和他人平等，都有自己的生活。但是当你真的有了现实需求，你会得到别人的帮助。这，就是爱。就是看见。当你拿起电话拨通每个朋友的电话去问：你记得我吗？你会想起我吗？我对你来说重要吗？我会被你忽视吗？你会得到一个个很肯定的答案。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;你不需要一种幸福叫秒回，你不需要32个赞，你不需要别人主动跟你说话，你不需要别人主动关心你。这些都是你对于看见的匮乏，是幻觉。你很重要，你本来就很重要。所以你值得被看到。你只是没有被随时都关注，并不意味着你不值得被关注。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;因为你已经不是小baby，不需要随时被看到。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;何况，你本身就对很多人来说很重要，虽然不是所有人。比如说你的父母，挚友，恋人，你能帮助到的人，等等。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;因此不要去问一堆“当我有困境，谁会第一时间记得我”之类无聊的问题，这些都充分的说明你需要一个妈妈随时注意到你。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;nbsp;问题是，你在等待被看到的时候，看到自己了吗？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/hanwei/hw/Public/Upload/20161121/2016-11-21_835505_734259315736686796.jpg&quot; title=&quot;2016-11-21_835505_734259315736686796.jpg&quot; alt=&quot;734259315736686796.jpg&quot;/&gt;&lt;/p&gt;','Upload/2016-11-21/583268141f7d1.jpg','2016-11-21 11:20:52') [ RunTime:0.0156s ]
+
+[ 2016-11-21T11:20:52+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-21T11:20:55+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-21T11:20:58+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-21T11:21:02+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-21T11:21:04+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-21T11:21:06+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\7f9eb48c00da6b0122992baf32f07507.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-21T11:37:59+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('自卑，是很深刻的自卑','自卑，是很深刻的自卑','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://ossimg.xinli001.com/20161117/4d75e69774c0d4a03e8f3f4ac44d8f41.jpg&quot; title=&quot;4739192044756766.jpg&quot; alt=&quot;234628049edbc38571bd64.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;题图：陈丹青、梁文道&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;文/佚名 转载自财经天下&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;自卑，是很深刻的自卑&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;梁文道：你听说过那个事吧，前一阵子在香港街上，大陆小孩拉尿那个事。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;陈丹青：我不关心这些事情，一定会这样，不光在香港，在全世界，中国的游客变成最讨厌的一群人。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;梁文道：我很不愿意这么讲，但真有这个趋势。我差不多每年都会去一趟欧洲，明显感觉到这几年欧洲人对我们中国人脸孔不友善。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;陈丹青：我买东西付钱，他们从头到尾都不看我，知道又来了个中国人。可是我5年前10年前去的时候，非常友善，还拉着我聊一聊，现在就是做完生意拉倒。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;梁文道：以前不是这样的，现在感觉很不好。比如去日本，经过一个水果店，我都还没细瞧，店里头人就出来，表情非常紧张，&amp;quot;Don&amp;#39;ttouch！&amp;quot;叫我不要摸。我就有点反感了。后来他们店里有个英语比较好的年轻员工跟我解释，我们很多中国人去了，这个捏一捏那个捏一捏，把他们的东西弄得都不好卖了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://ossimg.xinli001.com/20161117/b98a196a77cc60d66c83589cc068503c.jpg&quot; title=&quot;7917267108885888.jpg&quot; alt=&quot;55812397_xxl.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;那我的感觉是，这样的现象一定是有，但我不认为多么普遍。香港每天大约有50万大陆游客，甚至还可能更多。那游客来了，有几个人会在街上拉屎拉尿呢？他说不定一两天只有一个。但旅游这个东西麻烦的地方在于，当地人对这种事特别敏感，每天50万人只要有一个人做了这事就会被注意到。尤其现在能上网，它就会被上升就会被扩大，然后慢慢形成印象：他们都这样。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在香港我常常因此被骂。我对香港人解释说，我们不能因为几件事就把问题上升到一个总体的判断：大陆人都怎么样怎么样。这是很不科学的。然而另一方面，当事情真的发生时，那个感觉是非常强烈的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;比方说我遇到过这么一件事。香港不是有个挺贵的百货公司叫连卡佛嘛，我有一天在那儿逛，看到一个大陆游客。他等于在香港最高档的百货公司男装那一层，把上衣脱了，大着肚子，从衣架上拿了件阿玛尼下来就这么试穿。店员就过来说，先生，那边有试衣间。他说试衣间得排队。店员说，不好意思，您就等一会儿吧。旁边有些香港人看不惯，说你怎么这样。那个游客就火大了，你知道他第一句话说什么？这句话现在很常见。&amp;quot;你是不是瞧不起咱中国人哪？&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://ossimg.xinli001.com/20161117/9509db20b9a95b268ef3bdabc6c4a811.jpg&quot; title=&quot;4373269999654310.jpg&quot; alt=&quot;51742530_xxl.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;所以有时候问题就变成什么呢，本来并不是瞧不起中国人，人家瞧不起的是这个行为。但他很敏感，他第一个印象就是你们这么对我，是不是因为我是中国人，你们是不是瞧不起中国人？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;所以他下一个问题很可能出现，假如今天做这件事的不是个中国人，你们还会这么说吗？就像小孩街头拉尿事件有很多网民说，假如这是个日本人，这是个英国人，你们香港人会骂他吗？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;香港人说不定真的对外国人还会好一点，但这里有一个原因，就是大陆游客在去香港的游客当中真的是大多数，那不快的遭遇多了就会累积起来，产生这么一个不好的印象。反过来说，今天我们这么多游客出国，我们口袋里钱多，中国游客成了全球消费最高的游客群体，我们总说我们是崛起了，可是心里好像总有那么点……&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;陈丹青：还是自卑，很深刻的自卑。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;梁文道：所以他第一句话是&amp;quot;你是不是瞧不起咱中国人&amp;quot;。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;中国人的心理没有太大改变&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;陈丹青：别说香港，就在大陆本土，这个&amp;quot;你瞧不起我&amp;quot;是所有人的备用词汇。随便什么事情，到翻脸的时候，&amp;quot;你瞧不起我。&amp;quot;这是很奇怪的，我没有在别的语言中听到过。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;梁文道：这有点像是说，你的尊严完全建立在人家怎么看你上了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;陈丹青：他第一反应是你瞧不起我，他不想这件事情，他没有一个起码的教养。其实他瞧不起自己，所有中国人其实瞧不起自己，中国人内心也瞧不起中国人，然后很怕别人瞧不起他。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;梁文道：要说外头人瞧不起你，以前没有瞧不起你呀。你比如说我1990年代去法国，法国人对中国人非常好。一直到2000年初的时候，每年民意调查问法国人对哪个国家印象最好，中国名列前茅，1980、1990年代经常排第一的，美国人很讨厌，总排在后面。那时候人家很瞧得起你。我还记得以前一碰到法国人就先来跟你聊文明，中国、孔子、礼仪之邦如何如何。所以现在出现这么一个情况，我觉得很矛盾。以前我们说交流多了、接触多了，互相了解就更好了，现在是更坏了。以前来往不多人家对你印象都很好，来往多了却觉得你是这样。这里面我觉得我们焦虑感很重，我们一方面很有钱，出国多了，眼界之类跟以前不一样。但是，生怕别人会看不起自己，这种感觉更强了。这好奇怪。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;陈丹青：中国富强的心理动力就是想让别人有一天看得起自己嘛，还要用他自己的方式看得起。我出国前一年，1981年，也许是1980年。我们学校在王府井，有一天忽然就听到长安街传来大概几万人才会发出的人声喧哗。我们跑出去看，长安街多宽啊，50米宽，就看到成千上万北京爷们，骑着自行车浩浩荡荡过来，几乎所有人都光着膀子。好像是因为中国女排赢了，他们大叫大骂大开心，浩浩荡荡像洪水一样过来了。我就很不理解，一个球胜利了为什么要这么高兴，不是来自官方，没人组织他们，就是老百姓。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://ossimg.xinli001.com/20161117/d167f74694c1f591adc95d43bed3825a.jpg&quot; title=&quot;5174958380955045.jpg&quot; alt=&quot;37916038_xxl.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;梁文道：你不是球迷。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;陈丹青：我不但不是球迷，我不是民族主义者。我当时非常惊讶，而且我明白了很多事情。&amp;quot;文革&amp;quot;结束还没多久，中国事事不如人，所以胜了个球会变成这个样子。他在找一件事能够让他被看得起一下，就那么一下，他就爆发了。现在国家发生了巨变，这种心理状况没有太大改变，反而可能更畸形地落实到各种你想不到的事情上。他忽然想到你看不起我，我早就被人看得起了，你还看不起我！&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;梁文道：今天我们希望别人看得起自己的方法是什么呢？比如说大陆游客跟香港本地居民起冲突的时候，最常冒出来的话是&amp;quot;你是不是瞧不起咱中国人&amp;quot;&amp;quot;你是不是不把自己当中国人&amp;quot;，接下来讲什么？&amp;quot;如果不是我们来消费你们就完蛋了&amp;quot;&amp;quot;如果不是我们来花钱你们吃什么？&amp;quot;他很奇怪地把让人尊敬的渠道或方法放在这个上面。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;陈丹青：问题是他不明白，这就是他让人看不起的地方。你会这样想真的让人看不起，他完全没想到这就是他让人看不起的地方。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;年轻人已经变成现代人了&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;梁文道：我觉得这反映了中国自己的问题。正是因为在我们国家，你有钱有势有地位人家就瞧得起你。今天在中国，我们并不会因为一个人做人端正诚实而瞧得起他。我们瞧得起瞧不起一个人是看他去什么场合，他开什么车，他花不花得起大钱。这是我们看人的方法，我们出国的时候把这套看人的方法也带了出去。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;陈丹青：核心价值观。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;梁文道：这真是核心价值观。但人家不是这样。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;有一次在德国，跟朋友去登山，下山的时候去搭公交。来了一对年轻男女，看样子是亚洲人的脸孔，很健康、很阳光的样子。他们上车时有座位。后来有一对老年人上来没有座位。我跟我朋友正想站起来，结果那两个年轻人立刻起来让位，用英语招呼那对老先生老太太。我们在后头看到，非常高兴，就猜他们从哪儿来的。我旁边都是中国人嘛，自己都说一定不是中国人，估计不是日本人就是什么人。后来听到他们两个人说话，一开腔是北京话，好欣慰啊。你懂我意思，有时候就这个感觉：你要让人看得起，不是你开了一个跑车去登山，就只是在公交车上让让座。看得起怎么来的？其实就是这样子。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://ossimg.xinli001.com/20161117/4953d5bac9c5ff930b5a6caf127258a0.jpg&quot; title=&quot;1525313599628394.jpg&quot; alt=&quot;11223919_xxl.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;陈丹青：年轻人好得多。我讲两个经历。一个就是我去年到意大利去，威尼斯双年展，然后就到托斯卡纳那些小镇去看壁画。我在当中换车时，来了两个很好看的亚洲人，我无法判断是日本人、韩国人、大陆人还是港台人。大概在二十二三岁吧。男的卷头发、络腮胡，女孩也很好看，穿得很新潮但又不夸张。两个人拉着手跟我们一起上公车，我就偷听他们讲话。结果他们讲的是普通话，我实在忍不住，就问，两位从哪里来？说我们从福建来这里结婚。我非常高兴，他们显然是富二代，自己也有公司了，这么小就能自己跑到托斯卡纳去度蜜月，而且婚礼就选中了某一个小镇的教堂。我很感动。那个年纪我还在农村呢，根本没有可能出国，更别说结婚。我知道现在中国有千千万万有钱的孩子，可以出国去旅游去结婚，这无论如何是好消息，而且很懂礼貌。结果还不是大城市来的，他们讲了一个地方我忘记了。我就一直看着他们，还要求跟他们合影。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;第二件事情我也很高兴。今年到欧洲去临画，排队过安检时，前面有个小孩认出我了，就跟我要签名要拍照什么的。我说你到哪儿去？他说我去纽约。我说你到纽约去上学吗？他说我最近有一段空当，我想去纽约玩一玩。我也更感动。现在一个&amp;quot;80后&amp;quot;&amp;quot;90后&amp;quot;，他只是工余，就用自己的钱一个人跑到纽约去玩了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我只遇到这么两个，但现在有千千万万年轻人，我不敢说太多，已经可以出去了。我在国外看到的讨厌的中国人，基本上是&amp;quot;50后&amp;quot;&amp;quot;60后&amp;quot;，很少见到讨厌的&amp;quot;70后&amp;quot;，已经是很大的进步。你看中国富有了强了，但中国绝对还不是一个现代国家，中国人还不是现代人群。但一个一个年轻人已经变成现代人了。这是最让我高兴的地方，这样的人会慢慢多起来，我觉得。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;','Upload/2016-11-21/58326c176ad4d.jpg','2016-11-21 11:37:59') [ RunTime:0.0156s ]
+
+[ 2016-11-21T11:37:59+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-21T11:50:48+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-21T11:50:49+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\7f9eb48c00da6b0122992baf32f07507.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-21T13:39:20+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('解忧杂货店：我喜欢同性，有错吗？','同性恋，又称同性爱，是性取向之一，是指只对同性产生爱情和性欲的人，具有这种性取向的个体被称之为同性恋者。尽管能够真心接纳“同性恋”这一群体的人越来越多了，但这一群体中的部分成员还是会存在着众多的困惑与迷茫。','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161121/1479700254107781.jpg&quot; title=&quot;9007193991774838.jpg&quot; alt=&quot;62d65bece9d885dda9369b6653730f17.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;同性恋，又称同性爱，是性取向之一，是指只对同性产生爱情和性欲的人，具有这种性取向的个体被称之为同性恋者。尽管能够真心接纳“同性恋”这一群体的人越来越多了，但这一群体中的部分成员还是会存在着众多的困惑与迷茫。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;所以，今天的主题是：&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(84, 141, 212);&quot;&gt;我是同性恋，怎么办？&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;问题：我是一名同性恋，刚开始是因为，我的一个老师，特别好，我特别喜欢她，后来上网一查。原来这可能是同性恋。后来，我就发现，我喜欢女生，参加了一次同性恋party，认识了很多很多人，那一次我就很确定我就是一名同性恋，我不喜欢男生，我甚至会觉得我以后不会结婚，我不想生孩子，但我想领养一个。（背景，我现在的养父养母对，我很好，在我不知道的时候，我觉得我还是很正常的，有喜欢男生，童年的时候父母常常打我因为我不听话。我不喜欢男生和我有过接触皮肤动作，除了，我男闺蜜和我玩特特别好的男生）我想问，我的同性恋，起因是什么？我现在是真的同性恋吗？有什么办法能抚平？&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161121/1479700254108448.png&quot; title=&quot;6444427409390413.png&quot; alt=&quot;112.PNG&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;回答：&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(84, 141, 212);&quot;&gt;@付艺&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;你好这位朋友，先不用给自己贴标签，你可以从这些方面初步判断一下：性冲动对象是否仅限于同性，爱慕的情愫表达对象是否仅限于同性，是否抗拒与异性发生性关系，注意是抗拒，仅仅没有性冲动算不上。这种情况是否是持续的不可逆转的不受影响的。绝大多数是后天受某一事件或者社会环境影响，并不是真正意义上的同性恋。看的出来你有些担心，建议顺应自己的内心，为所当为。尽量不要明知不可为而为之！&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(84, 141, 212);&quot;&gt;@陈啸&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;在没有更多信息了解的前提下其实很难给出有效分析，所以姑且给点粗鲁的&amp;quot;野蛮分析&amp;quot;吧:我注意到你说自己不想生孩子，而想领养一个。这似乎是和你的成长经验恰好对应的。亲身父母常打你，而养父母对你很好。这样的经验可能让你形成了领养的，会比亲生的要好些。如果生个孩子，面对那个孩子可能会激起你内心深处被亲生父母打骂的痛苦感受。然后你还提到被打的原因是自己不听话，不听父母的话似乎是孩子自主意识的一种体现，想摆脱父母的控制，可似乎孩子内心又是依赖父母，渴望得到父母认同的。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;或许同性恋的成因之一也是对亲生父母的一种反抗形式&lt;/span&gt;(中国的传统长辈往往是比较难以容忍孩子同性恋的)——我要以这样的方式反抗你们，就像小时候不听你们的话。然而，我也想以这样的方式引起你们的注意，我变成同性恋了，你们气不气，是不是又想打我了？——你们打我，那我和你们的链接就还存在，被你们打，至少我们还有关系，如果你们都懒得打我了，我就没有依赖你们的机会了，也就没有修复童年创伤的机会了。额，其实一般不建议在没了解情况的前提下野蛮分析，要在咨询设置内逐步浮现潜意识，才有比较好的效果。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;问题：我喜欢一个人已经10年了，我12岁喜欢她，今年22岁，她是我最好的朋友，一直把我当闺蜜，全世界的人都知道我喜欢她，她特别抵制同性恋，怎么办？&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;回答：&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(84, 141, 212);&quot;&gt;@林春丽&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;12岁的懵懂到22岁的青春年华正当好，同性恋本身没有过错，也不是你自己选择的结果，相识十年，你对她是爱情，她待你是友谊，无论是哪种，都有着深刻的情感连接，你害怕和盘托出之后连朋友都做不成是吗？但是压抑自己的情感也不好受吧？在合适的时机开诚布公地进行深度沟通，或许是最好的选择。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(84, 141, 212);&quot;&gt;@杨湛德&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;感情的事情勉强不来的，您有没有想过，你为什么会喜欢对方呢？还是说你把对方当成了另外一个自己，所以你才离不开她。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;问题：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;我今年22岁，男，从大一就发现我性取向和大部分人不同，我喜欢男生，而且大二的时候就喜欢身边一个朋友，最近这种感觉特别强烈，见到他会有性幻想，但是他是直男，我不知该不该给他表白，不说出来感觉特郁闷，甚至影响学习的心情，我很想忘记他，发现非常困难，现在不知道该怎么办，请大家给点建议?&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(84, 141, 212);&quot;&gt;@棒棒碎冰&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;第一，我站在你的角度。他要是直男，你表白，这样很危险，首先，他可能不能接受，如果并且疏远你然后对你评价会有所改变，可能还会对别人说。这样对你成长很不好。可能还会影响你大学生活。当然如果你很能确定他的人品的话，就按照你想做的。毕竟请况你最了解。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;你的喜欢，就跟任何女的见到自己喜欢的男孩，也会情不自禁难以控制。所谓的感情，是你体内荷尔蒙作祟。控制自己一些，你才能得到自己的幸福，别真的被那些温馨的故事所骗。你喜欢他，以后也会喜欢别人。这是真的，我建议你找个自己同类人，要不就找个人品真正可靠的人，要不就像很多暗恋那样，分别的时候告诉对方，也不遗憾。你大二，以后会有更长的路要走，会遇到更多合适的人，考虑好风险，有很多时候，据需要时间，时间会给你最好的答案。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(84, 141, 212);&quot;&gt;@斑斑球&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;每个人都有自己所爱的人，只是刚好和自己是同一个性别而已，爱是不分性别的，如果你确定他就是你想要的那个人，就不要让他从身边走了，到时候失去了才后悔。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;问题：&amp;nbsp;我从小生活在农村，父母也是地地道道的农民，他们文化程度不高 ，父母都是比较固执 死板的人。在我的印象里父亲是这样的人。小时候家庭条件一般，但是谈不上穷，吃喝不愁。那时候别人家都从黑白电视换成彩电，我就和父亲说换家电，父亲就说等你结婚了再买，那时候我才十几岁，父亲只会拼命的劳作，不像别人会把家里打理的好好的，家里有三间平房座落在街道上，小时候别人家的房子都是外立面贴的墙砖，房子里粉刷白，可是那一排只有我家的没有，可能还是父亲心里想着等着我以后结婚了再弄。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;从上面我的回忆来看，我的父亲生下我，把以后我结婚成家看在首位，在他们看来，只要哪天我结婚了成家了，他们的任务也就完成了。可是命运却和我们家开了个玩笑，因为我是同性恋，现在的我内心处于无比纠结的状态，承受着巨大的心里压力，这两年我患上了抑郁症。 虽然从小我对我的父亲感情并不好，但是我也不忍心伤害他们，我经常会想象哪天我说出来后，我父亲的各种崩溃！如果有第三种方法是死亡而不会伤害他们和自己，我会选择自杀，但是显然也是伤害他们和不负责任的做法，现在的我无比的痛苦， 感觉自己活也不好，死也死不了。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;回答：&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(84, 141, 212);&quot;&gt;@魏莱&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;同性恋现在已经得到了越来越多的接纳，但是从你描述的来看，你目前所处的环境，尤其是你父亲要能接纳这一点，还有很长的路要走。所以一方面你好像需要用自己的婚姻给父亲一个“交代”，另外如果和一个异性结婚对你是很扭曲的感觉，就像要求一个异性恋和同性结婚一样痛苦。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;所以我感觉，造成你目前的困境主要是无法自主选择自己的婚姻，这个问题上你同时背负了父亲和社会的压力，压得非常重。另外你谈到了抑郁症的问题，不知是否除此之外也还有其他事情让你觉得很艰难。这种种对你确实是艰难的局面，而你没有选择自杀，并且到这里来倾诉你的痛苦，我想你是希望可以找到一条出路的。心理咨询是我建议你可以去考虑的一个方式，当地面对面的更好，因为你需要一些支持来让你恢复一些力量，去抵御外界的种种压力，更能够自主选择自己的生活。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;小壹君的话：看了以上那么多的分析，你是否在心中已有了自己的答案？同性恋不是病，它只是恋爱感情发生在同性之间的一种特殊形式。美国杰出的心理咨询专家露易丝•海说过，“同性恋者没有错，他们是自然存在的。上帝没有错造一人，我和你也没有错，我们都是上帝完美的作品。”假如你发现自己身边也有陷入这样困惑的朋友，你可以尝试着用自己已有的知识去开导他们或建议他们去寻求更专业的帮助。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;欢迎收看本期&lt;span style=&quot;outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(84, 141, 212);&quot;&gt;「解忧杂货店」&lt;/span&gt;&lt;/span&gt;，这里是你的心事集结地、烦恼抛售区，我们的服务宗旨是：为顾客解决一切内心的忧愁。我是老板小壹君，我们下期再见。&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/p&gt;','Upload/2016-11-21/583288888d4d2.jpg','2016-11-21 13:39:20') [ RunTime:0.0000s ]
+
+[ 2016-11-21T13:39:20+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-21T13:39:22+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

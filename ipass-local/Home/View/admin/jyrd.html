@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<include file="Index:head"/>
+<include file="Admin:style"/>
+<style type="text/css">
+.my_footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%
+}
+@media (max-width: 767px){
+	.my_footer{
+		position: relative;
+	}
+</style>
+<body>
+<include file="Admin:nav"/>
+<br/>
+<section class="container my_nav_padding">
+	<h2>Story 教育热点</h2>
+	<hr/>
+	<button class="btn btn-sm"><a href="{:U('Home/Admin/addstory')}"><i class="icon-plus"></i> 增加</a></button>
+	<hr/>
+	<div class="row">
+		<volist name='story1' id="v">
+			<div class="col-sm-2 text-center my_story_con">
+				<img src="{$Think.const.UIMG}{$v.img}" alt="{$Think.const.UIMG}{$v.img}" style="width: 100%">
+				<br/><br/>
+				<h4 class="media-heading">{$v.title}</h4>
+				<i class="icon-eye-open"> {$v.view}</i>
+				<a href="{:U('Admin/updstory',array('id'=>$v['id']))}">[更新]</a>
+				<a href="{:U('Admin/delstory',array('id'=>$v['id']))}">[删除]</a>
+			</div>
+		</volist>
+	</div>
+</section>
+</body>
+</html>

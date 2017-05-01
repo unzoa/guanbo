@@ -1,0 +1,902 @@
+[ 2016-11-19T15:40:42+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-19T15:40:42+08:00 ] 211.137.13.86 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\8bf5cf33f1344337a13a2f1279036828.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T15:40:45+08:00 ] 211.137.13.86 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_manage` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_manage` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-19T15:40:45+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T15:40:48+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:34:55+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:34:59+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:35:01+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\7f9eb48c00da6b0122992baf32f07507.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:38:17+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('第一份工作的意义是什么？','第一份工作对于我最重要的意义，在于“找到方向”。','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;雨农刚从我个人助理转换为我们公司的实习生的时候，我和她讲一个实习生的故事：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;那个实习生叫黄云刚。毕业之后在腾讯做实习生，一毕业就以应届生的身份加入经纬创投做VC，没几年就做到副总裁，投了很多出色的案子，滴滴快的、口袋购物、猎聘网...&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;看起来他是幸运，但实际上他是经纬史上唯一一名以应届生身份入职的员工。早年他还在腾讯实习的时候，做一份很机械的工作，就是不停收集和发布招聘信息。这样的工作很无聊，很低门槛，是吧？大部分人可能做一个月就觉得无趣开始怀疑人生想着跳槽了。但他默默地做着，把自己对行业的理解整理成一份行业报告，发给了经纬，里面有自己好看的几家做招聘相关事情的公司。最后经纬因为那份报告投了一个公司，给他们带来了很高的回报。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我和雨农说，看看别人家的实习生！别人都可以做到，你也可以。你没有理由不可以。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;雨农压力好大。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;任何一份看似低门槛的工作，不同人去做，天差地别。我不相信一个把低门槛工作做得平庸的人，能在一个高门槛的工作中做得出色。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;你是一个怎么样的人，无论是认真劲还是敷衍病，都会在第一份工作中就显形。永远不要降低对自己的标准，即便是在第一份最简单的工作里。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第一份工作的意义是什么？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;当我还在上一家公司的时候，有一次我和老板喝咖啡，老板问：“你对工作或者说职业发展有什么困惑吗？”我想了想，说：“我希望在工作中看到我10年后能成为的那个人。”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我几乎是不假思索地回答了这个问题，老板表示这个问题非常好，他要回去想一想。但其实我自己对这个答案也有些震惊。这是否真的反应了我对工作的困惑呢？尤其是当我即将离职的时候，我想了很久，第一份工作对于我最重要的是什么？我也和很多在工作、想换工作、或者已经辞职的同学聊了聊，听了听他们的看法。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;后来我突然明白了，第一份工作对于我最重要的意义，在于“找到方向”。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;大学毕业直接工作还是个挺有趣的体验。因为大多数同事都比我大，而我的同学几乎全都在上学，所以我完全没有什么peerpressure，有空还可以观摩一下年长同事的工作状态，学习一下政治斗争经验，然后做点有趣的项目，十分愉快。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在这个观摩学习活动中，我很快明白了一个以前我不懂的词，那就是“中年危机”。这个词我以前经常听到，却从不明白。观察了一段时间，我终于明白了这个词的意思。总体来说，人们在毕业后的几年，薪资和职位都会迅速上升。然而这种上升并不是永无止境的。职位和年龄绝不是线性相关。几年后，很多人就停止了前进的脚步，几十年如一日地做一个中层领导。只有少数人才能实现更高的成就。对于那些止步不前的中年人来说，“中年危机”就来了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;当我明白了这个问题之后，我发现职业生涯的要点原来是避免陷入“中年危机”的陷阱，实现可持续发展。于是我开始继续观察如何避免出现停滞不前的局面。观察了一段时间后，我发现这个问题的答案也比较简单。从结果来看，那些“想继续前进”的人，终究就会继续前进。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这听上去有些荒谬，人人都“想继续前进”，难道那些陷入瓶颈的人不想在职业上继续发展吗？问题在于，希望继续前进，和知道自己要去哪里是两件截然不同的事情。大多数人都有职业发展的愿望，却既不知道自己是什么样的人，也不知道自己想要什么样的职业前景，于是虽有成就之心，最终却无成果之实。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在我即将离职的时候，我在闲暇时间中研究了各种人的第一份工作是什么，发现真是千奇古怪，和他们后来取得的成就几乎毫无关系。比如说，奥巴马在我这么大的时候，好像并没有固定工作，每天在搞一些街头活动。然而，如果顺着他们的履历一路看上去，会发现他们的职业生涯并不是线性上升的，而是在几个时点出现了跳跃，一跃上升到职业高峰。对于奥巴马而言，最显著的跳跃应该出现在他读法学院的时点。他在法学院的几年异军突起，从普通学生快速升级为政坛新星，进入了新的世界。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;总体而言，通过在LinkedIn上研究各种人的履历，我发现要想打破线性职业生涯的局面，关键在于要在某些时刻成为明星员工。只有明星员工，才能有脱离职业惯性的机会，最终开拓新的天地。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这就解释了“想继续前进”对于职业发展的重要性，因为只有“想继续前进”的人，才会反复思考自己到底要往哪个方向走，自己想要什么，从而走到一条适合自己的道路上去。职业生涯和学生生涯的重要区别在于，学生生涯是千军万马过独木桥，路很难走，但是只有一条。职业生涯总体来说技术难度并不大，然而人们面对的是一片旷野，上面有无数条路，甚至看上去没有路的地方也能走，关键问题在于哪条路适合自己。在这样的情况下，选择比努力更重要。“想继续前进”的人就会反复试探着去找自己适合的路，然后在自己的道路上大放异彩。而没有很多想法的人往往就会随便选一条路，然后跋涉着走下去，也不知道这路为什么不好走。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;所以我觉得人生的第一份工作，最大的意义在于帮你找到职业方向，选择一条最适合自己的道路。因为在工作的前两年，转换职业领域代价非常小，至少比工作四五年之后的代价要小得多。对于我这样没有读硕士的人来说，如果发现自己想做的事和现在的方向差的太远，甚至再去读个其他方向硕士都来得及。所以第一份工作的主要矛盾还是在于要发现自己到底想做什么。这就回到了文章开头的问题，我们能否在工作中看到十年后自己想成为的那个人？我和很多工作了的同学都聊过这个问题，他们全都谈起了自己对于年长同事的观察，包括他们的工作内容、他们的精神状态和他们的发展路径等等。如果他们觉得自己看到了自己满意的方向，他们一般对工作也会比较满意。但如果他们觉得年长同事的生活都不是自己想要的，相对就会比较痛苦。老板们经常表示不知道年轻人在想什么。我想对于像我这么大的同学来说，在工作中看到一个可期的未来，也许才是最重要的事。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;当然，我觉得第一份工作的薪资待遇也不能说不重要。因为工作第一年估计是一生中最穷的时光。这时既失去了家长的资金支持，又要购置很多装备，真是青黄不接的时候，还是多挣些钱过得比较愉快。然而若是为了一份高工资的收入，困在一个既没前景自己又不喜欢的发展方向上，那就陷入大麻烦了。关于这一点，我有时会向朋友们提出一个问题：“根据目前的情况来看，如果你还要做40年你今天的工作，你觉得怎么样？”这时，有些人就会露出惊恐的表情。但事实的确如此，即使提前退休，我们也要工作至少20-30年，如果现在已经觉得工作状况不尽如人意，还是应该放眼未来几十年，早做改变。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;不过回到文章开头，既然我向前老板提了这个问题，说明我也没有在我的第一份工作中看到我觉得未来可以成为的那个人。这的确是个问题。但是虽然我没有看到我想成为的那个人，我却看到了我希望从事的工作领域，这也是促使我选择现在这份工作的一个动因。工作的一个优点是，你可以在工作中接触到你在学校里不可能见到的一些行业，从而有更大的机会见到自己喜欢做的事。从这个角度来说，我觉得我的第一份工作还是成功的，因此应该特别感谢我的前同事们，他们带我看到了一个新的世界：DataScience（数据科学）。以后我会重点讲讲，数据科学究竟是在做什么，我现在的工作又在做什么。这是件非常有趣的事，值得好好讲一讲。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我前几天还统计了一下，我的同学中大概有70%-80%依然在上学，看起来是我开始工作的太早了。但从我短暂的工作生涯中，我已经深刻地意识到，如果要花40年做自己不擅长且不喜欢的工作，那真是个深重的灾难。因此希望我的同学们能尽量找到一份让自己舒适一些的工作，这样人生的大多数时光还能更愉快一些。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/hanwei/hw/Public/Upload/20161119/2016-11-19_180862_734259315736686796.jpg&quot; title=&quot;2016-11-19_180862_734259315736686796.jpg&quot; alt=&quot;734259315736686796.jpg&quot;/&gt;&lt;/p&gt;','Upload/2016-11-19/58300f79be60f.jpg','2016-11-19 16:38:17') [ RunTime:0.0000s ]
+
+[ 2016-11-19T16:38:18+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('第一份工作的意义是什么？','第一份工作对于我最重要的意义，在于“找到方向”。','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;雨农刚从我个人助理转换为我们公司的实习生的时候，我和她讲一个实习生的故事：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;那个实习生叫黄云刚。毕业之后在腾讯做实习生，一毕业就以应届生的身份加入经纬创投做VC，没几年就做到副总裁，投了很多出色的案子，滴滴快的、口袋购物、猎聘网...&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;看起来他是幸运，但实际上他是经纬史上唯一一名以应届生身份入职的员工。早年他还在腾讯实习的时候，做一份很机械的工作，就是不停收集和发布招聘信息。这样的工作很无聊，很低门槛，是吧？大部分人可能做一个月就觉得无趣开始怀疑人生想着跳槽了。但他默默地做着，把自己对行业的理解整理成一份行业报告，发给了经纬，里面有自己好看的几家做招聘相关事情的公司。最后经纬因为那份报告投了一个公司，给他们带来了很高的回报。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我和雨农说，看看别人家的实习生！别人都可以做到，你也可以。你没有理由不可以。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;雨农压力好大。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;任何一份看似低门槛的工作，不同人去做，天差地别。我不相信一个把低门槛工作做得平庸的人，能在一个高门槛的工作中做得出色。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;你是一个怎么样的人，无论是认真劲还是敷衍病，都会在第一份工作中就显形。永远不要降低对自己的标准，即便是在第一份最简单的工作里。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第一份工作的意义是什么？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;当我还在上一家公司的时候，有一次我和老板喝咖啡，老板问：“你对工作或者说职业发展有什么困惑吗？”我想了想，说：“我希望在工作中看到我10年后能成为的那个人。”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我几乎是不假思索地回答了这个问题，老板表示这个问题非常好，他要回去想一想。但其实我自己对这个答案也有些震惊。这是否真的反应了我对工作的困惑呢？尤其是当我即将离职的时候，我想了很久，第一份工作对于我最重要的是什么？我也和很多在工作、想换工作、或者已经辞职的同学聊了聊，听了听他们的看法。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;后来我突然明白了，第一份工作对于我最重要的意义，在于“找到方向”。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;大学毕业直接工作还是个挺有趣的体验。因为大多数同事都比我大，而我的同学几乎全都在上学，所以我完全没有什么peerpressure，有空还可以观摩一下年长同事的工作状态，学习一下政治斗争经验，然后做点有趣的项目，十分愉快。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在这个观摩学习活动中，我很快明白了一个以前我不懂的词，那就是“中年危机”。这个词我以前经常听到，却从不明白。观察了一段时间，我终于明白了这个词的意思。总体来说，人们在毕业后的几年，薪资和职位都会迅速上升。然而这种上升并不是永无止境的。职位和年龄绝不是线性相关。几年后，很多人就停止了前进的脚步，几十年如一日地做一个中层领导。只有少数人才能实现更高的成就。对于那些止步不前的中年人来说，“中年危机”就来了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;当我明白了这个问题之后，我发现职业生涯的要点原来是避免陷入“中年危机”的陷阱，实现可持续发展。于是我开始继续观察如何避免出现停滞不前的局面。观察了一段时间后，我发现这个问题的答案也比较简单。从结果来看，那些“想继续前进”的人，终究就会继续前进。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这听上去有些荒谬，人人都“想继续前进”，难道那些陷入瓶颈的人不想在职业上继续发展吗？问题在于，希望继续前进，和知道自己要去哪里是两件截然不同的事情。大多数人都有职业发展的愿望，却既不知道自己是什么样的人，也不知道自己想要什么样的职业前景，于是虽有成就之心，最终却无成果之实。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在我即将离职的时候，我在闲暇时间中研究了各种人的第一份工作是什么，发现真是千奇古怪，和他们后来取得的成就几乎毫无关系。比如说，奥巴马在我这么大的时候，好像并没有固定工作，每天在搞一些街头活动。然而，如果顺着他们的履历一路看上去，会发现他们的职业生涯并不是线性上升的，而是在几个时点出现了跳跃，一跃上升到职业高峰。对于奥巴马而言，最显著的跳跃应该出现在他读法学院的时点。他在法学院的几年异军突起，从普通学生快速升级为政坛新星，进入了新的世界。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;总体而言，通过在LinkedIn上研究各种人的履历，我发现要想打破线性职业生涯的局面，关键在于要在某些时刻成为明星员工。只有明星员工，才能有脱离职业惯性的机会，最终开拓新的天地。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这就解释了“想继续前进”对于职业发展的重要性，因为只有“想继续前进”的人，才会反复思考自己到底要往哪个方向走，自己想要什么，从而走到一条适合自己的道路上去。职业生涯和学生生涯的重要区别在于，学生生涯是千军万马过独木桥，路很难走，但是只有一条。职业生涯总体来说技术难度并不大，然而人们面对的是一片旷野，上面有无数条路，甚至看上去没有路的地方也能走，关键问题在于哪条路适合自己。在这样的情况下，选择比努力更重要。“想继续前进”的人就会反复试探着去找自己适合的路，然后在自己的道路上大放异彩。而没有很多想法的人往往就会随便选一条路，然后跋涉着走下去，也不知道这路为什么不好走。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;所以我觉得人生的第一份工作，最大的意义在于帮你找到职业方向，选择一条最适合自己的道路。因为在工作的前两年，转换职业领域代价非常小，至少比工作四五年之后的代价要小得多。对于我这样没有读硕士的人来说，如果发现自己想做的事和现在的方向差的太远，甚至再去读个其他方向硕士都来得及。所以第一份工作的主要矛盾还是在于要发现自己到底想做什么。这就回到了文章开头的问题，我们能否在工作中看到十年后自己想成为的那个人？我和很多工作了的同学都聊过这个问题，他们全都谈起了自己对于年长同事的观察，包括他们的工作内容、他们的精神状态和他们的发展路径等等。如果他们觉得自己看到了自己满意的方向，他们一般对工作也会比较满意。但如果他们觉得年长同事的生活都不是自己想要的，相对就会比较痛苦。老板们经常表示不知道年轻人在想什么。我想对于像我这么大的同学来说，在工作中看到一个可期的未来，也许才是最重要的事。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;当然，我觉得第一份工作的薪资待遇也不能说不重要。因为工作第一年估计是一生中最穷的时光。这时既失去了家长的资金支持，又要购置很多装备，真是青黄不接的时候，还是多挣些钱过得比较愉快。然而若是为了一份高工资的收入，困在一个既没前景自己又不喜欢的发展方向上，那就陷入大麻烦了。关于这一点，我有时会向朋友们提出一个问题：“根据目前的情况来看，如果你还要做40年你今天的工作，你觉得怎么样？”这时，有些人就会露出惊恐的表情。但事实的确如此，即使提前退休，我们也要工作至少20-30年，如果现在已经觉得工作状况不尽如人意，还是应该放眼未来几十年，早做改变。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;不过回到文章开头，既然我向前老板提了这个问题，说明我也没有在我的第一份工作中看到我觉得未来可以成为的那个人。这的确是个问题。但是虽然我没有看到我想成为的那个人，我却看到了我希望从事的工作领域，这也是促使我选择现在这份工作的一个动因。工作的一个优点是，你可以在工作中接触到你在学校里不可能见到的一些行业，从而有更大的机会见到自己喜欢做的事。从这个角度来说，我觉得我的第一份工作还是成功的，因此应该特别感谢我的前同事们，他们带我看到了一个新的世界：DataScience（数据科学）。以后我会重点讲讲，数据科学究竟是在做什么，我现在的工作又在做什么。这是件非常有趣的事，值得好好讲一讲。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我前几天还统计了一下，我的同学中大概有70%-80%依然在上学，看起来是我开始工作的太早了。但从我短暂的工作生涯中，我已经深刻地意识到，如果要花40年做自己不擅长且不喜欢的工作，那真是个深重的灾难。因此希望我的同学们能尽量找到一份让自己舒适一些的工作，这样人生的大多数时光还能更愉快一些。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/hanwei/hw/Public/Upload/20161119/2016-11-19_180862_734259315736686796.jpg&quot; title=&quot;2016-11-19_180862_734259315736686796.jpg&quot; alt=&quot;734259315736686796.jpg&quot;/&gt;&lt;/p&gt;','Upload/2016-11-19/58300f7a072d0.jpg','2016-11-19 16:38:18') [ RunTime:0.0000s ]
+
+[ 2016-11-19T16:38:18+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('第一份工作的意义是什么？','第一份工作对于我最重要的意义，在于“找到方向”。','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;雨农刚从我个人助理转换为我们公司的实习生的时候，我和她讲一个实习生的故事：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;那个实习生叫黄云刚。毕业之后在腾讯做实习生，一毕业就以应届生的身份加入经纬创投做VC，没几年就做到副总裁，投了很多出色的案子，滴滴快的、口袋购物、猎聘网...&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;看起来他是幸运，但实际上他是经纬史上唯一一名以应届生身份入职的员工。早年他还在腾讯实习的时候，做一份很机械的工作，就是不停收集和发布招聘信息。这样的工作很无聊，很低门槛，是吧？大部分人可能做一个月就觉得无趣开始怀疑人生想着跳槽了。但他默默地做着，把自己对行业的理解整理成一份行业报告，发给了经纬，里面有自己好看的几家做招聘相关事情的公司。最后经纬因为那份报告投了一个公司，给他们带来了很高的回报。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我和雨农说，看看别人家的实习生！别人都可以做到，你也可以。你没有理由不可以。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;雨农压力好大。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;任何一份看似低门槛的工作，不同人去做，天差地别。我不相信一个把低门槛工作做得平庸的人，能在一个高门槛的工作中做得出色。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;你是一个怎么样的人，无论是认真劲还是敷衍病，都会在第一份工作中就显形。永远不要降低对自己的标准，即便是在第一份最简单的工作里。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第一份工作的意义是什么？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;当我还在上一家公司的时候，有一次我和老板喝咖啡，老板问：“你对工作或者说职业发展有什么困惑吗？”我想了想，说：“我希望在工作中看到我10年后能成为的那个人。”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我几乎是不假思索地回答了这个问题，老板表示这个问题非常好，他要回去想一想。但其实我自己对这个答案也有些震惊。这是否真的反应了我对工作的困惑呢？尤其是当我即将离职的时候，我想了很久，第一份工作对于我最重要的是什么？我也和很多在工作、想换工作、或者已经辞职的同学聊了聊，听了听他们的看法。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;后来我突然明白了，第一份工作对于我最重要的意义，在于“找到方向”。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;大学毕业直接工作还是个挺有趣的体验。因为大多数同事都比我大，而我的同学几乎全都在上学，所以我完全没有什么peerpressure，有空还可以观摩一下年长同事的工作状态，学习一下政治斗争经验，然后做点有趣的项目，十分愉快。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在这个观摩学习活动中，我很快明白了一个以前我不懂的词，那就是“中年危机”。这个词我以前经常听到，却从不明白。观察了一段时间，我终于明白了这个词的意思。总体来说，人们在毕业后的几年，薪资和职位都会迅速上升。然而这种上升并不是永无止境的。职位和年龄绝不是线性相关。几年后，很多人就停止了前进的脚步，几十年如一日地做一个中层领导。只有少数人才能实现更高的成就。对于那些止步不前的中年人来说，“中年危机”就来了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;当我明白了这个问题之后，我发现职业生涯的要点原来是避免陷入“中年危机”的陷阱，实现可持续发展。于是我开始继续观察如何避免出现停滞不前的局面。观察了一段时间后，我发现这个问题的答案也比较简单。从结果来看，那些“想继续前进”的人，终究就会继续前进。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这听上去有些荒谬，人人都“想继续前进”，难道那些陷入瓶颈的人不想在职业上继续发展吗？问题在于，希望继续前进，和知道自己要去哪里是两件截然不同的事情。大多数人都有职业发展的愿望，却既不知道自己是什么样的人，也不知道自己想要什么样的职业前景，于是虽有成就之心，最终却无成果之实。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在我即将离职的时候，我在闲暇时间中研究了各种人的第一份工作是什么，发现真是千奇古怪，和他们后来取得的成就几乎毫无关系。比如说，奥巴马在我这么大的时候，好像并没有固定工作，每天在搞一些街头活动。然而，如果顺着他们的履历一路看上去，会发现他们的职业生涯并不是线性上升的，而是在几个时点出现了跳跃，一跃上升到职业高峰。对于奥巴马而言，最显著的跳跃应该出现在他读法学院的时点。他在法学院的几年异军突起，从普通学生快速升级为政坛新星，进入了新的世界。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;总体而言，通过在LinkedIn上研究各种人的履历，我发现要想打破线性职业生涯的局面，关键在于要在某些时刻成为明星员工。只有明星员工，才能有脱离职业惯性的机会，最终开拓新的天地。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这就解释了“想继续前进”对于职业发展的重要性，因为只有“想继续前进”的人，才会反复思考自己到底要往哪个方向走，自己想要什么，从而走到一条适合自己的道路上去。职业生涯和学生生涯的重要区别在于，学生生涯是千军万马过独木桥，路很难走，但是只有一条。职业生涯总体来说技术难度并不大，然而人们面对的是一片旷野，上面有无数条路，甚至看上去没有路的地方也能走，关键问题在于哪条路适合自己。在这样的情况下，选择比努力更重要。“想继续前进”的人就会反复试探着去找自己适合的路，然后在自己的道路上大放异彩。而没有很多想法的人往往就会随便选一条路，然后跋涉着走下去，也不知道这路为什么不好走。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;所以我觉得人生的第一份工作，最大的意义在于帮你找到职业方向，选择一条最适合自己的道路。因为在工作的前两年，转换职业领域代价非常小，至少比工作四五年之后的代价要小得多。对于我这样没有读硕士的人来说，如果发现自己想做的事和现在的方向差的太远，甚至再去读个其他方向硕士都来得及。所以第一份工作的主要矛盾还是在于要发现自己到底想做什么。这就回到了文章开头的问题，我们能否在工作中看到十年后自己想成为的那个人？我和很多工作了的同学都聊过这个问题，他们全都谈起了自己对于年长同事的观察，包括他们的工作内容、他们的精神状态和他们的发展路径等等。如果他们觉得自己看到了自己满意的方向，他们一般对工作也会比较满意。但如果他们觉得年长同事的生活都不是自己想要的，相对就会比较痛苦。老板们经常表示不知道年轻人在想什么。我想对于像我这么大的同学来说，在工作中看到一个可期的未来，也许才是最重要的事。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;当然，我觉得第一份工作的薪资待遇也不能说不重要。因为工作第一年估计是一生中最穷的时光。这时既失去了家长的资金支持，又要购置很多装备，真是青黄不接的时候，还是多挣些钱过得比较愉快。然而若是为了一份高工资的收入，困在一个既没前景自己又不喜欢的发展方向上，那就陷入大麻烦了。关于这一点，我有时会向朋友们提出一个问题：“根据目前的情况来看，如果你还要做40年你今天的工作，你觉得怎么样？”这时，有些人就会露出惊恐的表情。但事实的确如此，即使提前退休，我们也要工作至少20-30年，如果现在已经觉得工作状况不尽如人意，还是应该放眼未来几十年，早做改变。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;不过回到文章开头，既然我向前老板提了这个问题，说明我也没有在我的第一份工作中看到我觉得未来可以成为的那个人。这的确是个问题。但是虽然我没有看到我想成为的那个人，我却看到了我希望从事的工作领域，这也是促使我选择现在这份工作的一个动因。工作的一个优点是，你可以在工作中接触到你在学校里不可能见到的一些行业，从而有更大的机会见到自己喜欢做的事。从这个角度来说，我觉得我的第一份工作还是成功的，因此应该特别感谢我的前同事们，他们带我看到了一个新的世界：DataScience（数据科学）。以后我会重点讲讲，数据科学究竟是在做什么，我现在的工作又在做什么。这是件非常有趣的事，值得好好讲一讲。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我前几天还统计了一下，我的同学中大概有70%-80%依然在上学，看起来是我开始工作的太早了。但从我短暂的工作生涯中，我已经深刻地意识到，如果要花40年做自己不擅长且不喜欢的工作，那真是个深重的灾难。因此希望我的同学们能尽量找到一份让自己舒适一些的工作，这样人生的大多数时光还能更愉快一些。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/hanwei/hw/Public/Upload/20161119/2016-11-19_180862_734259315736686796.jpg&quot; title=&quot;2016-11-19_180862_734259315736686796.jpg&quot; alt=&quot;734259315736686796.jpg&quot;/&gt;&lt;/p&gt;','Upload/2016-11-19/58300f7a88ab1.jpg','2016-11-19 16:38:18') [ RunTime:0.0000s ]
+
+[ 2016-11-19T16:38:18+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('第一份工作的意义是什么？','第一份工作对于我最重要的意义，在于“找到方向”。','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;雨农刚从我个人助理转换为我们公司的实习生的时候，我和她讲一个实习生的故事：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;那个实习生叫黄云刚。毕业之后在腾讯做实习生，一毕业就以应届生的身份加入经纬创投做VC，没几年就做到副总裁，投了很多出色的案子，滴滴快的、口袋购物、猎聘网...&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;看起来他是幸运，但实际上他是经纬史上唯一一名以应届生身份入职的员工。早年他还在腾讯实习的时候，做一份很机械的工作，就是不停收集和发布招聘信息。这样的工作很无聊，很低门槛，是吧？大部分人可能做一个月就觉得无趣开始怀疑人生想着跳槽了。但他默默地做着，把自己对行业的理解整理成一份行业报告，发给了经纬，里面有自己好看的几家做招聘相关事情的公司。最后经纬因为那份报告投了一个公司，给他们带来了很高的回报。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我和雨农说，看看别人家的实习生！别人都可以做到，你也可以。你没有理由不可以。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;雨农压力好大。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;任何一份看似低门槛的工作，不同人去做，天差地别。我不相信一个把低门槛工作做得平庸的人，能在一个高门槛的工作中做得出色。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;你是一个怎么样的人，无论是认真劲还是敷衍病，都会在第一份工作中就显形。永远不要降低对自己的标准，即便是在第一份最简单的工作里。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第一份工作的意义是什么？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;当我还在上一家公司的时候，有一次我和老板喝咖啡，老板问：“你对工作或者说职业发展有什么困惑吗？”我想了想，说：“我希望在工作中看到我10年后能成为的那个人。”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我几乎是不假思索地回答了这个问题，老板表示这个问题非常好，他要回去想一想。但其实我自己对这个答案也有些震惊。这是否真的反应了我对工作的困惑呢？尤其是当我即将离职的时候，我想了很久，第一份工作对于我最重要的是什么？我也和很多在工作、想换工作、或者已经辞职的同学聊了聊，听了听他们的看法。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;后来我突然明白了，第一份工作对于我最重要的意义，在于“找到方向”。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;大学毕业直接工作还是个挺有趣的体验。因为大多数同事都比我大，而我的同学几乎全都在上学，所以我完全没有什么peerpressure，有空还可以观摩一下年长同事的工作状态，学习一下政治斗争经验，然后做点有趣的项目，十分愉快。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在这个观摩学习活动中，我很快明白了一个以前我不懂的词，那就是“中年危机”。这个词我以前经常听到，却从不明白。观察了一段时间，我终于明白了这个词的意思。总体来说，人们在毕业后的几年，薪资和职位都会迅速上升。然而这种上升并不是永无止境的。职位和年龄绝不是线性相关。几年后，很多人就停止了前进的脚步，几十年如一日地做一个中层领导。只有少数人才能实现更高的成就。对于那些止步不前的中年人来说，“中年危机”就来了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;当我明白了这个问题之后，我发现职业生涯的要点原来是避免陷入“中年危机”的陷阱，实现可持续发展。于是我开始继续观察如何避免出现停滞不前的局面。观察了一段时间后，我发现这个问题的答案也比较简单。从结果来看，那些“想继续前进”的人，终究就会继续前进。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这听上去有些荒谬，人人都“想继续前进”，难道那些陷入瓶颈的人不想在职业上继续发展吗？问题在于，希望继续前进，和知道自己要去哪里是两件截然不同的事情。大多数人都有职业发展的愿望，却既不知道自己是什么样的人，也不知道自己想要什么样的职业前景，于是虽有成就之心，最终却无成果之实。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在我即将离职的时候，我在闲暇时间中研究了各种人的第一份工作是什么，发现真是千奇古怪，和他们后来取得的成就几乎毫无关系。比如说，奥巴马在我这么大的时候，好像并没有固定工作，每天在搞一些街头活动。然而，如果顺着他们的履历一路看上去，会发现他们的职业生涯并不是线性上升的，而是在几个时点出现了跳跃，一跃上升到职业高峰。对于奥巴马而言，最显著的跳跃应该出现在他读法学院的时点。他在法学院的几年异军突起，从普通学生快速升级为政坛新星，进入了新的世界。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;总体而言，通过在LinkedIn上研究各种人的履历，我发现要想打破线性职业生涯的局面，关键在于要在某些时刻成为明星员工。只有明星员工，才能有脱离职业惯性的机会，最终开拓新的天地。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这就解释了“想继续前进”对于职业发展的重要性，因为只有“想继续前进”的人，才会反复思考自己到底要往哪个方向走，自己想要什么，从而走到一条适合自己的道路上去。职业生涯和学生生涯的重要区别在于，学生生涯是千军万马过独木桥，路很难走，但是只有一条。职业生涯总体来说技术难度并不大，然而人们面对的是一片旷野，上面有无数条路，甚至看上去没有路的地方也能走，关键问题在于哪条路适合自己。在这样的情况下，选择比努力更重要。“想继续前进”的人就会反复试探着去找自己适合的路，然后在自己的道路上大放异彩。而没有很多想法的人往往就会随便选一条路，然后跋涉着走下去，也不知道这路为什么不好走。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;所以我觉得人生的第一份工作，最大的意义在于帮你找到职业方向，选择一条最适合自己的道路。因为在工作的前两年，转换职业领域代价非常小，至少比工作四五年之后的代价要小得多。对于我这样没有读硕士的人来说，如果发现自己想做的事和现在的方向差的太远，甚至再去读个其他方向硕士都来得及。所以第一份工作的主要矛盾还是在于要发现自己到底想做什么。这就回到了文章开头的问题，我们能否在工作中看到十年后自己想成为的那个人？我和很多工作了的同学都聊过这个问题，他们全都谈起了自己对于年长同事的观察，包括他们的工作内容、他们的精神状态和他们的发展路径等等。如果他们觉得自己看到了自己满意的方向，他们一般对工作也会比较满意。但如果他们觉得年长同事的生活都不是自己想要的，相对就会比较痛苦。老板们经常表示不知道年轻人在想什么。我想对于像我这么大的同学来说，在工作中看到一个可期的未来，也许才是最重要的事。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;当然，我觉得第一份工作的薪资待遇也不能说不重要。因为工作第一年估计是一生中最穷的时光。这时既失去了家长的资金支持，又要购置很多装备，真是青黄不接的时候，还是多挣些钱过得比较愉快。然而若是为了一份高工资的收入，困在一个既没前景自己又不喜欢的发展方向上，那就陷入大麻烦了。关于这一点，我有时会向朋友们提出一个问题：“根据目前的情况来看，如果你还要做40年你今天的工作，你觉得怎么样？”这时，有些人就会露出惊恐的表情。但事实的确如此，即使提前退休，我们也要工作至少20-30年，如果现在已经觉得工作状况不尽如人意，还是应该放眼未来几十年，早做改变。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;不过回到文章开头，既然我向前老板提了这个问题，说明我也没有在我的第一份工作中看到我觉得未来可以成为的那个人。这的确是个问题。但是虽然我没有看到我想成为的那个人，我却看到了我希望从事的工作领域，这也是促使我选择现在这份工作的一个动因。工作的一个优点是，你可以在工作中接触到你在学校里不可能见到的一些行业，从而有更大的机会见到自己喜欢做的事。从这个角度来说，我觉得我的第一份工作还是成功的，因此应该特别感谢我的前同事们，他们带我看到了一个新的世界：DataScience（数据科学）。以后我会重点讲讲，数据科学究竟是在做什么，我现在的工作又在做什么。这是件非常有趣的事，值得好好讲一讲。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我前几天还统计了一下，我的同学中大概有70%-80%依然在上学，看起来是我开始工作的太早了。但从我短暂的工作生涯中，我已经深刻地意识到，如果要花40年做自己不擅长且不喜欢的工作，那真是个深重的灾难。因此希望我的同学们能尽量找到一份让自己舒适一些的工作，这样人生的大多数时光还能更愉快一些。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/hanwei/hw/Public/Upload/20161119/2016-11-19_180862_734259315736686796.jpg&quot; title=&quot;2016-11-19_180862_734259315736686796.jpg&quot; alt=&quot;734259315736686796.jpg&quot;/&gt;&lt;/p&gt;','Upload/2016-11-19/58300f7aba2e1.jpg','2016-11-19 16:38:18') [ RunTime:0.0000s ]
+
+[ 2016-11-19T16:38:19+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:38:20+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:38:22+08:00 ] 211.137.13.86 /index.php/Admin/Admin/delhnewst/id/95.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: DELETE FROM `hw_newst` WHERE ( id=95 ) [ RunTime:0.0156s ]
+
+[ 2016-11-19T16:38:22+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:38:24+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:38:25+08:00 ] 211.137.13.86 /index.php/Admin/Admin/delhnewst/id/96.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: DELETE FROM `hw_newst` WHERE ( id=96 ) [ RunTime:0.0000s ]
+
+[ 2016-11-19T16:38:25+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:38:26+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:38:27+08:00 ] 211.137.13.86 /index.php/Admin/Admin/delhnewst/id/97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: DELETE FROM `hw_newst` WHERE ( id=97 ) [ RunTime:0.0000s ]
+
+[ 2016-11-19T16:38:28+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:38:29+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:38:31+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\7f9eb48c00da6b0122992baf32f07507.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:41:47+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('出现心理问题的时候，就去怪父母吧，多方便呀！','人远比想象中自由，无论有什么样的童年，我们都可能实现更好的自己。','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important; background-color: rgb(31, 73, 125);&quot;&gt;1.父母是萦绕你一生的魔咒&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;随便找个心理学网站，搜索一下里面的以“父母”或“家庭”为题的文章，一眨眼的功夫你就能看见N页的文章，这些文字会从各个方面告诉你一件事儿，好的父母是多么重要，不好的父母对你影响会多大：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;父母的养育方式和你以后的心理健康与个人成就相关，父母的性格会和你未来的性格相关，父母对你的教育和你的学习成绩相关，很多残酷凶狠的罪犯都有一个破碎的童年，你现在的很多困惑都源于你的童年经历，父母对待你会影响你的爱情观，甚至你最后的伴侣都是父母的影响的结果……&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;从深层的性格，到外显的成就；从普通的交际，到亲密的爱情；从学生时代，到人生末年。父母就像永远附在你身上的魔咒，如影随形，不离不弃，能影响到你整个人生的任何一部分。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;每当读到一篇探讨父母与子女关系的文章，经作者指点，我们才幡然醒悟，原来自己如今的脆弱、孤独、痛苦，都是源自父母曾经对我们做过的事。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important; background-color: rgb(31, 73, 125);&quot;&gt;2.对于父母问题的一次自我探索&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;自从接触心理学，我开始不自主地回忆童年，试图探索自己如今心理上的缺陷，是如何从父母那里发端的，比如：我现在内向而孤僻，就是源于小时候父母对我的关注度不够，他们从没有陪伴我写作业，而我记忆中也没有多少吹蜡烛吃蛋糕的快乐生日。但是，在一次对我亲哥哥说出小时候不受关爱的委屈，希望得到他肯定赞同的时候，他的回答却和我的观念截然相反——父母很关爱我。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;对于他的回答我可以做两种解读：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;a、我不被关爱，他更不被关爱，所以他觉得我过的更好。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;b、我真的记错了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;事后经过长期反思，我觉得真相应该是后者，因为我提供的两个证据恐怕不成立：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;a、我小学时候成绩比较好，他们没有陪我写作业的必要，而中学以后我一直寄宿，所以他们没有陪我的条件；&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;b、我家是农村的，当初确实不流行过生日吃蛋糕的形式，但是大鱼大肉总是有的，所以我记忆中没有那种吹蜡烛、切蛋糕的画面一点不奇怪。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这件事之后，我开始怀疑，&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;也许父母的影响是很重量级的，但是实际情况可能没那么夸张。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161119/1479544713100522.jpg&quot; title=&quot;9198033624358883.jpg&quot; alt=&quot;tinna2727151000111.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important; background-color: rgb(31, 73, 125);&quot;&gt;3.回忆未必如你所记&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;人的记忆不是一个回放的过程，而是一个重构的过程。打个比方，同样一处风景，你用摄影的方式去呈现，只要留好底片，每次洗出的照片和当时的实际情况都是一样的。但是你用绘画的方式去重现它，抱歉，你画出来的东西不仅会和客观不符，而且每次画出来的互不相同。我们在回忆童年的时候，恰恰属于后者的情况。更夸张的是，这幅画可能和真相完全相反。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我们都知道，美国社会对儿童性侵案高度重视，一旦发现，对犯罪分子绝对是严惩不贷。在上世纪七八十年代开始，在心理咨询师等一批人的帮助下，大量儿童性侵案付出水面，有的是儿童“勇敢”说出了父母如何性侵自己的，有的则是一些成年人忽然想起了“压抑”多年的童年阴影。一大批父母因此获得了“迟到的惩罚”。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;不过，到九十年代了以后，这种根据童年性侵记忆定罪的案件开始骤减，甚至一些既定的案件被推翻。因为大量的司法证据和心理实验发现，&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;很多人回忆起的童年性侵经历完全是子虚乌有，父母们是被冤枉的。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;很多人质疑了，既然是虚构的，“被害人”凭什么能想起那些记忆呢？实际上，这一方面源于当时的媒体大肆报道，大量性侵案相关信息进入了当事人的记忆中，另一方面是由于“调查专家”们在采访中，无意中对“被害人”进行了暗示。时至今日，只有个别“专家”和“被害人”还在坚信，他们发掘出来的记忆一定是对的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;回到我们现在的环境来看，在大量标注着“心理”的文章中，充斥着糟糕父母对孩子阻碍的案例，哪怕这些案例都是真实的，&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;当我们大量阅读过这些内容后，我们的记忆都有可能受到这些信息的“污染”。&lt;/span&gt;这些“污染”也许到不了无中生有出“性侵案”的地步，但是用来强化我们记忆中父母的负面形象绝对是绰绰有余了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important; background-color: rgb(31, 73, 125);&quot;&gt;4.归罪于父母，是一条很便捷的道路&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;如果有人让我解答一个人出现某种心理问题的原因，“怪他父母”绝对是万全的答案。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;不信你听我分析：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;如果他是孤儿，我可以怪他童年缺乏父母的爱；如果他是被领养的，我可以怪他养父母不能真正做到视如己出或者孩子对此心存芥蒂；如果他是单亲家庭，我可以怪他父母离异；如果父母只生了你一个，我可以怪他们太宠爱你；如果你有兄弟姐妹，我可以怪他们不能一视同仁……即使父母表现得很优秀，我依然能怪他们。没有完美的人，父母都是人，所以不可能有完美的父母。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;正所谓，欲加之罪何患无辞。证明一个人错误，远比自证清白容易许多，只要我想怪罪你，连你喝咖啡不加糖我都能拿来作为借口。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;用父母作为解释一个人的心理问题的理由，甚至可以统合心理学界最大的两大阵营：遗传和环境。你的遗传基因是父母给你的，而你童年的环境是父母组建的家庭。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;怎么样，拿父母来说事儿，是不是无懈可击？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这还不是最可怕的地方，最可怕的是父母的确能影响你。这是一个不用心理学证据，用脚趾头都能想出来的真理，和你谈了两个月恋爱的对象都能影响到你呢，更别说在你生命中前十几年一直和你一起的父母了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;其实，仔细想一下，父母之所以能对每一个人都有深刻影响，&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;不是因为他们对你做了什么，而是他们恰好会出现在那里，因为他们是你生命中最初时期的一个组成部分。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161119/1479544713115962.jpg&quot; title=&quot;8795269873487899.jpg&quot; alt=&quot;alenkasm150900272.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;读一篇讲述“问题父母”的心理文章，我们很容易认同里面的观点——坏父母会危害孩子。一方面，是文章作者写的案例多是和我们成长于统一大文化环境下，这就会让每一个案例看起来都有点似曾相识，更容易引起我们的共鸣。另一方面，问题父母会影响孩子的成长，也是有心理学数据支持。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;说到这些心理学数据的证据，很多人对他们的理解往往是片面的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important; background-color: rgb(31, 73, 125);&quot;&gt;5.问题父母真的让你无处可逃吗？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;各国心理学工作者，得到的父母对孩子的影响成果可以堆成好几座山。但是这些成果的结论很大一部分，都是&lt;span style=&quot;color: rgb(192, 0, 0); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;“相关”&lt;/span&gt;。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;相关不代表因果，假如你爸爸的饮酒量和你的学习成绩呈现负相关，它表示着你爸爸喝酒越多，你的成绩可能会低，但这不代表你学习不好就是你爸喝酒的错，他们能呈现相关，可能是因为两者背后有着相通的其他因素作祟，比如你的出题老师是你爸爸的酒友，他喝的越多越爱出难题。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;在没有证明两者直接的因果关系时候，相关只能是一种参考。此外，建立在可观的样本数上的统计结果，你能避开它的概率有时候会很高。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;没有任何一个统计结果可以告诉你，你父母如何如何，你就一定会如何如何。大量的调查往往给出另外一个可喜的答案，即使你的父母很糟糕，你依然能活的很出彩。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;几年前我读过一个双生子研究的案例，至今让我印象深刻：两个同卵双胞胎兄弟，分别被两个家庭抚养成人。当研究人员找到他们的时候，发现两个人的性格惊人的相似，其中有一个共同点，就是两个人都很爱干净。当研究者问他们为何如此，一个人的回答是，因为他的养母就是这样爱干净，而另一个兄弟的答案却是，他的养母特别邋遢，我不想像她一样。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;即使在糟糕的环境影响下，人依然能够做出正确的选择。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important; background-color: rgb(31, 73, 125);&quot;&gt;6，真正需要重视的问题是什么？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我相信，很多研究者、咨询师和作者们，他们在调查研究、心理学咨询以及科普文章中，把父母的问题摆出来，不仅是单纯为了发现问题，给出一个答案了事，而是想进一步解决问题、预防问题。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;现在的社会信息传播很快捷，同时也很浅层。很多人知道了父母的问题行为，第一反应就是点赞转发表认同，俨然变成了攻讦自己父母的工具。即使来一篇教我们养育孩子的文章，我们也能想到自己童年的种种“不幸”。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;很多读者会含着泪嘴上说，“我以后会对自己的孩子好好的”，心里却念念不忘自己没有收到更好的呵护。“如今我这样都是父母的错，不怪我。”&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;让他们认识到父母的问题，并没有帮他们解开心结，反倒是让他们多了一个逃避的借口。&lt;/span&gt;很多人像牛反刍一样，不断咀嚼那些指责父母的至理名言。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;美国著名心理学家马丁•塞利格曼就曾指出：“重新再经历一次童年的创伤不会对成年人的人格问题有任何帮助。”只是不断强调父母的错误，就像是种树的时候只挖坑不培土，做手术的时候只开刀不切瘤，哪怕你能挑出一千个你父母的罪状，也不可能改变你现在糟糕的自己。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161119/1479544714117803.jpg&quot; title=&quot;1457666521737577.jpg&quot; alt=&quot;altanaka150800140.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;无奈的是，教人们如何改善自己现状的方法却得不到重视。&lt;/span&gt;一些教我们改变自己的信息，不像怪父母的文章那么让我们感同身受，所以传播效果有限。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;当然，这些信息即使能够广泛传播，收到的效果也很有限。而真正有效的方法往往成本很高，需要你付出很多努力，要和父母更多地沟通和交流。哪怕是你自己接受心理咨询，也需要你同一个靠谱的咨询师，通过几个月甚至几年的共同努力才能实现（不过，好像现在很多心理咨询师只会刨坑）。到最后，真正能改变的人只是很小一部分。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;写这篇文章，不是为父母的一些不好的行为洗地，我承认，即使我自己也会隔三差五和父母吵架，我对他们过去的不少做法依然耿耿于怀。我只是希望大家在现在的信息环境下，在读到关于“问题父母”的信息时，别忙着认同，多一些思考，想点真正对你有益的行动来。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;人远比想象中自由，无论有什么样的童年，我们都可能实现更好的自己。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;——THE END——&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;原题：依然为自己的心理问题困扰吗？还是放过咱爸咱妈吧&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;参考文献：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;《心理学精要》（美）迈尔斯（Myers,D.C）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;《认识自己，接纳自己》（美）马丁·塞利格曼(Martin E.P.Seligman)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;《变态心理学》德博拉 C. 贝德尔(Deborah C. Beidel），辛西娅 M. 布利克(Cynthia M. Bulik），梅琳达 A. 斯坦利(Melinda A. Stanley）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;图片来源：123rf.com正版图片库&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;责任编辑：晨歆&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/hanwei/hw/Public/Upload/20161119/2016-11-19_239256_734259315736686796.jpg&quot; title=&quot;2016-11-19_239256_734259315736686796.jpg&quot; alt=&quot;734259315736686796.jpg&quot;/&gt;&lt;/p&gt;','Upload/2016-11-19/5830104bbc6b0.jpg','2016-11-19 16:41:47') [ RunTime:0.0156s ]
+
+[ 2016-11-19T16:41:48+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('出现心理问题的时候，就去怪父母吧，多方便呀！','人远比想象中自由，无论有什么样的童年，我们都可能实现更好的自己。','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important; background-color: rgb(31, 73, 125);&quot;&gt;1.父母是萦绕你一生的魔咒&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;随便找个心理学网站，搜索一下里面的以“父母”或“家庭”为题的文章，一眨眼的功夫你就能看见N页的文章，这些文字会从各个方面告诉你一件事儿，好的父母是多么重要，不好的父母对你影响会多大：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;父母的养育方式和你以后的心理健康与个人成就相关，父母的性格会和你未来的性格相关，父母对你的教育和你的学习成绩相关，很多残酷凶狠的罪犯都有一个破碎的童年，你现在的很多困惑都源于你的童年经历，父母对待你会影响你的爱情观，甚至你最后的伴侣都是父母的影响的结果……&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;从深层的性格，到外显的成就；从普通的交际，到亲密的爱情；从学生时代，到人生末年。父母就像永远附在你身上的魔咒，如影随形，不离不弃，能影响到你整个人生的任何一部分。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;每当读到一篇探讨父母与子女关系的文章，经作者指点，我们才幡然醒悟，原来自己如今的脆弱、孤独、痛苦，都是源自父母曾经对我们做过的事。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important; background-color: rgb(31, 73, 125);&quot;&gt;2.对于父母问题的一次自我探索&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;自从接触心理学，我开始不自主地回忆童年，试图探索自己如今心理上的缺陷，是如何从父母那里发端的，比如：我现在内向而孤僻，就是源于小时候父母对我的关注度不够，他们从没有陪伴我写作业，而我记忆中也没有多少吹蜡烛吃蛋糕的快乐生日。但是，在一次对我亲哥哥说出小时候不受关爱的委屈，希望得到他肯定赞同的时候，他的回答却和我的观念截然相反——父母很关爱我。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;对于他的回答我可以做两种解读：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;a、我不被关爱，他更不被关爱，所以他觉得我过的更好。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;b、我真的记错了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;事后经过长期反思，我觉得真相应该是后者，因为我提供的两个证据恐怕不成立：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;a、我小学时候成绩比较好，他们没有陪我写作业的必要，而中学以后我一直寄宿，所以他们没有陪我的条件；&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;b、我家是农村的，当初确实不流行过生日吃蛋糕的形式，但是大鱼大肉总是有的，所以我记忆中没有那种吹蜡烛、切蛋糕的画面一点不奇怪。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这件事之后，我开始怀疑，&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;也许父母的影响是很重量级的，但是实际情况可能没那么夸张。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161119/1479544713100522.jpg&quot; title=&quot;9198033624358883.jpg&quot; alt=&quot;tinna2727151000111.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important; background-color: rgb(31, 73, 125);&quot;&gt;3.回忆未必如你所记&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;人的记忆不是一个回放的过程，而是一个重构的过程。打个比方，同样一处风景，你用摄影的方式去呈现，只要留好底片，每次洗出的照片和当时的实际情况都是一样的。但是你用绘画的方式去重现它，抱歉，你画出来的东西不仅会和客观不符，而且每次画出来的互不相同。我们在回忆童年的时候，恰恰属于后者的情况。更夸张的是，这幅画可能和真相完全相反。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我们都知道，美国社会对儿童性侵案高度重视，一旦发现，对犯罪分子绝对是严惩不贷。在上世纪七八十年代开始，在心理咨询师等一批人的帮助下，大量儿童性侵案付出水面，有的是儿童“勇敢”说出了父母如何性侵自己的，有的则是一些成年人忽然想起了“压抑”多年的童年阴影。一大批父母因此获得了“迟到的惩罚”。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;不过，到九十年代了以后，这种根据童年性侵记忆定罪的案件开始骤减，甚至一些既定的案件被推翻。因为大量的司法证据和心理实验发现，&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;很多人回忆起的童年性侵经历完全是子虚乌有，父母们是被冤枉的。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;很多人质疑了，既然是虚构的，“被害人”凭什么能想起那些记忆呢？实际上，这一方面源于当时的媒体大肆报道，大量性侵案相关信息进入了当事人的记忆中，另一方面是由于“调查专家”们在采访中，无意中对“被害人”进行了暗示。时至今日，只有个别“专家”和“被害人”还在坚信，他们发掘出来的记忆一定是对的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;回到我们现在的环境来看，在大量标注着“心理”的文章中，充斥着糟糕父母对孩子阻碍的案例，哪怕这些案例都是真实的，&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;当我们大量阅读过这些内容后，我们的记忆都有可能受到这些信息的“污染”。&lt;/span&gt;这些“污染”也许到不了无中生有出“性侵案”的地步，但是用来强化我们记忆中父母的负面形象绝对是绰绰有余了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important; background-color: rgb(31, 73, 125);&quot;&gt;4.归罪于父母，是一条很便捷的道路&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;如果有人让我解答一个人出现某种心理问题的原因，“怪他父母”绝对是万全的答案。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;不信你听我分析：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;如果他是孤儿，我可以怪他童年缺乏父母的爱；如果他是被领养的，我可以怪他养父母不能真正做到视如己出或者孩子对此心存芥蒂；如果他是单亲家庭，我可以怪他父母离异；如果父母只生了你一个，我可以怪他们太宠爱你；如果你有兄弟姐妹，我可以怪他们不能一视同仁……即使父母表现得很优秀，我依然能怪他们。没有完美的人，父母都是人，所以不可能有完美的父母。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;正所谓，欲加之罪何患无辞。证明一个人错误，远比自证清白容易许多，只要我想怪罪你，连你喝咖啡不加糖我都能拿来作为借口。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;用父母作为解释一个人的心理问题的理由，甚至可以统合心理学界最大的两大阵营：遗传和环境。你的遗传基因是父母给你的，而你童年的环境是父母组建的家庭。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;怎么样，拿父母来说事儿，是不是无懈可击？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这还不是最可怕的地方，最可怕的是父母的确能影响你。这是一个不用心理学证据，用脚趾头都能想出来的真理，和你谈了两个月恋爱的对象都能影响到你呢，更别说在你生命中前十几年一直和你一起的父母了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;其实，仔细想一下，父母之所以能对每一个人都有深刻影响，&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;不是因为他们对你做了什么，而是他们恰好会出现在那里，因为他们是你生命中最初时期的一个组成部分。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161119/1479544713115962.jpg&quot; title=&quot;8795269873487899.jpg&quot; alt=&quot;alenkasm150900272.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;读一篇讲述“问题父母”的心理文章，我们很容易认同里面的观点——坏父母会危害孩子。一方面，是文章作者写的案例多是和我们成长于统一大文化环境下，这就会让每一个案例看起来都有点似曾相识，更容易引起我们的共鸣。另一方面，问题父母会影响孩子的成长，也是有心理学数据支持。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;说到这些心理学数据的证据，很多人对他们的理解往往是片面的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important; background-color: rgb(31, 73, 125);&quot;&gt;5.问题父母真的让你无处可逃吗？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;各国心理学工作者，得到的父母对孩子的影响成果可以堆成好几座山。但是这些成果的结论很大一部分，都是&lt;span style=&quot;color: rgb(192, 0, 0); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;“相关”&lt;/span&gt;。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;相关不代表因果，假如你爸爸的饮酒量和你的学习成绩呈现负相关，它表示着你爸爸喝酒越多，你的成绩可能会低，但这不代表你学习不好就是你爸喝酒的错，他们能呈现相关，可能是因为两者背后有着相通的其他因素作祟，比如你的出题老师是你爸爸的酒友，他喝的越多越爱出难题。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;在没有证明两者直接的因果关系时候，相关只能是一种参考。此外，建立在可观的样本数上的统计结果，你能避开它的概率有时候会很高。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;没有任何一个统计结果可以告诉你，你父母如何如何，你就一定会如何如何。大量的调查往往给出另外一个可喜的答案，即使你的父母很糟糕，你依然能活的很出彩。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;几年前我读过一个双生子研究的案例，至今让我印象深刻：两个同卵双胞胎兄弟，分别被两个家庭抚养成人。当研究人员找到他们的时候，发现两个人的性格惊人的相似，其中有一个共同点，就是两个人都很爱干净。当研究者问他们为何如此，一个人的回答是，因为他的养母就是这样爱干净，而另一个兄弟的答案却是，他的养母特别邋遢，我不想像她一样。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;即使在糟糕的环境影响下，人依然能够做出正确的选择。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important; background-color: rgb(31, 73, 125);&quot;&gt;6，真正需要重视的问题是什么？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我相信，很多研究者、咨询师和作者们，他们在调查研究、心理学咨询以及科普文章中，把父母的问题摆出来，不仅是单纯为了发现问题，给出一个答案了事，而是想进一步解决问题、预防问题。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;现在的社会信息传播很快捷，同时也很浅层。很多人知道了父母的问题行为，第一反应就是点赞转发表认同，俨然变成了攻讦自己父母的工具。即使来一篇教我们养育孩子的文章，我们也能想到自己童年的种种“不幸”。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;很多读者会含着泪嘴上说，“我以后会对自己的孩子好好的”，心里却念念不忘自己没有收到更好的呵护。“如今我这样都是父母的错，不怪我。”&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;让他们认识到父母的问题，并没有帮他们解开心结，反倒是让他们多了一个逃避的借口。&lt;/span&gt;很多人像牛反刍一样，不断咀嚼那些指责父母的至理名言。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;美国著名心理学家马丁•塞利格曼就曾指出：“重新再经历一次童年的创伤不会对成年人的人格问题有任何帮助。”只是不断强调父母的错误，就像是种树的时候只挖坑不培土，做手术的时候只开刀不切瘤，哪怕你能挑出一千个你父母的罪状，也不可能改变你现在糟糕的自己。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161119/1479544714117803.jpg&quot; title=&quot;1457666521737577.jpg&quot; alt=&quot;altanaka150800140.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;无奈的是，教人们如何改善自己现状的方法却得不到重视。&lt;/span&gt;一些教我们改变自己的信息，不像怪父母的文章那么让我们感同身受，所以传播效果有限。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;当然，这些信息即使能够广泛传播，收到的效果也很有限。而真正有效的方法往往成本很高，需要你付出很多努力，要和父母更多地沟通和交流。哪怕是你自己接受心理咨询，也需要你同一个靠谱的咨询师，通过几个月甚至几年的共同努力才能实现（不过，好像现在很多心理咨询师只会刨坑）。到最后，真正能改变的人只是很小一部分。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;写这篇文章，不是为父母的一些不好的行为洗地，我承认，即使我自己也会隔三差五和父母吵架，我对他们过去的不少做法依然耿耿于怀。我只是希望大家在现在的信息环境下，在读到关于“问题父母”的信息时，别忙着认同，多一些思考，想点真正对你有益的行动来。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;人远比想象中自由，无论有什么样的童年，我们都可能实现更好的自己。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;——THE END——&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;原题：依然为自己的心理问题困扰吗？还是放过咱爸咱妈吧&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;参考文献：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;《心理学精要》（美）迈尔斯（Myers,D.C）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;《认识自己，接纳自己》（美）马丁·塞利格曼(Martin E.P.Seligman)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;《变态心理学》德博拉 C. 贝德尔(Deborah C. Beidel），辛西娅 M. 布利克(Cynthia M. Bulik），梅琳达 A. 斯坦利(Melinda A. Stanley）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;图片来源：123rf.com正版图片库&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;责任编辑：晨歆&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/hanwei/hw/Public/Upload/20161119/2016-11-19_239256_734259315736686796.jpg&quot; title=&quot;2016-11-19_239256_734259315736686796.jpg&quot; alt=&quot;734259315736686796.jpg&quot;/&gt;&lt;/p&gt;','Upload/2016-11-19/5830104bf1bd1.jpg','2016-11-19 16:41:47') [ RunTime:0.0000s ]
+
+[ 2016-11-19T16:41:48+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:41:49+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:41:51+08:00 ] 211.137.13.86 /index.php/Admin/Admin/delhnewst/id/98.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: DELETE FROM `hw_newst` WHERE ( id=98 ) [ RunTime:0.0000s ]
+
+[ 2016-11-19T16:41:51+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:41:54+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T16:41:58+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

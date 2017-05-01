@@ -1,0 +1,42 @@
+[ 2016-06-28T11:53:04+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/
+ERR: 非法操作:index
+
+[ 2016-06-28T15:16:04+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread
+ERR: 1146:Table 'hanwei.hw_hw_categories_id' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hw_hw_categories_id`
+
+[ 2016-06-28T16:14:27+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/newsearch.html?category_id=3
+ERR: 参数错误或者未定义:id
+
+[ 2016-06-28T16:16:55+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/newsearch.html?category_id=2
+ERR: 参数错误或者未定义:id
+
+[ 2016-06-28T16:17:10+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/newsearch.html?category_id=3
+ERR: 参数错误或者未定义:id
+
+[ 2016-06-28T16:25:40+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 1146:Table 'hanwei.test' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `hw_test` left join test on test.id=categories_id.id  
+
+[ 2016-06-28T16:26:05+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 1066:Not unique table/alias: 'hw_test'
+ [ SQL语句 ] : SELECT * FROM `hw_test` left join hw_test on test.id=hw_categories_id.id  
+
+[ 2016-06-28T16:30:02+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 1066:Not unique table/alias: 'hw_test'
+ [ SQL语句 ] : SELECT * FROM `hw_test` left join hw_test on test.id=hw_categories_id.id  
+
+[ 2016-06-28T16:31:50+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 1146:Table 'hanwei.hw_' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `hw_` left join hw_test on hw_test.id = hw_categories_id.id  
+
+[ 2016-06-28T16:48:24+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/newsearch.html?category_id=2
+ERR: 参数错误或者未定义:id
+
+[ 2016-06-28T16:48:38+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/newsearch.html?category_id=2
+ERR: 参数错误或者未定义:id
+
+[ 2016-06-28T16:50:57+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/newsearch.html?category_id=2
+ERR: 1054:Unknown column '$category_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `hw_test` left join hw_categories_id on hw_test.category_id=hw_categories_id.id  WHERE ( $category_id ) 
+

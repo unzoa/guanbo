@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh" class="no-js">
+<include file="Index/head"/>
+<style type="text/css">
+	.aa{border:1px solid red;}
+	.users{margin-top:30px;}
+	.userscon{border:1px #d8d8d8 solid;border-radius:7px; box-shadow: 0 4px 15px 4px #999;padding-bottom: 20px}
+	@media (max-width: 767px){
+		.users{margin-top: 0px}
+		.userscon{box-shadow: 0 0 0 0;border:0;}
+	}
+</style>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<include file="Index:nav" />
+		</div>
+		<div class="row users">
+			<div class="col-sm-4 col-sm-offset-4 userscon">
+				<volist id="v" name="user">
+					<h2>{$v.name}</h2>
+				</volist>
+				<form action="{$think.const.__SELF__}" method="post">
+					<volist id="v" name="user">
+						<div class="input-group mb10">
+					      <div class="input-group-addon">等级</div>
+					      <select class="form-control" name="level_id">
+					      	<volist id="v" name="level"> 
+						      	<option value="{$v.id}">{$v.name}</option>
+						      </volist>
+					      </select>
+					      <div class="input-group-addon">
+					      <input type="submit" value="提交" class="bs_submit"></input> 
+					      </div>
+					    </div>
+					</volist>
+				</form>
+				<form action="{$think.const.__SELF__}" method="post">
+					<volist id="v" name="user">
+						<div class="input-group">
+					      <div class="input-group-addon">团队</div>
+					      <select class="form-control" name="team_id">
+					      <volist id="v" name="team"> 
+					      	<option value="{$v.id}">{$v.name}</option>
+					      </volist>
+					      </select>
+					      <div class="input-group-addon">
+					      <input type="submit" value="提交" class="bs_submit"></input> 
+					    </div>
+					</volist>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

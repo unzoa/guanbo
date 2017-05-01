@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<include file="Index:head" />
+<script type="text/javascript">
+	function getinarchiveformsubmit(){
+		var child_id = document.getElementById('child_id').value;
+		var relation = document.getElementById('relation').value;
+		if (child_id==''||child_id.length!==18) {alert("ID不能为空，且必须是18位！")}
+		else if (relation=='') {alert("关系不能为空!")}
+		else{document.getElementById('get-in-archive-form').submit();}
+	}
+</script>
+<script type="text/javascript">
+    window.document.title = '档案 - i.P.A.S.S';
+</script>
+<body>
+<div class="container-fluid">
+	<include file="Index:nav" />
+	<div class="row">
+		<div class="col-sm-4 col-sm-offset-4">
+			<div class="get_in_archive">
+				<form action="{:U('Home/Index/get_in_archive')}" method="post" id="get-in-archive-form">
+					<h2>档案入口</h2>
+					<input type="tel" name="child_id" id="child_id" class="form-control" placeholder="孩子身份证ID,必须是18位"></input>
+					<input type="text" name="relation" id="relation" class="form-control mt10" placeholder="与孩子关系"></input><br/>
+					<input type="button" class="btn btn-lg btn-primary btn-block" value="下一步" onclick="getinarchiveformsubmit()"></input>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<div style="position: fixed;bottom: 0px;width: 100%">
+	<include file="Index:footer"/>
+</div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+body{background-color: #999ccc;padding-bottom: 30px}
+	@media (max-width: 767px){
+		body{padding-bottom: 0px}
+	}
+	.p0{padding: 0}
+	.navconbg {
+	    background: transparent;
+	    position: relative;
+	    z-index: 2;
+	}
+	.dropdown-menu {
+	    background-color: #999ccc!important;
+	}
+
+	#intro{
+		position: relative;
+		background-color: #999ccc;
+		margin-left:-15px;
+		margin-top:-50px;	
+		padding-top: 100px;
+		padding-left: 20px;
+		padding-right: 20px;
+		color: #fff;
+		z-index: 1;
+	}
+	#intro img{
+		width: 30%;
+		margin-left: 35%
+	}
+	#intro p{
+		padding: 0 25%;
+		text-indent: 2em;
+		font-size: 15px
+	}
+	.go-down{
+		position: absolute;
+		bottom: 50px;
+		left: 30%;
+		width: 40%;
+		border:1px #fff solid;
+		text-align: center;
+		color: #fff;
+		background-color: transparent;
+	}
+	@media (max-width: 767px){
+		#intro{
+			padding-top: 80px;
+		}
+		#intro img{
+			width: 80%;
+			margin-left: 10%
+		}
+		#intro p{
+			padding: 0;
+		}
+		.go-down{
+			bottom: 20px;
+		}
+	}
+	
+	
+	.five-music-con{
+		background-color: #fff;
+		padding-right: 15%;
+		padding-left: 15%;
+		padding-top: 20px
+	}
+	.five-music-con .col-sm-4{
+		padding-left: 7.5px;
+		padding-right: 7.5px
+	}
+	.five-col{
+		height: 150px;
+		width: 100%;
+		border-radius: 10px;
+		margin-bottom: 15px;
+		padding-top: 26px;
+		box-shadow: 0 5px 5px 2px #ddd; 
+		background-size: cover;
+		background-position: center;
+		color: #fff;
+		text-align: center;
+	}
+	.five-col-one{
+		background-image: url('../img/金.jpg');
+	}
+	@media (max-width: 767px){
+		.five-music-con{
+			padding-right: 15px;
+			padding-left: 15px;
+			padding-top: 0px;
+		}
+		.five-col-one{
+			margin-top: 15px;
+		}
+	}
+	.five-col-two{
+		background-image: url('../img/木.jpg');
+	}
+	.five-col-three{
+		background-image: url('../img/水.jpg');
+	}
+	.five-col-four{
+		background-image: url('../img/火.jpg');
+	}
+	.five-col-five{
+		background-image: url('../img/土.jpg');
+	}

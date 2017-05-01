@@ -1,0 +1,830 @@
+[ 2016-12-02T10:16:58+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T10:16:58+08:00 ] 211.137.13.86 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\8bf5cf33f1344337a13a2f1279036828.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T10:16:59+08:00 ] 211.137.13.86 /index.php/Admin/Manage/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_manage` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `hw_manage` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-02T10:17:00+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T10:17:02+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T10:17:08+08:00 ] 211.137.13.86 /index.php/Admin/Admin/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T10:17:10+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\132b321d3cc2869384a133237eb4922f.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T10:43:04+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0156s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_news` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('11.30岐山一校第三场活动精彩回顾','本次活动每个小组没有助教老师，每位小组的队长肩负的责任更加重大，希望在i.P.A.S.S以后的课程中将更注重培养孩子爱自己，培养每个孩子的决断能力。','&lt;p style=&quot;text-indent: 2em; line-height: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;2016年11月30日，i.P.A.S.S——爱·自己青少年心理健康建设系统团队建设活动岐山路第一小学第三场活动如期进行，活动时长1个小时，本次活动主题为认识“我是谁”，瀚威心理的心理咨询师精心准备了团队建设游戏，帮助每个同学认识自己，了解自己的需求，同时了解自己的独特之处。孩子们在游戏课程中培养了做决定的能力，同时建立了团队中的自信。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 2em; line-height: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;值得一提的是，本次活动每个小组没有助教老师，每位小组的队长肩负的责任更加重大，希望在i.P.A.S.S以后的课程中将更注重培养孩子爱自己，培养每个孩子的决断能力。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;/p&gt;','Upload/2016-12-02/5840dfb86cb80.jpg','2016-12-02 10:43:04') [ RunTime:0.0000s ]
+
+[ 2016-12-02T10:43:04+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T10:43:06+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T10:43:10+08:00 ] 211.137.13.86 /index.php/Admin/Admin/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T10:53:27+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T10:53:29+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T14:03:56+08:00 ] 211.137.13.86 /index.php/Admin/Admin/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T14:04:03+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\132b321d3cc2869384a133237eb4922f.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T14:06:22+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_news` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('25岁，可能是人生最尴尬的一个年龄','曾有一个调查，调查者询问18到25岁人，评估自己属于成年人的程度。结果发现，只有很少人确定自己属于成年人，但也只有少数人确定自己不属于成年人，大多数人认为自己“既是成年人，也不是成年人”。','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161202/1480658650953283.jpg&quot; title=&quot;6451006411909235.jpg&quot; alt=&quot;ertln_spq1s-andrew-neel.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(79, 129, 189); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;▼&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;曾有一个调查，调查者询问18到25岁人，评估自己属于成年人的程度。结果发现，只有很少人确定自己属于成年人，但也只有少数人确定自己不属于成年人，大多数人认为自己“既是成年人，也不是成年人”。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;最新发展心理学的研究表示，根据儿童心理学对青少年心理发展的研究，建议成年的年龄线从18岁延迟到25岁。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这个年龄段的我们，在生活上，角色认同上，都会出现各种转换，比如：换专业，离开原生家庭，换工作，恋爱。而从埃里克森的发展理论来看，其中也充斥着，社会认同与亲密关系建立的挑战。&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;心理研究表明，我们度过这个年龄段的时候，更容易酗酒、接触毒品、419。&lt;/span&gt;我们度过这个年龄段时，既觉得成熟了，又还没有能力承担责任。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(51, 127, 229); outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;25岁，可能是人生最尴尬的一个年龄&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;以前听说，人的长大是突然之间的事儿。我并不知道什么是所谓的长大、成熟，但是我突然清楚的意识到自己不再年轻。昨天还以为自己的未来还有无限的可能，像是还没有分化的细胞，可以分裂成任意器官。今天就发现很多世界冠军都比自己年轻很多、那些不大自己几岁的人已经坐上了现在还不敢想的位子。还在考虑着如何把前浪拍在沙滩上，突然自己就已经被后浪拍在沙滩上。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在25岁这个年纪，每隔几步就一个路口，少有人知道该走哪一边，像是吃饭的时候要选人多的餐馆一样，很多人挤向本来就人满为患的路。偏偏很前方的路口又很窄，千军万马去闯独木桥，想来世上已无阳关道。公务员、事业单位这些香饽饽让意气风发的年轻人们明争暗斗，为的不是什么理想、自我价值，只是稳定的一个月几千块的皇粮。干什么不重要，拿多少才重要。工资不重要，福利才是王道。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;话又说回来，这并不是我们的错，我们也是被诅咒的一代。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://image.xinli001.com/20160324/074045fd4by2ddruaazy6u.jpg!600&quot; alt=&quot;&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(51, 127, 229); outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;梦想。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;好久没听人说过这个词，也很久没有见过这个词了。谁的心里没有梦想的种子？可偏偏这个时代使用这种文字的人地方不是一块肥沃的土壤。在这片土地上，如何生长不重要，长成什么样不重要，唯一重要的是结了什么样的果实。每每当我看到国外很多作家简介里有哲学家这个称谓时，我总是感到无比的同情：这个职业的人如何生存啊……在咱这个全球第二大经济体，干这行的人估计比省长还少，因为咱不需要哲学家，哲学家还不如妓女能拉动GDP。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;太久没有看见身边的谁实现他的梦想，也太久没有听见谁实现了梦想，因为看看身边的人，都梦归梦想归想，该干嘛还是干嘛。所以我在想，到底有没有梦想这种东西？它会不会像小时候不盖好被子睡觉时妈妈说的会吃脚丫子的怪兽一样，只是童年时让我们按照某种方式成长的工具。长大后我们在课本上学到其实没有会吃脚丫子的怪兽，可是没有人告诉我们其实也没有什么梦想。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我听过很多人对我说，真希望你能实现自己的梦想，像是把最后的希望寄托给我一样。后来我看新闻听说有人打算开始环游世界，我内心非常希望他能走完。那一瞬间我才发现，原来藏在心底的那些很难实现的愿望，总是需要找个寄托。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;如果单说梦想本身，那是一件十分美好的事物。俞敏洪说每条河流都有一个梦想，那就是奔向大海。多么令人向外啊！可以穿过森林、越过石头、飞跃瀑布，在这个国家甚至还有可能冲开大坝，然后流过良田……最后进入大海。我终于明白为什么如海子这样能写出“为每一颗树取一个温暖的名字”的诗人，如梵高这样能画出最明亮的黄的画家，最后都选择结束自己的生命。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;大海很遥远，但并没有遥不可及，只是我们的生命过于沉重。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://image.xinli001.com/20160324/074107uw5fjssg9hte7cqr.jpg!600&quot; alt=&quot;&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(51, 127, 229); outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;房。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;如果进行“中国最重的字”评选活动，这个字应当是毫无悬念的胜出。如果说“不要迷恋哥，哥只是个传说”这样的话语是一种洒脱的话，那么“不要迷恋哥，哥没有房”一定是最黑色的幽默。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;记得两年前我刚毕业的时候，成天算着这么才能买房子，可左算右算不吃不喝都得20来年。正当在这个梦魇中挣扎之际，一条手机报拯救了我，报上明确指出北京房价5环均价已经过万，而且今后只会涨不会跌。突然之间，世界一片光明，那是我到北京几年天空最蓝的一天，空气最好的一天。因为我终于不用再痛苦，我清楚的知道自己不会搭上环游世界的钱去买一个厨房。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;不买归不买，可难免受到身边人的影响，尤其是可能是未来丈母娘的广大中年妇女们。当去年某专家抛出“丈母娘需求”是刚性需求的时候，我这两个蛋疼的啊、两个乳酸的啊。那段时间对于丈母娘这个物种的普遍印象跌倒了历史最低点，后来社会上的某个群体让我找到了阿Q的点，这个群体就是传说中的小三。我发现虽然丈母娘都要求有房子，但是基本都只要一套，而现在的情况是有一套房子就可以有一个女人。想到此，我心情开朗许多。虽然我对女人商品化一直不能接受，但是至少这让我看到在社会主义市场经济的调节下，男性同胞们可以有更多选择，而这完全是一个买方市场。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;如果我没记错的话中国男女比例大概是110：100，也就是说按照理论，每110个男人就有10个没有配对的女人。但实际情况是GAY比LES多，也就是说男同胞们可以内部消化一部分，所以从性向选择来说这个比例基本是合适的。但是如果把那些有多套房的老总们纳入考虑范围的话，还是会有一部分男人没有老婆。简而言之，大龄单身汉的数量和有钱人们多余房子的数量成正比。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;无论你是以一套房为目标，还是以多套房为目标，你都绕不开“房”这个字。每一滴水都背负着一块砖的重量，怎么还能激情的奔向大海。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://image.xinli001.com/20160324/07412426kplvmjdjr9wh4t.jpg!600&quot; alt=&quot;&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(51, 127, 229); outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;城市。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;与梦想最相关的，应该是度过时间的方式，即生活方式。没有什么生活方式是一定正确的，每个人都责无旁贷的要去考虑并选择自己的生活方式。这个时候“城市”的选择就成了如今大多数北漂青年最纠结的话题。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;一线城市节奏快、刺激、机会多、牛人多、帅哥多、美女多、吃的多、玩儿的多……总之就是选择多。而现代社会有一个物质发展解决不了的社会问题，就是面对多元化选择的时候，人如何能够从选择中获得最大的幸福感和满足感。因为从经济学角度来说，选择多意味着机会成本大。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;简单而言就是，如果某天晚上有两个朋友约你，一个去逛街，一个去聊天，那么你的选择只会造成一个机会的丢失。可当某天晚上有10个朋友约你干不同的事的时候，你就会开始痛苦，每一个约会都有你想要的方面，这时候你得到的是1，失去的机会是9。而最痛苦莫过于恋爱的时候，其实每个人都会是真爱，问题是你俩有没有真正去爱。吃着碗里的看着锅里的是人类的本性，只不过不同的人有不同的骑驴找马的资本，不同人有不同的骑驴不找马的淡定。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我一直觉得我向往小城市的生活。在这样一个城市有另一个我，可以每天下班陪家人吃饭，然后看看书，写写字，和朋友出去聚聚……不用挤地铁，不用每天用两个小时“在路上”。到底有什么东西是我放不下的呢？或许只是一个自命不凡的平凡人对自己不平凡的期望。每种价值观背后一定都有某种哲学思想的倾向。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://image.xinli001.com/20160324/074141c4gzq0iw5ax0wp16.jpg!600&quot; alt=&quot;&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(51, 127, 229); outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;哲学。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;很早的时候刚开始接触哲学书籍时看到过一句话“哲学是一场危险的旅行，在救赎之前很有很长的迷失。”现在我懂了，因为我已迷失在各种观点之中。正如也许你不知道弗洛伊德是谁，但是你一定知道“潜意识”这个词，你也许不知道柏拉图所描绘的世界是什么样，但是你一定或多或少收到他的影响。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;柏拉图是苏格拉底的学生，而苏格拉底就是那个成天在街上与人辩论，最后由于坚持自己的理念而被处死的那个爱智慧的人。他几乎没有留下任何著作，而他所有的哲学思想都是通过柏拉图写的对话来表达的。柏拉图认为世界存在原型，每个事物都有原型，而目前盛行的“柏拉图式爱情”毫无以为是爱情原型的谬误，我甚至一度认为这种谬误和饭岛爱大姐那本书有因果关系。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;哲学讨论的是人，更多关注的是人的本质，存在的意义。而每种观点都能够催生出截然不同的人和生活方式。可以说每种向往背后都有一种哲学取向的左右，就算是没有看过任何哲学书籍的人。因为哲学不是一门科学，需要专门的学习，而是一门对于世界看法的学科，每个人都可以有意见。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;中国的古代史是贯穿了儒、道、佛的历史，尤其儒家思想是整个民族思想上最深的烙印。如今，儒家思想在于成功学的对垒中屡屡挫败，三十而立指的不再是思想上有明确的方向，坚定而果敢，而是有房有车。看过一则研究表明，长时间在高强度、高压力环境下工作会使人的性功能退化。如果继续本着以经济建设为中心的指导思想，那么“三十而立、四十不举”将成为最具幽默感的社会现象，那时候年轻小伙子将成为市场上的抢手货，但是目前看这篇文章的人都已经老了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;初中的时候我们只知道好好读书是为了上好高中，然后上好大学，然后找好工作，当毕业了才开始去思考：什么是好工作？当我们还不能理清思绪，就得被迫接受一个巨大的标准：收入。然后就有各种各样的广告，告诉你有钱的好处，然后就一头扎进经济浪潮之中。生活理想、生活方式、自我价值统统抛在后面。不知道自己想要什么，不知道真正要追求的是什么，本着打哪指哪的态度蜗居在城市之中。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在国外思想家纷纷研究“中庸”的时候，我们自己对这种思想却一知半解，很多人甚至觉得中庸是一种消极退让的思想。相比起古代，现代社会我们面临的抉择和冲击更多，如果说以前是多多益善，那么现在则是越多越乱。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我一直听佩服金庸的，因为他的武侠小说里有很多深刻的哲学思想。比如天龙八部里扫地僧对萧峰和慕容复老爹说，少林每一门绝学都有副作用，需要修相应的佛法才能化解。当你掌控的外在越多，想要保证没有负面作用，那么你内心就要相应的强大。所以说不怕人有钱，就怕有钱人没文化，没文化的人有更不受束缚的想象力，同时却缺乏一定的道德感。中国很多有钱人造成的悲剧、闹剧正源于此。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;如果你是一滴水，你有一个奔向大海的梦想，你是想有一颗矛盾的心，还是一颗盲目的？&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://image.xinli001.com/20160324/074158pzoadowndivfzju5.jpg!600&quot; alt=&quot;&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(51, 127, 229); outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;恋爱。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这绝对是史上最能乐此不疲的老生常谈。十几岁的时候如果听到“最美的不是下雨天，是和你一起躲过雨的屋檐”，眼前一定会浮现某个面孔，然后内心激动的一塌糊涂。而到了我这个年纪听到这句词，眼前浮现的只是一个模糊的样子，像是给每个过去分一个权重，然后取了加权平均后计算出的样子。前几天我在文化巷突逢倾盆大雨，雨暴躁的下了1个多小时，我就无奈的在屋檐下站了一个多小时。一开始是很烦躁的，后来慢慢的平静下来，最后甚至开始欣赏雨打在不同材质上的声音，欣赏雨划过每一种颜色的透亮。然后我突然明白，从来不曾有什么屋檐，最美的始终是下雨天。顺便说一下，对于方文山这种30来岁的老男人还能够写出如此单纯的句子，我感到十分开心，想想咱们人才济济的大陆居然“亲爱的你慢慢飞”都能响彻大街小巷，我顿时对台湾的社会氛围刮目相看。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;前段时间流行一个签名“我想早恋，可是已经晚了。”看到的时候，我和众多人一样报之一笑，再之后我认真想过这句话。我们怀念的不是早恋，而是为了爱情冲破禁忌的激情和勇气。以前总是听说大学里的爱情有多单纯，当时不相信，毕业了才知道。当爱情被作为一件华丽的旗袍掩盖在种种利益之上放在台面上讨价还价的时候，你才会知道单车后座上那紧贴背的拥抱是多么的真实。我不否认，我羡慕，甚至嫉妒那些从大学走过来的爱情。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;当我们这个年纪的人进入准婚年龄，单作“爱情”来讲的爱情已经束之高阁。很多实际的问题浮出水面，我并不是排斥这些东西，可是似乎我们走的有点儿远了。参加过很多婚礼，每场婚礼上都会有誓词：“无论平穷、疾病巴拉巴拉……，我都愿意和你在一起。”可真正包含泪水说出誓言的并不多。陆川在参加完刘烨婚礼时说，西式的婚礼和葬礼都能让人思考很多，关于生命、关于意义，而中式的就是图个热闹。当我们什么都想要，硬把西式婚礼加入仪式时，并没有看到人家精华的东西，而是照虎画猫的学了个形式。当誓言都只是一个过场，我们还能把什么当真。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;前几天去民政局开未婚证明，有一个窗口没人，我屁颠屁颠的跑过去办。那位大叔悠闲的看着报纸，但是又聚精会神，我叫了两声才会过头来。我说，师傅我要开一个未婚证明，他随口即问，结婚了没。我一时被问傻了……要是结婚了，我开个P的未婚证明啊。然后他递给我一张单子说，填好了隔壁办。当我填好单子后，隔壁的女士很热情的招呼我，小伙子过来这边办。我还纳闷儿为啥服务态度这么好，她随即接着说，他那难得今天清闲，让他休息一下吧，平时忙的不行。我这才仔细看了他的窗口，有一个其实很显眼的牌子上写着“离婚手续办理”。我顿时就乐了，听说过结婚排不上号的，原来离婚也得排队啊。而与他一桌之隔的是“结婚手续办理”。临走时又看了一眼那位大叔，作为一个纳税人，能养这样一个闲人，也未尝不好。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;虽然爱情是不分阶级的，但是我如今真有“Toopoortolove.”的感觉。我不排斥也不反对物质的享受，可是如果物质消费是为了填补内心缺乏的安全感、存在感、关注感，那你将把自己活生生变成一个黑洞。我一直很赞同孔子“素其位”的说法，素富贵、行乎富贵。前几天还和朋友说，有钱了也不能买宝马，会被当成为富不仁的暴发户。当然我承认对于马啊、驴啊我还处于意淫阶段。西方社会有宗教可以帮助人们解决、至少缓解内心和外界的冲突，他们富余的精神活动也并不简单是建立在高度发达的物质基础上。中国没有大范围的宗教信仰，所以解决内心与外界的关系是个很复杂的问题。早期蔡元培校长提出过“美育代替宗教”的救赎思想，如今考艺术的很多是为了成名，而有些则是肚子里没什么墨水，写不出什么字。记得有哲学家说过，爱情说穿了是一种信仰——相信，相信他/她是爱你的，相信你们终会在一起。而如今爱情更像是一场囚徒困境的博弈。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;不过，倘若你敢牵我的手，我还是敢拉着你一直走到坟墓。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://image.xinli001.com/20160324/074217ke512wqibc81rna4.jpg!600&quot; alt=&quot;&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(51, 127, 229); outline: 0px; zoom: 1; font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;社会。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;有些事情，明白了是很可怕的。比如对于这个社会的理解，其实从古至今人性变化不大，在我有生之年也不会有重大转折。所以我想是时候停止去独善其身了，没有书生一个国家照样发展。以前我相信文字、图片虽然不能改变世界，但是能改变人们对世界的看法。现在我不这么觉得了，人不经历刻骨铭心的痛就不会反思，欧洲悲剧的意义正在于此。而在这片土地上，有一个很有意思的现象。当某个社会事件独立出现时是一场悲剧，而一旦成风就成为了潜规则式的喜剧。前段时间老郭被封杀我就想，以前翻墙看到的都是悲剧，以后终于翻墙终于有可能看到喜剧了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;我们从小就学习很多规则，长大以后会发现，越是剑走偏锋越容易成事。规则就像是火锅里的菜，有的人一直告诉你菜好吃，但是他拼命夹肉。我也终于明白当初辞职时老板跟我说的那些束缚着我的东西究竟是什么。我们似乎处于一个突破道德底线无所谓，甚至游走在法律边缘也可以的社会。对于那位西太平洋博士的“宽容”显示的并不是我们民族博大的胸怀，而是极度功利态度。马云说，一旦你成功了，那你说什么都是对的。他是有智慧的，因为这句话是对这个社会现象较为和谐和华丽的形容。在此问题上韩寒是很识时务的，及时把自己的学历从高中改到了初中，大有大势难违之意。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;一个愤青变的不愤青其实是一件很可怕的事情，因为他知道的太多了……&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/hanwei/hw/Public/Upload/20161202/2016-12-02_792085_734259315736686796.jpg&quot; title=&quot;2016-12-02_792085_734259315736686796.jpg&quot; alt=&quot;734259315736686796.jpg&quot;/&gt;&lt;/p&gt;','Upload/2016-12-02/58410f5ea32b1.jpg','2016-12-02 14:06:22') [ RunTime:0.0156s ]
+
+[ 2016-12-02T14:06:23+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T14:16:40+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T14:16:42+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\7f9eb48c00da6b0122992baf32f07507.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T14:24:19+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('当下中国的12种孤独','科技每天都在更新，各种数码设备每天都在陪伴着我们，填补了原本空虚、无聊、发呆的时间，甚至侵占了原本应该用来工作、交谈、睡觉的时间。网游里有最性感的虚拟女友，微博可以引来数万人关注，视频网站的电视剧不插播广告，网上商城24小时不打烊……互联网上充满了各种各样的声像，让人不睹不快，一个人说他离开电脑去睡了，其实往往是躺在床上继续看手机。','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20161202/1480659411416590.jpg&quot; title=&quot;9352996634368510.jpg&quot; alt=&quot;50243686_m.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;科技每天都在更新，各种数码设备每天都在陪伴着我们，填补了原本空虚、无聊、发呆的时间，甚至侵占了原本应该用来工作、交谈、睡觉的时间。网游里有最性感的虚拟女友，微博可以引来数万人关注，视频网站的电视剧不插播广告，网上商城24小时不打烊……互联网上充满了各种各样的声像，让人不睹不快，一个人说他离开电脑去睡了，其实往往是躺在床上继续看手机。&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;然而于众声喧嚣之中，我们却感觉越来越孤独了：每隔几分钟就要看一眼手机，不断刷新微博看好友都在干些什么，邮件没有被立刻回复就感到沮丧不安……那些飘在风中的代码左右了我们的情绪。饭桌上，每个人都低头玩手机或平板电脑，话题也经常围绕着社交网站上正在发声的人和正在发生的事展开。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;尽管我们今天所面对的机遇跟困境都是前所未有的，但人类的情感需求却从未改变过。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(192, 0, 0); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第一种孤独：依赖科技而不是彼此&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;quot;想你，请与我联系013701059553&amp;quot;。2000年12月，艺术家何岸在深圳街头设置了一个霓虹灯箱，吸引了数百个陌生人打来电话。2011年10月，失恋的美国人杰夫·罗格斯也做了类似的事，他将电话号码贴遍纽约的大街小巷，竟接到几万通来电。来电五花八门，有推销的，寻一夜情的，谈想法的，也有孤独者因闻到同类气味惺惺相惜而来的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;今天，&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;虚拟身份比真实身份更具符号性和辨识性&lt;/span&gt;。现实生活中我不认识你，但报上网名才发现我早就关注了你。人际交往的第一步不是我加你微博就是你加我QQ。网上点餐、在线游戏、通信基本靠微信，连亲密接触都可通过视频完成。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;对网络的依赖，也使我们成为精确的目标消费者。看了亚马逊网站根据购买记录推荐的&amp;quot;你可能感兴趣&amp;quot;版块，真能让人产生一种被了解的感动。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(192, 0, 0); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第二种孤独：谁都过得比我好&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;Instagram这类拍照工具就是为了把平淡无奇的生活美转化成传奇，晒出来让围观的人感到羡慕。雪莉·图克尔（美国麻省理工学院教授）将这种炫耀称为&amp;quot;演示焦虑&amp;quot;。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;网络上充斥着大量的此类&amp;quot;焦虑&amp;quot;，你所观看的每一个人都把暗面转到后头，只给你看精彩和美好的一面，尤其是女性，展示与比较是她们最为看重的，包括可能令人羡慕的细节，也包括阅历和见识。花在观看别人的幸福上的时间越多，你就越沮丧。&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;&amp;quot;人们为查看曾经的好友、配偶、同事的信息付出了心理代价。&lt;/span&gt;他们不该再关注这些，这种情绪有害健康。&amp;quot;雪莉·图克尔说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(192, 0, 0); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第三种孤独：老无所依&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;已故的铁娘子撒切尔夫人在生前，儿子一个多月才来探望她一次，女儿经常忙得几个月都来不了。英国保守党成员斯派塞在新书《斯派塞日记》中透露，撒切尔夫人也后悔过，如果时间能够倒流，她将会为家庭放弃从政。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;在中国，养儿防老的观念正逐渐淡化，最经常的相处方式是：&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;子女为生计奔波，老人则照顾孙辈发挥余热。&lt;/span&gt;退休之后，大多数老人就失去了社会认同，也缩减了社交。今年春节，一位68岁的大连老太独自在家，寂寞到摁抽水马桶抽水钮玩，两个月冲走了98吨水。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(192, 0, 0); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第四种孤独：独生子女&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;过去，中国人生活在有情感联系的关系中，要面对父母长辈、兄弟姐妹、丈夫、妻子、孩子等，大家庭中非常热闹。而独生子女一代没有兄弟姐妹，亲戚也越来越少。&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;每个孩子都处在&amp;quot;4-2-1&amp;quot;式家庭结构的金字塔顶端，被整个家庭细心呵护着。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;小儿之间的推搡嬉闹总在第一时间就被大人制止，谁也不许自家孩子吃亏，唯有减少邻里接触的频率。父母希望孩子有玩伴，但这玩伴也要是他们认可的。在合肥，甚至有网站组织&amp;quot;宝宝相亲&amp;quot;，由父母为孩子挑选玩伴。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;过去中国人讲究的人情世故，今天很多都被从简从略了，唯独自我被越放越大。面对&amp;quot;硕大无朋&amp;quot;的自我，人们难免有深切的孤独感。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(192, 0, 0); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第五种孤独：离开故乡&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;2012年4月，郭台铭在博鳌亚洲论坛上说：&amp;quot;如果我们对员工有任何不合理的要求，就不会像现在&amp;#39;要一个来三个&amp;#39;……&amp;quot;事实是，为生计，初入城市的农民工只能流血流汗；流水线上的工人哪一个做的不是高强度、低收入的工作……过去他们在乡村野蛮生长，一入厂门，再也不得自由，甚至私生活受限，连基本的情感需求都无法满足。在男女比例失调的广东东莞，一些厂内&amp;quot;一夫多妻&amp;quot;是常事，女工怀孕后多被抛弃。可怜离开故乡时，她们中的许多人还只是孩子。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(192, 0, 0); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第六种孤独：因为爱情&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;2011年，台湾未婚女性的数量是为217万，男性的数量为270万，平均婚龄持续推后。很多人找不到情感归宿，连林志玲也嗲嗲地说：&amp;quot;没有男生追志玲，只有时间追志玲。&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;36个月爱情即退潮的危险始终存在，艰难相处减少了激情，女人怪男人不守誓言，男人怪女人不似当初，有伴侣常比没伴侣更孤独。法国连环枪击案嫌犯穆罕默德·梅拉赫的律师也拿情感理由当辩词：&amp;quot;梅拉赫在行凶前因婚变受刺激，他作案时肯定感觉自己像&amp;#39;一匹孤独的狼&amp;#39;。&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(192, 0, 0); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第七种孤独：我不相信&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;中国人的聪明才智有多少用来&amp;quot;互害&amp;quot;？你有地沟油，我有假蜂蜜；你卖毒牛奶，我卖的牛肉其实是染色猪肉。为了逐利，毫不犹豫地同流合污，东窗事发后便说是行业&amp;quot;潜规则&amp;quot;。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;食品不安全，学历是假的，慈善多作秀，名声不符实……&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;一个人长大的过程变成逐渐对一切持怀疑态度的过程。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(192, 0, 0); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第八种孤独：水泥森林&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;高楼占领了城市，家升到半空变成一个门牌号。人与人之间失去了交流的触点，每个人都十分留心地锁好防盗门。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;城市充满了几何感，那些设计是为了制造奇观而来的。&lt;/span&gt;越来越多巴西利亚式的沉闷的城市，体量无比巨大，没有&amp;quot;神经末梢&amp;quot;，个人处于其中会感到迷茫，就像一个人在月亮上那么孤独。今天的城市管理者只希望车流通畅，夜间灯火辉煌，人们彼此保持安全距离。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(192, 0, 0); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第九种孤独：成为名人&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;唱《孤独患者》的陈奕迅真的感到很孤独：&amp;quot;两三年前我还敢去坐地铁，但现在不敢了，好像看到人会觉得害怕，不知道该怎么应对。&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;关注有两种心态，&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;一种是粉你，一种是骂你&lt;/span&gt;。既有女大学生执着 @蔡康永 325次求回复，也有网络水军骂得舒淇一夜之间删光微博。名声越大越需要强大的心理承受力，不能服软，否则便会被长期积累的负面力量压垮。范冰冰放言，她的成功不是白来的，&amp;quot;我能受得了多大的诋毁，就禁得住多少的赞美&amp;quot;。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(192, 0, 0); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第十种孤独：创作&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;里尔克写作时总是与世隔绝；里希特抱怨人人都喜欢他的艺术，因为这种喜欢大抵与对名利的追逐有关；马尔克斯则说：&amp;quot;一百万人决定去读一本全凭一人独坐陋室，用&amp;#39;28个字母&amp;#39;、两根手指头敲出来的书，想想都觉得疯狂。&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;创作的过程是无法与世人分享的，唯有熬过了那些被孤独照得通体透明的日子，才有可能修成正果。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;获得2012年普利兹克建筑学奖后，建筑师王澍心情复杂地说：&amp;quot;我这么多年都在探索，感到有些孤独。但如果很真诚地去思考、认真地去工作，把理想坚持足够长的时间，那么最后一定会有某种结果的。&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(192, 0, 0); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第十一种孤独：孤独症与抑郁症&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;全世界有6700万孤独症患者，在过去20年里，发达国家的孤独症病例呈现爆发式上涨趋势。在中国，2011年仅广州常住人口中就有约7万名孤独症患者，而且人数还在逐年增加。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;美国宾夕法尼亚大学教授斯科特·塞立克说：&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;&amp;quot;遗传和环境因素各负一半责任。&amp;quot;&lt;/span&gt;孤独症不是因为被身边的人冷落，而是一种病。同样地，抑郁症也不仅仅是心情不好那么简单，被抑郁症折磨6年的歌手杨坤说，&amp;quot;自己一方面特别渴望跟人交流，另一方面又特别渴望一个人独处&amp;quot;。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; color: rgb(192, 0, 0); font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; font-weight: 700 !important;&quot;&gt;第十二种孤独：独善其身&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;quot;我体会到了真正的孤独，这种感觉湮没了一切。&amp;quot;2012年3月27日，坐单人深潜器潜入11000米深的马里亚纳海沟的美国导演卡梅隆说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;今天的中国人越来越少地忍受独自一人，只是想随手去捡那些容易得到的乐趣。&lt;/span&gt;面对外界强加的排斥缺乏承受力，为了不孤独，宁愿不自由，包括接受他们并不享受的生活方式、朋友和社会观念。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;君子必慎其独也。为追问生存的意义而进行孤独的努力仍是值得的，面对生命的真相，再长的寂寞都会获得补偿。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&amp;quot;我觉得孤独很快乐，比如夜里12点你翻开一本新书，闻到墨香的感觉，这是他人无法给的。&amp;quot;崔永元说。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;img src=&quot;/hanwei/hw/Public/Upload/20161202/2016-12-02_147685_734259315736686796.jpg&quot; title=&quot;2016-12-02_147685_734259315736686796.jpg&quot; alt=&quot;734259315736686796.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;','Upload/2016-12-02/58411393db005.jpg','2016-12-02 14:24:19') [ RunTime:0.0156s ]
+
+[ 2016-12-02T14:24:20+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T14:29:27+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T14:31:34+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\www\mind\Runtime\Cache\Admin\7f9eb48c00da6b0122992baf32f07507.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T14:34:24+08:00 ] 211.137.13.86 /index.php/Admin/Admin/addhnewst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\mind\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `hw_newst` (`title`,`intro`,`content`,`cover`,`time`) VALUES ('失恋时为什么女性比男性更痛苦？','从爱情阴影里走出来，并不是一件轻松的事情。失恋，从心理体验而言是一次丧失的过程，我们必然会承受一系列的痛苦，深陷痛苦之中的人常常会体验到抑郁，会出现忧郁感、无力感和不安感，还会出现饮食障碍、睡眠障碍，伴随出现的是记忆力和注意力的下降，行动迟缓，以及体重的巨大变化，有的人还会出现幻觉，甚至直接罹患抑郁症。','&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img title=&quot;8001799202650058.jpg&quot; alt=&quot;50563212_xxl.jpg&quot; src=&quot;/ueditor/php/upload/image/20161202/1480660298623659.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;span style=&quot;outline: 0px; zoom: 1; font-family: 微软雅黑, sans-serif;&quot;&gt;&lt;/span&gt;从爱情阴影里走出来，并不是一件轻松的事情。失恋，从心理体验而言是一次丧失的过程，我们必然会承受一系列的痛苦，深陷痛苦之中的人常常会体验到抑郁，会出现忧郁感、无力感和不安感，还会出现饮食障碍、睡眠障碍，伴随出现的是记忆力和注意力的下降，行动迟缓，以及体重的巨大变化，有的人还会出现幻觉，甚至直接罹患抑郁症。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;美国《精神学》杂志发表了一项关于处于失恋中的男女痛苦感受差异的科学研究报告。该研究表明在失恋问题上，女人要比男人感觉更痛苦，因为女性在和自己所爱的男人分手后所经历的情感上的波动，会更容易改变她们的大脑。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;这项研究的对象主要是年龄在18至40岁之间的女性。研究者分析了至少有24周爱情浪漫史的女性，她们在16周前后的时间里感情宣告破裂，这些女性在和所爱的人分手后一直无法摆脱感情的阴影，导致心理出现问题。研究人员利用高精度的核磁共振成像技术监测了她们的大脑细胞活动情况，发现当她们陷入痛苦回忆时的大脑细胞活动扫描图像，相比在她们回想其他与感情关联不大的人时的图像会发生非常大的变化。她们的大脑会产生非常强烈的悲痛感，有时甚至影响到她们的生活能力。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;研究认为，失恋时女性之所以比男性感觉更痛苦，是因为女性产生抑郁情绪的大脑区域的细胞活性要远大于男性。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;事实上确实有相关研究统计显示，患抑郁症的女性比例是男性的2-3倍。而另据韩国媒体报道约70%左右的抑郁症患者都是女性。中科院心理研究所也对之前已经公开发表的80多篇来自世界各地的中英文文献进行了梳理，发现以&lt;/span&gt;&lt;img class=&quot;anchorclass&quot;/&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;贝克抑郁量表（&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; color: rgb(165, 165, 165);&quot;&gt;注：贝克抑郁量表是一种常用的测量抑郁症状的工具&lt;/span&gt;）来测量普通人群，女性的抑郁症状确实要高于男性。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;关于女性更容易因为感情挫伤受到心理伤害，更容易抑郁的现象，除了前面提到的女性产生抑郁情绪的大脑区域的细胞活性要远大于男性以外，至少还有以下3种观点。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;第一种观点是生理学理论。&lt;/span&gt;这个理论观点有些类似于大脑细胞活性的分析，不过，它提到的是男女在生殖发育机能上的差异，比如最主要的就是激素水平的差异，导致男女在大脑方面有所不同。有研究表明，男性大脑与女性大脑在加工情感信息方面存在差异。不过，是否这种差异提高了女性抑郁的几率，并没有统一的论证结果。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;第二种观点是心理学理论。&lt;/span&gt;它认为是两性在成长过程中的“社会化”方向不同，造成男女在心理方面的差异。简单来说，就是女性在成长中会被养育成温柔、顺服的特点，随之而来的是容易形成自信心和竞争意识较低的个性。其次，男性和女性在认识和应对消极事件的方式也大为不同。在面对亲密关系以及人际关系问题时，女性更倾向于关注情感因素，她们更容易暴露自己的悲伤，也更需要亲密关系的维系，更多倾向于思索自己情感的不幸。相反，男性在遇到问题时，更不愿意表达自己的情感，习惯于责备他人，如果遇到情感问题，他们更可能通过酒精甚至向其他人挑衅攻击，来转移和缓解内心的痛苦。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;第三种观点是社会学理论。&lt;/span&gt;该理论会觉得女性相比男性更容易在情感失败时痛苦的原因，是性别角色不同和社会条件共同造成的。女性在整体社会发展历史中处于从属地位，常常被限制于家庭中，社会资源调动能力不如男性，更容易服从男性的“统治”，因而减少了自己与他人接触的机会，由于要维持从属地位并较好的生存，就更容易导致自我压抑，就会降低女性的自我价值，伤害女性的自尊。这样，表面上的顺从和内心的愤怒容易产生更多的冲突，在搞不清楚真实自我的情况下，痛苦的感受也就更为强烈。所以，女性的抑郁症不平等的两性关系有着内在的联系。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;另外，我们也应该看到，相比男性而言，处于失恋痛苦中的女性更愿意表露自己的情感痛苦，也更愿意通过向外界寻找帮助来解决自己的痛苦，这在一定程度上也形成了女性抑郁比率比男性更高的客观现实——男性不是不抑郁，而是不会表达或者不敢表达。有相关统计研究显示，男性由于情感问题导致的自杀成功的案例数量远远高于女性。这既在一定层面上说明了男女痛苦表现差异，也反映了女性通过自我表露，通过寻求外界支持，更大程度上缓解了痛苦带来的严重后果。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;; outline: 0px; zoom: 1; font-weight: 700 !important;&quot;&gt;有关于神经学的研究表明，如果在精神出现损伤后，及时的心理咨询可以修复大脑中受到损伤的神经回路&lt;/span&gt;。如果大脑的损伤是由情感问题导致，及时接受心理咨询修复损伤，这是必要的也是有可能的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;outline: 0px; zoom: 1; margin-top: 0px; margin-bottom: 25px; padding: 0px; color: rgb(17, 17, 17); font-family: 新宋体, 宋体; font-size: 14px; line-height: 28px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;#39;Microsoft YaHei&amp;#39;;&quot;&gt;也可以这么说，看起来女性似乎比男性脆弱，不过女性更加关爱自己，她们更懂得情感的问题通过情感和心理修复的方式来善待自我，并且面对和度过情感困境。&lt;/span&gt;&lt;/p&gt;','Upload/2016-12-02/584115f09a51b.jpg','2016-12-02 14:34:24') [ RunTime:0.0000s ]
+
+[ 2016-12-02T14:34:25+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-12-02T14:35:11+08:00 ] 211.137.13.86 /index.php/Admin/Admin/newst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_newst` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_newst` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newst` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T14:35:16+08:00 ] 211.137.13.86 /index.php/Admin/Admin/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_newsbg` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_newsbg` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_news` ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-02T14:35:17+08:00 ] 211.137.13.86 /index.php/Admin/Admin/delhnews/id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_news` [ RunTime:0.0000s ]
+SQL: DELETE FROM `hw_news` WHERE ( id=27 ) [ RunTime:0.0000s ]
+
+[ 2016-12-02T14:35:18+08:00 ] 211.137.13.86 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hw_top` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_top`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_footer`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_youlian` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_youlian`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_bnews` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_bnews`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_expert` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_expert`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_aboutus` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_aboutus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_service`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judge` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judge`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_judgebg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_judgebg`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_message` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hw_message` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hw_topic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_topic`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_psy` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_psy`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_mpthree` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_mpthree`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_ipass` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_ipass`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_machine` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hw_machine`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hw_contactus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hw_contactus`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

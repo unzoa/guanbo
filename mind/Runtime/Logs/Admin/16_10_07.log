@@ -1,0 +1,6 @@
+[ 2016-10-07T16:37:47+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/addbanner.html
+ERR: 模板不存在:D:/wamp/www/h_wei/hw/Admin/View/Admin/addbanner.html
+
+[ 2016-10-07T17:33:28+08:00 ] 127.0.0.1 /h_wei/hw/Admin/Admin/index.html
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+

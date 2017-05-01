@@ -1,0 +1,7 @@
+[ 2016-07-21T08:43:18+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Atest/testread.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1' at line 1
+ [ SQL语句 ] : select * from hw_testLimit 0, 1
+
+[ 2016-07-21T10:53:56+08:00 ] 127.0.0.1 /hanwei/hw/Admin/admin/AWEfont-awesome.min.css
+ERR: 非法操作:AWEfont-awesome.min.css
+

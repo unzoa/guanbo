@@ -1,0 +1,24 @@
+[ 2016-11-03T11:34:34+08:00 ] 211.137.13.86 /index.php/index.php/Home/Web/ipass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-11-03T11:34:52+08:00 ] 101.226.89.119 /index.php/index.php/Home/Web/ipass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-11-03T11:34:53+08:00 ] 101.226.102.97 /index.php/index.php/Home/Web/ipass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-11-03T11:45:11+08:00 ] 211.137.13.86 /index.php/index.php/Home/Web/ipass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index.php
+

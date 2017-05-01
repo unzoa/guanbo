@@ -1,0 +1,44 @@
+[ 2016-07-20T16:56:29+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Atest/testread/p/2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1' at line 1
+ [ SQL语句 ] : select * from hw_testLimit 0, 1
+
+[ 2016-07-20T16:56:44+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Atest/testread/p/2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1' at line 1
+ [ SQL语句 ] : select * from hw_testLimit 0, 1
+
+[ 2016-07-20T16:58:22+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Atest/testread/p/2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1' at line 1
+ [ SQL语句 ] : select * from hw_testLimit 0, 1
+
+[ 2016-07-20T17:18:26+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Atest/testread/p/1.html?&page=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Limit 0, 1' at line 1
+ [ SQL语句 ] : Limit 0, 1
+
+[ 2016-07-20T17:19:14+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Atest/testread/p/1.html?&page=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Limit 0, 1' at line 1
+ [ SQL语句 ] : Limit 0, 1
+
+[ 2016-07-20T17:21:27+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Atest/testread/p/1.html?&page=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `hw_test` left join hw_categories_id on hw_test.category_id=hw_categories_id.cidLimit 0, 1
+
+[ 2016-07-20T17:22:03+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Atest/testread/p/1.html?&page=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''hw_test' left join hw_categories_id on hw_test.category_id=hw_categories_id.cid' at line 1
+ [ SQL语句 ] : SELECT*FROM 'hw_test' left join hw_categories_id on hw_test.category_id=hw_categories_id.cidLimit 0, 1
+
+[ 2016-07-20T17:22:53+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Atest/testread/p/1.html?&page=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''hw_test' left join 'hw_categories_id' on hw_test.category_id=hw_categories_id.c' at line 1
+ [ SQL语句 ] : SELECT*FROM 'hw_test' left join 'hw_categories_id' on hw_test.category_id=hw_categories_id.cidLimit 0, 1
+
+[ 2016-07-20T17:24:32+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Atest/testread/p/1.html?&page=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''hw_test','hw_categories_id' WHERE hw_test.category_id=hw_categories_id.cidLimit' at line 1
+ [ SQL语句 ] : SELECT*FROM 'hw_test','hw_categories_id' WHERE hw_test.category_id=hw_categories_id.cidLimit 0, 1
+
+[ 2016-07-20T17:27:39+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Atest/testread/p/1.html?&page=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' on hw_test.category_id=hw_categories_id.cidLimit 0, 1' at line 1
+ [ SQL语句 ] : SELECT*FROM hw_test LEFT JOIN hw_categories_id' on hw_test.category_id=hw_categories_id.cidLimit 0, 1
+
+[ 2016-07-20T17:30:38+08:00 ] 127.0.0.1 /hanwei/hw/Admin/Atest/testread/p/1.html?&page=1
+ERR: 1146:Table 'hanwei.sw_goods' doesn't exist
+ [ SQL语句 ] : select * from sw_goods Limit 0, 1
+

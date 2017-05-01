@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<include file="Index:head"/>
+<style type="text/css">
+html,body{
+	height: 100%;
+	margin: 0;
+	padding: 0
+}
+.my_nav_padding{
+	padding-left: 6%!important;
+	padding-right: 6%!important
+}
+@media (max-width: 767px){
+	.my_nav_padding{
+		padding-left: 15px!important;
+		padding-right: 15px!important
+	}
+}
+.my_icon_con{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #d8d8d8;
+}
+.my_icon_href{
+	color: #333;
+}
+.my_media{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+.my_media img{
+	width: 100px;
+}
+.my_footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%
+}
+</style>
+<script type="text/javascript">
+    window.document.title = '亲子桥梁 - 心•故事';
+</script>
+<body>
+<include file="Story:carousel"/>
+<section class="container my_nav_padding">
+	<div class="row text-center my_icon_con">
+		<div class="col-xs-4">
+			<a href="{:U('Story/index')}" class="my_icon_href">公益行走</a>
+		</div>
+		<div class="col-xs-4">
+			<a href="{:U('Story/qzql')}" class="my_icon_href" style="color: #4ed487">亲子桥梁</a>
+		</div>
+		<div class="col-xs-4">
+			<a href="{:U('Story/jyrd')}" class="my_icon_href">教育热点</a>
+		</div>
+	</div>
+	<include file="Story:media"/>
+</section>
+<section class="my_footer">
+	<include file="Index:footer"/>
+</section>
+<!-- preload -->
+<link rel="stylesheet" href="{$Think.const.HCSS}preload.css">
+<script src="{$Think.const.HJS}preload.js"></script>
+</body>
+</html>

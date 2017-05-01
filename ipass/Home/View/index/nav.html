@@ -1,0 +1,55 @@
+<div class="row navconbg">
+  <div class="col-sm-8 col-sm-offset-2 nav_con">
+    <nav class="navbar navbar-default bs_nav" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="padding-top: 0;padding-bottom:0 ">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="username" style="margin-top: 2px">
+          		<img src="{$Think.const.SITE_URL}Jcrop/{$userpic}" style="width: 30px;height: 30px;border-radius: 30px;border:3px #ffe84d solid;margin-right: 3px;margin-left: -2px;">
+          		<span style="color: #ffe84d">{$username}</span>
+          	</span>
+          </button>
+          <a class="navbar-brand" href="{:U('Home/index/index')}">
+          	<!-- Brand -->
+          	<img src="{$Think.const.HIMG}logo.png" class="logopic">
+          </a>
+        </div>
+        <style type="text/css">
+          .logopic{width: 70px;margin-top: -3px}
+          .username{display: none;}
+          @media (max-width: 767px){
+			.nav_con{padding:0;}
+          	.username{display: block;}
+          	.logo{display: none;}
+          	.logopic{margin-top: -7px;margin-left:-5px;width: 60px}
+          }
+        </style>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse bs_collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="{:U('Home/Index/lb')}">测评系统</a></li>
+            <li><a href="{:U('Home/Index/mytest')}">我的测评</a></li>
+            <li><a href="{:U('Home/index/archive')}">我的档案</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+    	          	<span class="logo">
+    	          		<img src="{$Think.const.SITE_URL}Jcrop/{$userpic}" style="width: 30px;height: 30px;border-radius: 30px;border:3px #fff solid;margin-right: 3px;margin-left: -2px">
+    			        {$username}
+    			        <span class="caret"></span>
+    	          	</span>
+    	          <span class="username">设置<span class="caret"></span></span> 
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="http://psy-ipass.com/Jcrop/index.html?id={$Think.session.stid}">修改头像</a></li>
+                <li><a href="{:U('Home/index/edit_user')}">账户设置</a></li>
+                <li class="divider"></li>
+                <li><a onclick="if (confirm('确定要退出吗？')) return true; else return false;" href="{:U('Home/Index/logout')}">退出</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+  </div>
+</div>

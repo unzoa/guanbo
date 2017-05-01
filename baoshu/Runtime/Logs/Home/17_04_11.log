@@ -1,0 +1,369 @@
+[ 2017-04-11T10:36:39+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/index/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0032s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0027s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `bs_jing`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `bs_team`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bs_user` LIMIT 0,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 93 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2017-04-11T10:36:43+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Index/admin/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0025s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `bs_jing`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `bs_team`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bs_user` LIMIT 4,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000763s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 93 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2017-04-11T10:36:44+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Index/admin/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0028s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0025s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `bs_jing`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `bs_team`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bs_user` LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 93 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2017-04-11T10:36:46+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Index/admin/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0028s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0041s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `bs_jing`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `bs_team`  [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bs_user` LIMIT 4,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 93 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2017-04-11T10:36:57+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Index/admin/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0027s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0025s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `bs_jing`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `bs_team`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bs_user` LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 93 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2017-04-11T10:37:13+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Index/admin/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0024s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `bs_jing`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `bs_team`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bs_user` LIMIT 4,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 93 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2017-04-11T10:37:16+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Index/admin/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0031s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0031s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `bs_jing`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `bs_team`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bs_user` LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 93 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002903s ]
+
+[ 2017-04-11T10:37:17+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Index/admin/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0036s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0027s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `bs_jing`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `bs_team`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_user` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `bs_user` LIMIT 4,4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 93 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002454s ]
+
+[ 2017-04-11T10:37:20+08:00 ] 127.0.0.1 /guanbo/baoshu/index.php/Home/Index/admin/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0028s ]
+SQL: SELECT `name` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `img` FROM `bs_user` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bs_gonggao` [ RunTime:0.0054s ]
+SQL: SELECT MAX(id) AS tp_max FROM `bs_gonggao` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `content` FROM `bs_gonggao` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bs_jing` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `bs_jing`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bs_team` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `bs_team`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bs_user` LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined variable: think D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 93 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 142 行.
+NOTIC: [8] Undefined index: team D:\wamp\www\guanbo\baoshu\Runtime\Cache\Home\8ea1964b8553d7ae3122fb299a283a1a.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+

@@ -1,0 +1,61 @@
+[ 2016-06-25T16:22:30+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testupd/id/2.html
+ERR: 1054:Unknown column '$id' in 'where clause'
+ [ SQL语句 ] : UPDATE `hw_test` SET `id`='2',`name`='two',`content`='this is seven from two' WHERE ( id=$id )
+
+[ 2016-06-25T16:26:54+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testupd/id/2.html
+ERR: 1054:Unknown column '$id' in 'where clause'
+ [ SQL语句 ] : UPDATE `hw_test` SET `name`='two',`content`='this is nine from two' WHERE ( id=$id )
+
+[ 2016-06-25T16:28:55+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testupd/id/2.html
+ERR: 1054:Unknown column '$id' in 'where clause'
+ [ SQL语句 ] : UPDATE `hw_test` SET `name`='two',`content`='this is nine from two' WHERE ( id=$id )
+
+[ 2016-06-25T16:29:49+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testupd/id/2.html
+ERR: 1054:Unknown column '$id' in 'where clause'
+ [ SQL语句 ] : UPDATE `hw_test` SET `name`='two',`content`='this is nine from two' WHERE ( id=$id )
+
+[ 2016-06-25T16:30:20+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testupd/id/2.html
+ERR: 1054:Unknown column '$id' in 'where clause'
+ [ SQL语句 ] : UPDATE `hw_test` SET `name`='two',`content`='this is nine from two' WHERE ( $id )
+
+[ 2016-06-25T16:30:24+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testupd/id/2.html
+ERR: 1054:Unknown column '$id' in 'where clause'
+ [ SQL语句 ] : UPDATE `hw_test` SET `name`='two',`content`='this is nine from two' WHERE ( $id )
+
+[ 2016-06-25T17:23:27+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testupd.html
+ERR: 参数错误或者未定义:id
+
+[ 2016-06-25T17:26:12+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: 参数错误或者未定义:id
+
+[ 2016-06-25T17:43:45+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/%7B$Think.const.ADMIN_HTML%7DAtest/testread.html
+ERR: 无法加载控制器:{$Think.const.ADMIN_HTML}Atest
+
+[ 2016-06-25T17:47:01+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testadd.html
+ERR: 不存在的图像文件
+
+[ 2016-06-25T17:47:30+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testadd.html
+ERR: 不存在的图像文件
+
+[ 2016-06-25T20:08:27+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testadd.html
+ERR: 不存在的图像文件
+
+[ 2016-06-25T20:22:36+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: XML标签语法错误 : $info as $k=
+
+[ 2016-06-25T20:22:37+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testread.html
+ERR: XML标签语法错误 : $info as $k=
+
+[ 2016-06-25T21:22:41+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/testdel/id/2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `hw_test` WHERE ( id= )
+
+[ 2016-06-25T22:32:40+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/%7B:U('Admin/Atest/testread')%7D
+ERR: 非法操作:{:U('Admin
+
+[ 2016-06-25T22:35:25+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/Atest/%7B:U('Admin/Atest/testread')%7D
+ERR: 非法操作:{:U('Admin
+
+[ 2016-06-25T22:35:42+08:00 ] 127.0.0.1 /hanwei/hw/index.php/Admin/%7B$Think.const.ADMIN_HTML%7DAtest/testread.html
+ERR: 无法加载控制器:{$Think.const.ADMIN_HTML}Atest
+

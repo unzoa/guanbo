@@ -1,0 +1,1156 @@
+[ 2017-03-06T06:14:06+08:00 ] 207.46.13.89 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:03:01+08:00 ] 123.151.138.100 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:03:01+08:00 ] 111.161.105.17 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:05:52+08:00 ] 123.151.138.100 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:06:10+08:00 ] 211.137.13.86 /index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `student` WHERE `number` = '111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-06T09:06:10+08:00 ] 123.151.138.100 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:06:11+08:00 ] 123.151.138.100 /index.php/Home/Index/lb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ipass_lblist` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ipass_lblist`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:06:20+08:00 ] 101.226.66.187 /index.php/Home/Index/lb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:06:20+08:00 ] 101.226.66.187 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:07:23+08:00 ] 123.151.138.100 /index.php/Home/Index/lbtest/id/96.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:07:35+08:00 ] 101.226.89.120 /index.php/Home/Index/lbtest/id/96.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = null LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = null LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = null LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2017-03-06T09:08:14+08:00 ] 123.151.138.100 /index.php/Home/Index/lbtest/id/96.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:08:34+08:00 ] 123.151.138.100 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-03-06T09:08:34+08:00 ] 123.151.138.100 /index.php/Home/Index/lb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ipass_lblist` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ipass_lblist`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:09:00+08:00 ] 123.151.138.100 /index.php/Home/Index/lbtest/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:09:10+08:00 ] 180.153.211.190 /index.php/Home/Index/lbtest/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = null LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = null LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = null LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2017-03-06T09:25:02+08:00 ] 211.137.13.86 /index.php/Home/index/archive.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_archive` WHERE ( child_id="111111111111111111" )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0156s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0156s ]
+SQL: SELECT `head` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 115 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 133 行.
+NOTIC: [8] Use of undefined constant minzu - assumed 'minzu' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 134 行.
+NOTIC: [8] Use of undefined constant birthday - assumed 'birthday' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 135 行.
+NOTIC: [8] Use of undefined constant xuexing - assumed 'xuexing' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 136 行.
+NOTIC: [8] Use of undefined constant shengao - assumed 'shengao' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 137 行.
+NOTIC: [8] Use of undefined constant tizhong - assumed 'tizhong' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 138 行.
+NOTIC: [8] Use of undefined constant banji - assumed 'banji' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 143 行.
+NOTIC: [8] Use of undefined constant xuexiaolocation - assumed 'xuexiaolocation' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 145 行.
+NOTIC: [8] Use of undefined constant xuexiaoleixing - assumed 'xuexiaoleixing' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 146 行.
+NOTIC: [8] Use of undefined constant laoshiguanxi - assumed 'laoshiguanxi' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 148 行.
+NOTIC: [8] Use of undefined constant tongxueguanxi - assumed 'tongxueguanxi' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 150 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 155 行.
+NOTIC: [8] Use of undefined constant fenwan - assumed 'fenwan' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 156 行.
+NOTIC: [8] Use of undefined constant manyue - assumed 'manyue' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 157 行.
+NOTIC: [8] Use of undefined constant birth_tizhong - assumed 'birth_tizhong' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 159 行.
+NOTIC: [8] Use of undefined constant fuyangren - assumed 'fuyangren' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 160 行.
+NOTIC: [8] Use of undefined constant dadnianling - assumed 'dadnianling' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 162 行.
+NOTIC: [8] Use of undefined constant momnianling - assumed 'momnianling' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 164 行.
+NOTIC: [8] Use of undefined constant brother - assumed 'brother' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 166 行.
+NOTIC: [8] Use of undefined constant paihang - assumed 'paihang' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 168 行.
+NOTIC: [8] Use of undefined constant duzi - assumed 'duzi' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 169 行.
+NOTIC: [8] Use of undefined constant walknianling - assumed 'walknianling' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 170 行.
+NOTIC: [8] Use of undefined constant talknianling - assumed 'talknianling' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 172 行.
+NOTIC: [8] Use of undefined constant rutuo - assumed 'rutuo' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 174 行.
+NOTIC: [8] Use of undefined constant home - assumed 'home' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 179 行.
+NOTIC: [8] Use of undefined constant tongjuren - assumed 'tongjuren' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 181 行.
+NOTIC: [8] Use of undefined constant homewell - assumed 'homewell' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 183 行.
+NOTIC: [8] Use of undefined constant dadmom - assumed 'dadmom' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 185 行.
+NOTIC: [8] Use of undefined constant jiaoyufangshi - assumed 'jiaoyufangshi' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 187 行.
+NOTIC: [8] Use of undefined constant guanjiaoyijian - assumed 'guanjiaoyijian' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 189 行.
+NOTIC: [8] Use of undefined constant fuqinxueli - assumed 'fuqinxueli' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 191 行.
+NOTIC: [8] Use of undefined constant fuqinzhiye - assumed 'fuqinzhiye' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 193 行.
+NOTIC: [8] Use of undefined constant muqinxueli - assumed 'muqinxueli' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 195 行.
+NOTIC: [8] Use of undefined constant muqinzhiye - assumed 'muqinzhiye' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:25:08+08:00 ] 211.137.13.86 /index.php/Home/Index/mytest.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:25:42+08:00 ] 61.151.228.22 /index.php/Home/index/archive.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:25:42+08:00 ] 61.151.228.22 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:25:49+08:00 ] 101.226.51.227 /index.php/Home/index/archive.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-03-06T09:25:49+08:00 ] 101.226.51.227 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:28:47+08:00 ] 123.151.138.100 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:28:47+08:00 ] 125.39.208.232 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:28:47+08:00 ] 123.151.138.100 /index.php/Home/Index/lb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ipass_lblist` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ipass_lblist`  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:28:52+08:00 ] 123.151.138.100 /index.php/Home/Index/lbtest/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:29:19+08:00 ] 123.151.138.100 /index.php/Home/Index/lbtest/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0156s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-03-06T09:29:29+08:00 ] 123.151.138.100 /index.php/Home/Index/lbtest/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-03-06T09:29:38+08:00 ] 101.226.85.67 /index.php/Home/Index/lbtest/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = null LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = null LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2017-03-06T09:31:22+08:00 ] 123.151.138.100 /index.php/Home/Index/lb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ipass_lblist` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ipass_lblist`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:31:25+08:00 ] 123.151.138.100 /index.php/Home/Index/mytest.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:32:07+08:00 ] 123.151.138.100 /index.php/Home/Index/mytest.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:32:11+08:00 ] 123.151.138.100 /index.php/Home/index/archive.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tongjuren` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `banji` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_archive` WHERE ( child_id="111111111111111111" )  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0156s ]
+SQL: SELECT `head` FROM `ot_archive` WHERE `child_id` = '111111111111111111' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 115 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 133 行.
+NOTIC: [8] Use of undefined constant minzu - assumed 'minzu' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 134 行.
+NOTIC: [8] Use of undefined constant birthday - assumed 'birthday' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 135 行.
+NOTIC: [8] Use of undefined constant xuexing - assumed 'xuexing' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 136 行.
+NOTIC: [8] Use of undefined constant shengao - assumed 'shengao' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 137 行.
+NOTIC: [8] Use of undefined constant tizhong - assumed 'tizhong' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 138 行.
+NOTIC: [8] Use of undefined constant banji - assumed 'banji' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 143 行.
+NOTIC: [8] Use of undefined constant xuexiaolocation - assumed 'xuexiaolocation' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 145 行.
+NOTIC: [8] Use of undefined constant xuexiaoleixing - assumed 'xuexiaoleixing' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 146 行.
+NOTIC: [8] Use of undefined constant laoshiguanxi - assumed 'laoshiguanxi' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 148 行.
+NOTIC: [8] Use of undefined constant tongxueguanxi - assumed 'tongxueguanxi' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 150 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 155 行.
+NOTIC: [8] Use of undefined constant fenwan - assumed 'fenwan' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 156 行.
+NOTIC: [8] Use of undefined constant manyue - assumed 'manyue' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 157 行.
+NOTIC: [8] Use of undefined constant birth_tizhong - assumed 'birth_tizhong' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 159 行.
+NOTIC: [8] Use of undefined constant fuyangren - assumed 'fuyangren' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 160 行.
+NOTIC: [8] Use of undefined constant dadnianling - assumed 'dadnianling' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 162 行.
+NOTIC: [8] Use of undefined constant momnianling - assumed 'momnianling' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 164 行.
+NOTIC: [8] Use of undefined constant brother - assumed 'brother' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 166 行.
+NOTIC: [8] Use of undefined constant paihang - assumed 'paihang' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 168 行.
+NOTIC: [8] Use of undefined constant duzi - assumed 'duzi' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 169 行.
+NOTIC: [8] Use of undefined constant walknianling - assumed 'walknianling' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 170 行.
+NOTIC: [8] Use of undefined constant talknianling - assumed 'talknianling' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 172 行.
+NOTIC: [8] Use of undefined constant rutuo - assumed 'rutuo' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 174 行.
+NOTIC: [8] Use of undefined constant home - assumed 'home' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 179 行.
+NOTIC: [8] Use of undefined constant tongjuren - assumed 'tongjuren' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 181 行.
+NOTIC: [8] Use of undefined constant homewell - assumed 'homewell' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 183 行.
+NOTIC: [8] Use of undefined constant dadmom - assumed 'dadmom' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 185 行.
+NOTIC: [8] Use of undefined constant jiaoyufangshi - assumed 'jiaoyufangshi' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 187 行.
+NOTIC: [8] Use of undefined constant guanjiaoyijian - assumed 'guanjiaoyijian' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 189 行.
+NOTIC: [8] Use of undefined constant fuqinxueli - assumed 'fuqinxueli' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 191 行.
+NOTIC: [8] Use of undefined constant fuqinzhiye - assumed 'fuqinzhiye' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 193 行.
+NOTIC: [8] Use of undefined constant muqinxueli - assumed 'muqinxueli' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 195 行.
+NOTIC: [8] Use of undefined constant muqinzhiye - assumed 'muqinzhiye' D:\www\ipass\Runtime\Cache\Home\6813ac5354f131e4a5d00b7f8b16e557.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:33:44+08:00 ] 123.151.138.100 /index.php/Home/Index/edit_archive.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_archive` WHERE ( child_id="111111111111111111" )  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 46 行.
+NOTIC: [8] Use of undefined constant minzu - assumed 'minzu' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 49 行.
+NOTIC: [8] Use of undefined constant fenwan - assumed 'fenwan' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 53 行.
+NOTIC: [8] Use of undefined constant manyue - assumed 'manyue' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 56 行.
+NOTIC: [8] Use of undefined constant duzi - assumed 'duzi' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 59 行.
+NOTIC: [8] Use of undefined constant home - assumed 'home' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 62 行.
+NOTIC: [8] Use of undefined constant fuyangren - assumed 'fuyangren' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 65 行.
+NOTIC: [8] Use of undefined constant tongjuren - assumed 'tongjuren' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 71 行.
+NOTIC: [8] Use of undefined constant homewell - assumed 'homewell' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 77 行.
+NOTIC: [8] Use of undefined constant dadmom - assumed 'dadmom' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 80 行.
+NOTIC: [8] Use of undefined constant jiaoyufangshi - assumed 'jiaoyufangshi' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 83 行.
+NOTIC: [8] Use of undefined constant guanjiaoyijian - assumed 'guanjiaoyijian' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 86 行.
+NOTIC: [8] Use of undefined constant fuqinxueli - assumed 'fuqinxueli' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 89 行.
+NOTIC: [8] Use of undefined constant muqinxueli - assumed 'muqinxueli' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 92 行.
+NOTIC: [8] Use of undefined constant fuqinzhiye - assumed 'fuqinzhiye' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 95 行.
+NOTIC: [8] Use of undefined constant muqinzhiye - assumed 'muqinzhiye' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 98 行.
+NOTIC: [8] Use of undefined constant xuexiaolocation - assumed 'xuexiaolocation' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 103 行.
+NOTIC: [8] Use of undefined constant xuexiaoleixing - assumed 'xuexiaoleixing' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 112 行.
+NOTIC: [8] Use of undefined constant laoshiguanxi - assumed 'laoshiguanxi' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 115 行.
+NOTIC: [8] Use of undefined constant tongxueguanxi - assumed 'tongxueguanxi' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 118 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 217 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 240 行.
+NOTIC: [8] Use of undefined constant birthday - assumed 'birthday' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 273 行.
+NOTIC: [8] Use of undefined constant xuexing - assumed 'xuexing' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 282 行.
+NOTIC: [8] Use of undefined constant shengao - assumed 'shengao' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 291 行.
+NOTIC: [8] Use of undefined constant tizhong - assumed 'tizhong' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 300 行.
+NOTIC: [8] Use of undefined constant birth_tizhong - assumed 'birth_tizhong' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 335 行.
+NOTIC: [8] Use of undefined constant brother - assumed 'brother' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 356 行.
+NOTIC: [8] Use of undefined constant paihang - assumed 'paihang' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 365 行.
+NOTIC: [8] Use of undefined constant dadnianling - assumed 'dadnianling' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 401 行.
+NOTIC: [8] Use of undefined constant momnianling - assumed 'momnianling' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 410 行.
+NOTIC: [8] Use of undefined constant rutuo - assumed 'rutuo' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 419 行.
+NOTIC: [8] Use of undefined constant walknianling - assumed 'walknianling' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 428 行.
+NOTIC: [8] Use of undefined constant talknianling - assumed 'talknianling' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 437 行.
+NOTIC: [8] Use of undefined constant banji - assumed 'banji' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 637 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\ipass\Runtime\Cache\Home\f423fc32c0cb6a973612ad73ae962e26.php 第 728 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:33:53+08:00 ] 112.65.193.15 /index.php/Home/Index/edit_archive.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:33:53+08:00 ] 112.65.193.15 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:34:10+08:00 ] 123.151.138.100 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:34:10+08:00 ] 123.151.138.100 /index.php/Home/Index/lb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ipass_lblist` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ipass_lblist`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:34:33+08:00 ] 123.151.138.100 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T09:34:33+08:00 ] 123.151.138.100 /index.php/Home/Index/lb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0000s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ipass_lblist` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ipass_lblist`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T14:39:43+08:00 ] 127.0.0.1 /ipass/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+
+[ 2017-03-06T14:40:04+08:00 ] 127.0.0.1 /ipass/index.php/Home/Index/lb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+ (trying to connect via tcp://59.47.226.12:3306) D:\wamp\www\ipass\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-03-06T14:40:11+08:00 ] 127.0.0.1 /ipass/index.php/Home/Index/lb.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0501s ]
+SQL: SELECT `head` FROM `student` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `ipass_lblist` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `ipass_lblist`  [ RunTime:0.0409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2017-03-06T14:42:53+08:00 ] 127.0.0.1 /ipass/index.php/Home/admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+ERR: 非法操作:admin
+
+[ 2017-03-06T14:43:01+08:00 ] 127.0.0.1 /ipass/index.php/Home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+
+[ 2017-03-06T14:43:01+08:00 ] 127.0.0.1 /ipass/index.php/Home/Admin/maxlblogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2017-03-06T14:43:10+08:00 ] 127.0.0.1 /ipass/index.php/Home/Admin/maxlblogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+
+[ 2017-03-06T14:43:14+08:00 ] 127.0.0.1 /ipass/index.php/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0495s ]
+SQL: SELECT * FROM `student` WHERE ( type=1 )  [ RunTime:1.9785s ]
+SQL: SELECT * FROM `student`  [ RunTime:0.4210s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `ot_archive`  [ RunTime:0.5813s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `student` LIMIT 1   [ RunTime:0.0103s ]
+SQL: SELECT * FROM `student` ORDER BY regtime desc LIMIT 0,12   [ RunTime:0.0429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\ipass\Runtime\Cache\Home\22c437ab4e724b62fdc781286c03810d.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001637s ]
+
+[ 2017-03-06T14:44:00+08:00 ] 127.0.0.1 /ipass/index.php/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `student` WHERE ( type=1 )  [ RunTime:0.0379s ]
+SQL: SELECT * FROM `student`  [ RunTime:0.5812s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.3319s ]
+SQL: SELECT * FROM `ot_archive`  [ RunTime:1.6433s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0255s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `student` LIMIT 1   [ RunTime:0.0343s ]
+SQL: SELECT * FROM `student` ORDER BY regtime desc LIMIT 0,12   [ RunTime:0.0205s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\ipass\Runtime\Cache\Home\22c437ab4e724b62fdc781286c03810d.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2017-03-06T14:44:19+08:00 ] 127.0.0.1 /ipass/index.php/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003250s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0452s ]
+SQL: SELECT * FROM `student` WHERE ( type=1 )  [ RunTime:0.0257s ]
+SQL: SELECT * FROM `student`  [ RunTime:0.2965s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0422s ]
+SQL: SELECT * FROM `ot_archive`  [ RunTime:0.9335s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0225s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `student` LIMIT 1   [ RunTime:0.3178s ]
+SQL: SELECT * FROM `student` ORDER BY regtime desc LIMIT 0,12   [ RunTime:0.0166s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000628s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\ipass\Runtime\Cache\Home\22c437ab4e724b62fdc781286c03810d.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2017-03-06T14:46:12+08:00 ] 127.0.0.1 /ipass/index.php/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.1529s ]
+SQL: SELECT * FROM `student` WHERE ( type=1 )  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `student`  [ RunTime:0.4404s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `ot_archive`  [ RunTime:0.8917s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0271s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `student` LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT * FROM `student` ORDER BY regtime desc LIMIT 0,12   [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\ipass\Runtime\Cache\Home\22c437ab4e724b62fdc781286c03810d.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2017-03-06T15:18:17+08:00 ] 127.0.0.1 /ipass/index.php/Home/Admin/archive.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `student` WHERE ( type=1 )  [ RunTime:0.0328s ]
+SQL: SELECT * FROM `student`  [ RunTime:0.7622s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `ot_archive`  [ RunTime:1.0331s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0598s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_archive` LIMIT 1   [ RunTime:0.0205s ]
+SQL: SELECT * FROM `ot_archive` LIMIT 0,12   [ RunTime:0.0299s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\ipass\Runtime\Cache\Home\741f8eb92b84cea6da32bc2787ee6333.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2017-03-06T15:18:52+08:00 ] 127.0.0.1 /ipass/index.php/Home/Admin/archive.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0395s ]
+SQL: SELECT * FROM `student` WHERE ( type=1 )  [ RunTime:0.0199s ]
+SQL: SELECT * FROM `student`  [ RunTime:0.7216s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0291s ]
+SQL: SELECT * FROM `ot_archive`  [ RunTime:0.6364s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0262s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_archive` LIMIT 1   [ RunTime:0.0208s ]
+SQL: SELECT * FROM `ot_archive` LIMIT 0,12   [ RunTime:0.0147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\ipass\Runtime\Cache\Home\741f8eb92b84cea6da32bc2787ee6333.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2017-03-06T15:28:52+08:00 ] 127.0.0.1 /ipass/index.php/Home/Admin/archive.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `student` WHERE ( type=1 )  [ RunTime:0.0265s ]
+SQL: SELECT * FROM `student`  [ RunTime:0.2472s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `ot_archive`  [ RunTime:0.4343s ]
+SQL: SHOW COLUMNS FROM `ot_archive` [ RunTime:0.0328s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_archive` LIMIT 1   [ RunTime:0.0134s ]
+SQL: SELECT * FROM `ot_archive` LIMIT 0,12   [ RunTime:0.0174s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\ipass\Runtime\Cache\Home\741f8eb92b84cea6da32bc2787ee6333.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+

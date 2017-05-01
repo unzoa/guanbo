@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <include file="Index:head" />
+  <style>
+  /*::-webkit-input-placeholder { 
+      color:   #fff!important;
+  }
+  :-moz-placeholder { 
+     color:    #fff!important;
+     opacity:  1;
+  }
+  ::-moz-placeholder { 
+     color:    #fff!important;
+     opacity:  1;
+  }
+  :-ms-input-placeholder { 
+     color:    #fff!important;
+  }*/
+  html,body{height: 100%;margin:0; padding: 0;}
+  .row{padding: 0;margin:0 }
+  .login_con{padding: 20px 4% 0;}
+  .login_con2{padding: 250px 4% 0}
+  @media (max-width: 767px){
+    .login_con{padding: 0px 10% 0}
+  }
+  </style>
+  <script type="text/javascript">
+      window.document.title = '登录 - i.P.A.S.S';
+  </script>
+  <body>
+
+    <div class="container-fluid" style="height: 100%;padding: 0; background-image: url('{$Think.const.HIMG}2.jpeg');background-size: cover;background-position: center;">
+      
+      <!-- head -->
+      <div class="row login_head">
+        <div class="col-sm-3 login_logo_con">
+          <img src="{$Think.const.HIMG}logo.png" class="login_logo">
+        </div>
+        <div class="col-sm-3 col-sm-offset-6 hidden-xs">
+          <!-- <h2 style="color: #ff9279">小改变创造大不同</h2> -->
+        </div>
+      </div>
+
+      <!-- body -->
+      <div class="row">
+        <div class="col-sm-8 hidden-xs ">
+          <div class="col-sm-8 col-sm-offset-2 login_con2">
+              <!-- <h1 style="color: #ff9279">小改变创造大不同</h1> -->
+          </div>
+        </div>
+        <div class="col-sm-4 login_con">
+          <h2 class="login_slogan">小改变创造大不同</h2>
+          <form class="form-signin login_form_con" role="form" action="{:U('Home/Index/login')}" method="post">
+            <h2 style="color: #9aaabf;">登录 i.P.A.S.S</h2>
+            <input type="text" name="name" id="inputName" class="form-control" placeholder="账号(手机号)" style="border-bottom-right-radius: 0;border-bottom-left-radius: 0" required>
+            <input type="password" name="pwd" id="inputPassword" class="form-control" placeholder="密码" style="border-top-right-radius: 0;border-top-left-radius: 0" required>
+            <br/>
+            <button class="btn btn-lg btn-block btn-primary " type="submit">登录</button>
+            <div class="btn_toreg">
+              <a href="{:U('Home/Index/reg')}">
+                没有账号？<span class="to_register">注册 </span>
+              </a>
+              <a href="{:U('Home/index/forgetpassword')}" class="pull-right"> 忘记密码？</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div> <!-- /container -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="{$Think.const.HJS}ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
